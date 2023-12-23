@@ -1697,6 +1697,10 @@
   (gr_text "ON: Check for DST" (at 99.06 68.58) (layer "F.SilkS") (tstamp cc23def8-3b78-4f88-a955-de9b5a1de21b)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
+  (gr_text_box "Use SW1 on the underside of the pico iCE to cycle hour offset"
+    (start 64.77 48.26) (end 92.71 53.34) (layer "F.SilkS") (tstamp 668b187d-b26f-43b4-84b2-fa77537b72d4)
+      (effects (font (size 1 1) (thickness 0.15)) (justify top))
+    (stroke (width 0.15) (type solid))  )
 
   (segment (start 137.16 101.6) (end 144.78 109.22) (width 0.5) (layer "F.Cu") (net 1) (tstamp 1bf2ad45-210a-4f57-af8e-d9737595e545))
   (segment (start 78.74 111.76) (end 78.74 116.84) (width 0.5) (layer "F.Cu") (net 1) (tstamp 210bcd57-716c-45ef-8103-ee916151d6a8))
