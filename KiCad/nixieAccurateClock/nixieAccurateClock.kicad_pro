@@ -49,7 +49,9 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unconnected_items|99060000|81280001|ebfdef11-f186-4197-81e1-6949c177d547|5795d0ed-d09f-47f7-bb4c-41de1001eca2"
+      ],
       "meta": {
         "version": 2
       },
@@ -90,7 +92,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -477,6 +479,10 @@
     [
       "f2852417-d6c8-4bbe-bd15-a29bc4083bd0",
       "High voltage supply"
+    ],
+    [
+      "9610945c-9df3-4d66-a574-d19433fdc707",
+      "GPS"
     ]
   ],
   "text_variables": {}
