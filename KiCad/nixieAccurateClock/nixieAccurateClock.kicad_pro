@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,9 +49,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "unconnected_items|99060000|81280001|ebfdef11-f186-4197-81e1-6949c177d547|5795d0ed-d09f-47f7-bb4c-41de1001eca2"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -483,6 +481,34 @@
     [
       "9610945c-9df3-4d66-a574-d19433fdc707",
       "GPS"
+    ],
+    [
+      "1d5016d9-fde4-4367-b1de-5d16dd08b171",
+      "Nixies"
+    ],
+    [
+      "49500834-49d9-42ea-bbdd-a27754a87510",
+      "Nixie1"
+    ],
+    [
+      "4ad9f928-68e8-489a-be50-de4d856f91c8",
+      "Nixie2"
+    ],
+    [
+      "a54649f9-2cc5-498b-853e-1c2ba248fdbb",
+      "Nixie3"
+    ],
+    [
+      "144b3832-6615-4269-938a-871ad78b0ce3",
+      "Nixie4"
+    ],
+    [
+      "9b2a29ed-b178-4fbd-87f6-e3ed60cd6be8",
+      "Nixie5"
+    ],
+    [
+      "d43b50fa-8b16-4bb4-86a8-19f5e7c1bd0f",
+      "Nixie6"
     ]
   ],
   "text_variables": {}
