@@ -571,6 +571,11 @@
     (uuid 65903816-7cd5-4a38-801a-efd92e53b11e)
   )
 
+  (label "HV_BOOST" (at 133.35 81.28 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 67400786-ae3e-470c-b11d-b4dd2b70087f)
+  )
+
   (global_label "HV_GATE" (shape input) (at 99.06 88.9 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4160b744-20a6-44f0-9aa4-312622bf4947)
@@ -619,7 +624,7 @@
   (symbol (lib_id "power:GND") (at 137.16 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10558c8f-838d-40ea-a622-ce513d684d53)
-    (property "Reference" "#PWR011" (at 137.16 104.14 0)
+    (property "Reference" "#PWR014" (at 137.16 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 142.24 99.06 0)
@@ -635,7 +640,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -644,7 +649,7 @@
   (symbol (lib_id "power:GND") (at 175.26 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f6afdef-d91f-4929-99d8-d2657327fe7c)
-    (property "Reference" "#PWR014" (at 175.26 111.76 0)
+    (property "Reference" "#PWR017" (at 175.26 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 110.49 0)
@@ -660,7 +665,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -669,7 +674,7 @@
   (symbol (lib_id "power:GND") (at 156.21 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d419f83-861b-428c-8d0a-6973528c3124)
-    (property "Reference" "#PWR012" (at 156.21 105.41 0)
+    (property "Reference" "#PWR015" (at 156.21 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 100.33 0)
@@ -685,7 +690,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -713,7 +718,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -771,7 +776,7 @@
           (reference "R?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -832,7 +837,7 @@
           (reference "R?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-          (reference "R5") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -896,7 +901,7 @@
           (reference "R?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-          (reference "R3") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -905,7 +910,7 @@
   (symbol (lib_id "power:VPP") (at 175.26 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8b5cd2e-9105-4fe1-84ab-9991b82ae370)
-    (property "Reference" "#PWR013" (at 175.26 82.55 0)
+    (property "Reference" "#PWR016" (at 175.26 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VPP" (at 175.26 73.66 0)
@@ -921,7 +926,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )

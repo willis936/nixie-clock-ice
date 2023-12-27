@@ -114,8 +114,18 @@
     (rotate (xyz 0 0 0))
   )
   (model "${KIPRJMOD}/lib.pretty/IN-14-daughter.wrl"
-    (offset (xyz 9.6 -6.35 6.5))
+    (offset (xyz 9.6 -6.35 6.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
+  )
+  (model "${KIPRJMOD}/lib.pretty/M2.5_hex_5mm.stp"
+    (offset (xyz 21 1.4 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 -180 0))
+  )
+  (model "${KIPRJMOD}/lib.pretty/M2.5_hex_5mm.stp"
+    (offset (xyz 21 -14.2 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 180 0))
   )
 )
