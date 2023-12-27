@@ -26,9 +26,9 @@
   (pad "A" thru_hole circle (at 0 6.18744) (size 1.3462 1.3462) (drill 0.8382) (layers "*.Cu" "*.Mask") (tstamp 1ea47465-d0bb-407c-b060-5b7125ce930e))
   (pad "LHDP" thru_hole circle (at 2.87528 5.47878) (size 1.3462 1.3462) (drill 0.8382) (layers "*.Cu" "*.Mask") (tstamp 1cb3ba3a-bfcb-4554-991c-5c07b17ec7dc))
   (pad "RHDP" thru_hole circle (at -2.87528 5.47878) (size 1.3462 1.3462) (drill 0.8382) (layers "*.Cu" "*.Mask") (tstamp a6d78903-1c89-403a-92a8-9a0a6349b474))
-  (model "${KIPRJMOD}/lib.pretty/IN-14.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 450 450 450))
+  (model "${KIPRJMOD}/lib.pretty/IN-14.step"
+    (offset (xyz 0 0 37))
+    (scale (xyz 1.08 1.08 1.08))
     (rotate (xyz -90 0 180))
   )
 )
