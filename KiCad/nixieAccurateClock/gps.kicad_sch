@@ -457,6 +457,11 @@
     (uuid fcea0d82-dcc8-4a36-9c5f-4ced59049dd1)
   )
 
+  (label "RF_IN" (at 157.48 90.17 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b270c148-3104-4797-b215-dfe0c09eedd5)
+  )
+
   (global_label "GPS_RSTN" (shape input) (at 157.48 97.79 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2dd5c68a-16a3-47be-a5b0-7707a399f955)
