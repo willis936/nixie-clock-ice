@@ -498,6 +498,10 @@
     [
       "1d5016d9-fde4-4367-b1de-5d16dd08b171",
       "Nixies"
+    ],
+    [
+      "919829db-9d44-4db4-a8a4-73523a1d66d3",
+      "LSD_ADC"
     ]
   ],
   "text_variables": {}
