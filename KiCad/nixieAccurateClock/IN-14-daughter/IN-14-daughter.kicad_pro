@@ -453,15 +453,15 @@
     "netclass_patterns": [
       {
         "netclass": "HV",
-        "pattern": "N_*"
-      },
-      {
-        "netclass": "Default",
         "pattern": "VPP"
       },
       {
-        "netclass": "Default",
-        "pattern": "ANODE*"
+        "netclass": "HV",
+        "pattern": "/ANODE*"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/N_*"
       }
     ]
   },
