@@ -1,0 +1,14 @@
+[D] Finish decoupling caps on daughter board
+[D] Finish decoupling caps on main board
+[ ] Use a common emitter to bleed HV capacitor only when 3.3V is not present (simulate behavior), bleed with 10M always
+[ ] Check that analog traces are clear of DIO traces
+[ ] Check TX/RX polarity
+[ ] Check FPGA GPIO banking rules
+[ ] Flip pico iCE over for better access to user I/O
+[ ] Make sure SW2 is used for timezone offset control
+[D] Remove pulldown resistors from DIP switches
+[ ] Make sure DIP switches connect to ground for pull-up compatability
+[ ] Add test points for ground, power supply rails, HV gate, and pre-digitized signals
+[ ] Simulate HV circuit
+[ ] Try to reduce inductor and capacitor size to fit under daughter boards
+[ ] Switch to axial cap for HV for low profile
