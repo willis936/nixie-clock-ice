@@ -479,27 +479,27 @@
         "pattern": "/High voltage supply/HV_{BOOST}"
       },
       {
-        "netclass": "6 mil",
+        "netclass": "Default",
         "pattern": "*LSD_{ADC*"
       },
       {
-        "netclass": "6 mil",
+        "netclass": "Default",
         "pattern": "+5V"
       },
       {
-        "netclass": "6 mil",
+        "netclass": "Default",
         "pattern": "+3.3V"
       },
       {
-        "netclass": "6 mil",
+        "netclass": "Default",
         "pattern": "GND"
       },
       {
-        "netclass": "6 mil",
+        "netclass": "Default",
         "pattern": "unconnected-(U11-*"
       },
       {
-        "netclass": "6 mil",
+        "netclass": "Default",
         "pattern": "*VCC_{lvl*"
       }
     ]
