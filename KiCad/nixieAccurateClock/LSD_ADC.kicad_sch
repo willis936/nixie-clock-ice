@@ -1945,7 +1945,7 @@
     (property "Reference" "R?" (at 138.43 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2.2k" (at 138.43 157.48 0)
+    (property "Value" "470" (at 138.43 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 134.112 156.21 90)

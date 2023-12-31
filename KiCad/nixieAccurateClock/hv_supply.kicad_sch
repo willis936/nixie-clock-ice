@@ -1063,7 +1063,7 @@
     (property "Reference" "R?" (at 105.41 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "2.2k" (at 105.41 85.09 90)
+    (property "Value" "470" (at 105.41 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 105.41 90.678 90)
