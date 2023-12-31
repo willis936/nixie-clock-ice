@@ -12,3 +12,5 @@
 [ ] Simulate HV circuit
 [ ] Try to reduce inductor and capacitor size to fit under daughter boards
 [ ] Switch to axial cap for HV for low profile
+[D] Try to have IC GND pads make a minimal loop size with the decoupling cap GND pad
+[D] Change decoupling cap vias to 0.3 mm for reduced inductance and try to put the GND and +5V vias close together
