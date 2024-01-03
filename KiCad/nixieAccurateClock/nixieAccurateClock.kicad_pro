@@ -555,12 +555,16 @@
       ""
     ],
     [
-      "f2852417-d6c8-4bbe-bd15-a29bc4083bd0",
-      "High voltage supply"
-    ],
-    [
       "9610945c-9df3-4d66-a574-d19433fdc707",
       "GPS"
+    ],
+    [
+      "33639105-1e30-4fa8-9335-500c2abdb54b",
+      "20V_supply"
+    ],
+    [
+      "f2852417-d6c8-4bbe-bd15-a29bc4083bd0",
+      "High voltage supply"
     ],
     [
       "1d5016d9-fde4-4367-b1de-5d16dd08b171",

@@ -5,7 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "GPS")
+    (title "Nixie Accurate Clock")
+    (rev "A")
   )
 
   (lib_symbols
@@ -598,7 +599,7 @@
           (reference "C?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/9610945c-9df3-4d66-a574-d19433fdc707"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -626,7 +627,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/9610945c-9df3-4d66-a574-d19433fdc707"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -654,7 +655,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/9610945c-9df3-4d66-a574-d19433fdc707"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -682,7 +683,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/9610945c-9df3-4d66-a574-d19433fdc707"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -710,7 +711,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/9610945c-9df3-4d66-a574-d19433fdc707"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -738,7 +739,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/9610945c-9df3-4d66-a574-d19433fdc707"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -795,7 +796,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/9610945c-9df3-4d66-a574-d19433fdc707"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -892,7 +893,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/9610945c-9df3-4d66-a574-d19433fdc707"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
