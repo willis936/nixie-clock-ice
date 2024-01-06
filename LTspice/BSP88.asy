@@ -1,0 +1,30 @@
+Version 4
+SymbolType BLOCK
+LINE Normal -16 32 -32 32
+LINE Normal -16 -32 -16 32
+LINE Normal 0 -25 0 -40
+LINE Normal 0 9 0 -8
+LINE Normal 0 39 0 24
+LINE Normal 32 -32 0 -32
+LINE Normal 32 -48 32 -32
+LINE Normal 32 32 0 32
+LINE Normal 32 48 32 32
+LINE Normal 32 0 32 32
+LINE Normal 0 0 32 0
+LINE Normal 16 -5 0 0
+LINE Normal 16 5 16 -5
+LINE Normal 0 0 16 5
+WINDOW 38 96 13 Center 2
+WINDOW 0 37 -13 Left 2
+SYMATTR SpiceModel BSP88_IN
+SYMATTR Prefix M
+SYMATTR ModelFile infineon.lib
+PIN -32 32 NONE 8
+PINATTR PinName B
+PINATTR SpiceOrder 1
+PIN 32 48 NONE 8
+PINATTR PinName S
+PINATTR SpiceOrder 2
+PIN 32 -48 NONE 8
+PINATTR PinName D
+PINATTR SpiceOrder 3

@@ -10,8 +10,8 @@
 [D] Make sure DIP switches connect to ground for pull-up compatability
 [ ] Add test points for ground, power supply rails, HV gate, and pre-digitized signals
 [ ] Add shunt jumpers for current measurements on power supply rails
-[ ] Simulate HV circuit
-[ ] Try to reduce inductor and capacitor size to fit under daughter boards
+[D] Simulate HV circuit
+[D] Try to reduce inductor and capacitor size to fit under daughter boards
 [ ] Switch to axial cap for HV for low profile
 [D] Try to have IC GND pads make a minimal loop size with the decoupling cap GND pad
 [D] Change decoupling cap vias to 0.3 mm for reduced inductance and try to put the GND and +5V vias close together
@@ -20,6 +20,8 @@
 [D] ML2032 charging circuit (LTC4054) + 3.3V regulator (shelved, KISS)
 [ ] Second set of tubes on another board to the side for precision time (use a sense GPIO to increase the HV data width and OE rate)
 [ ] Add fiducials
+
+https://github.com/azonenberg/pcb-checklist
 
 [ ] SW: blink LED
 [ ] SW: PWM drive for HV
