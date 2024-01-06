@@ -575,6 +575,10 @@
       "High voltage supply"
     ],
     [
+      "21095f53-01f6-40ea-bb6b-e8b09c532104",
+      "HV_bleed"
+    ],
+    [
       "1d5016d9-fde4-4367-b1de-5d16dd08b171",
       "Nixies"
     ],
