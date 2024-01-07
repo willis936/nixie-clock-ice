@@ -390,7 +390,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -501,6 +501,14 @@
       {
         "netclass": "Default",
         "pattern": "*VCC_{lvl*"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/High voltage supply/HV_{SENSE}"
+      },
+      {
+        "netclass": "HV",
+        "pattern": "/HV_bleed/HV_Bleed_{drain}"
       }
     ]
   },
@@ -568,7 +576,7 @@
     ],
     [
       "33639105-1e30-4fa8-9335-500c2abdb54b",
-      "20V_supply"
+      "20V supply"
     ],
     [
       "f2852417-d6c8-4bbe-bd15-a29bc4083bd0",
@@ -576,7 +584,7 @@
     ],
     [
       "21095f53-01f6-40ea-bb6b-e8b09c532104",
-      "HV_bleed"
+      "HV bleed"
     ],
     [
       "1d5016d9-fde4-4367-b1de-5d16dd08b171",
@@ -584,7 +592,7 @@
     ],
     [
       "919829db-9d44-4db4-a8a4-73523a1d66d3",
-      "LSD_ADC"
+      "LSD ADC"
     ]
   ],
   "text_variables": {}

@@ -1767,7 +1767,7 @@
         (name "VBUS" (effects (font (size 1.27 1.27))))
         (number "76" (effects (font (size 1.27 1.27))))
       )
-      (pin power_out line (at 22.86 -2.54 90) (length 2.54)
+      (pin power_in line (at 22.86 -2.54 90) (length 2.54)
         (name "+3V3_STDBY" (effects (font (size 1.27 1.27))))
         (number "77" (effects (font (size 1.27 1.27))))
       )
