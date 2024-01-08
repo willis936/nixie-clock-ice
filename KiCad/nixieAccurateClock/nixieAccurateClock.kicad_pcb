@@ -2105,480 +2105,472 @@
     (attr through_hole)
     (fp_text reference "U1" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)))
-      (tstamp bc3c9ec4-07f0-45e0-96f9-71a593f1772c)
+      (tstamp 28c60f1d-ebbe-48cc-a08f-dd6373458faf)
     )
     (fp_text value "~" (at 0 1 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp a1176dc7-bb15-49b7-b819-597d9d3a5450)
+      (tstamp 0ee983b9-d3f1-445c-ae67-35a66953fa1c)
     )
     (fp_text user "USB-C" (at 0 30.48 unlocked) (layer "F.SilkS")
         (effects (font (size 2 2) (thickness 0.2) bold) (justify bottom))
-      (tstamp 541b8fdf-e489-4d58-a80f-db65635a48b4)
+      (tstamp 4b7af0d9-ef07-48ed-ba19-c045b199f8d1)
     )
     (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp f094e1a3-e36a-487c-ba6d-bbbcff06a7ee)
+      (tstamp 64395f02-a884-4321-b381-ece94c40961e)
     )
-    (fp_line (start -11.49 -24.19) (end -11.49 26.73)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp b46de7fa-4e93-4d5f-bd76-4bcdc7516dd9))
-    (fp_line (start -11.49 -24.19) (end -10.16 -24.19)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 227bcb60-0554-43cf-bef0-fbd748013f90))
-    (fp_line (start -8.89 -22.86) (end -8.89 -21.59)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp f32eebcf-a674-4e2e-af5e-aea9a6cf29e1))
-    (fp_line (start -8.89 -21.59) (end -6.29 -21.59)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 87ea98a7-4e28-40bf-897f-82db7ac86384))
-    (fp_line (start -7.62 -24.19) (end -6.29 -24.19)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 92093c1d-5f60-49e6-9e9c-eed3d6de5fa3))
-    (fp_line (start -6.29 -24.19) (end -6.29 -22.86)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 6cd81681-d528-49a6-b59d-3c6db1fc1f2d))
-    (fp_line (start -6.29 -21.59) (end -6.29 26.73)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 0a2adf7f-84aa-4c83-9dee-06f4b03cc3ae))
-    (fp_line (start 6.29 -24.19) (end 6.29 26.73)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d3dc3cdb-e7c6-4750-9d23-0a4413f55cab))
-    (fp_line (start 6.29 -24.19) (end 7.62 -24.19)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 60826eba-503c-4159-916f-874bea2bce79))
-    (fp_line (start 8.89 -22.86) (end 8.89 -21.59)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 566c3512-a425-4d51-bdc1-408366efb323))
-    (fp_line (start 8.89 -21.59) (end 11.49 -21.59)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 9a7b6143-a161-436e-8ce3-07e0ca515102))
-    (fp_line (start 10.16 -24.19) (end 11.49 -24.19)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 61fec95d-492a-41fa-b337-03bed75777fb))
-    (fp_line (start 11.49 -24.19) (end 11.49 -22.86)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp f282e5f5-c6cf-4c59-8c73-bf162ba38485))
-    (fp_line (start 11.49 -21.59) (end 11.49 26.73)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 63f41807-b0d9-4f00-a37c-3421c75f41fd))
+    (fp_line (start -11.49 -24.19) (end -11.49 -22.86)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 25ae5a55-3cdf-401f-bf0d-35e744650eed))
+    (fp_line (start -11.49 -21.59) (end -11.49 26.73)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp aba850b1-f656-41ad-9234-929def015159))
+    (fp_line (start -11.49 -21.59) (end -8.89 -21.59)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 35a85613-024a-4c49-8ee0-6a770fa55100))
+    (fp_line (start -10.16 -24.19) (end -11.49 -24.19)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 5124bf3f-bd1d-43ee-b55a-13ce302ac1b5))
+    (fp_line (start -6.29 -24.19) (end -7.62 -24.19)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 2713dfa6-1715-4e2f-810f-aea7d037ef0a))
+    (fp_line (start -6.29 -24.19) (end -6.29 26.73)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 572db01b-b8ae-4ace-811c-b068642e510e))
+    (fp_line (start 6.29 -24.19) (end 6.29 -22.86)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp b396e618-aaee-429a-a222-a061e48f08e9))
+    (fp_line (start 6.29 -21.59) (end 6.29 26.73)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 802ed02c-01f4-432e-96d3-c9b192292147))
+    (fp_line (start 6.29 -21.59) (end 8.89 -21.59)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 0006eec0-827c-45cd-a15c-066db1724331))
+    (fp_line (start 7.62 -24.19) (end 6.29 -24.19)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp b3e2bbef-942c-425d-ab0a-b396e8b5b79e))
+    (fp_line (start 11.49 -24.19) (end 10.16 -24.19)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 48ea8864-cb4a-4ada-ac03-343bdfac2fde))
+    (fp_line (start 11.49 -24.19) (end 11.49 26.73)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 50975285-6725-48b4-b649-06be8643ff64))
     (fp_circle (center -8.89 -26.67) (end -6.19 -26.67)
-      (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 0851c582-77b1-4502-afc5-6af130446f56))
+      (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 3848e327-b4a4-4dc9-b5dd-71e946b6fcc2))
     (fp_circle (center -8.89 29.21) (end -6.19 29.21)
-      (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 1453c4f1-67b8-4b6d-bca9-179cfea0dffb))
+      (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 0a8719db-7ae8-4b32-8105-ce9c5d8d55c6))
     (fp_circle (center 8.89 -26.67) (end 11.59 -26.67)
-      (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp d4179656-e188-4551-ba3e-65d4aa55293e))
+      (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp ba777ff8-0a6b-4f02-bd48-cf6c9f70c716))
     (fp_circle (center 8.89 29.21) (end 11.59 29.21)
-      (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 0c1b4068-e811-4370-bb27-e0ba3908298f))
+      (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 912741d6-d0ef-477b-b023-eab70adfb2ac))
     (fp_rect (start -11.96 -29.56) (end -5.86 32.04)
-      (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 593e4ef6-759d-419c-8fda-054fd680035c))
+      (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 1834adb2-b3fe-48e5-b402-75db52a7985c))
     (fp_rect (start 5.82 -29.56) (end 11.92 32.04)
-      (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 3ed98d69-6f09-4ada-b090-7f8108988c58))
-    (fp_line (start -11.43 -24.13) (end -7.35 -24.13)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 108a384c-3dfa-4c27-9448-f8a1c48b59e7))
-    (fp_line (start -11.43 26.67) (end -11.43 -24.13)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 26e848fd-8457-4d49-b923-75e6ae31f2a2))
-    (fp_line (start -7.35 -24.13) (end -6.35 -23.13)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp cd87404a-d613-46b9-bf10-74422c0edfad))
-    (fp_line (start -6.35 -23.13) (end -6.35 26.67)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 46843207-33f4-4d9e-bb6b-c663c8c33286))
+      (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp fa5a6d92-48ce-4e92-92e7-34d4cc6e3129))
+    (fp_line (start -11.43 -22.86) (end -10.16 -24.13)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c789e6fa-5776-4442-ab72-c182a5ff9cc1))
+    (fp_line (start -11.43 26.67) (end -11.43 -22.86)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e211e975-bd94-4979-9c4f-20b6901b94f1))
+    (fp_line (start -10.16 -24.13) (end -6.35 -24.13)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp baa8998f-d3e7-4ad5-b05e-8941d2e6c775))
+    (fp_line (start -6.35 -24.13) (end -6.35 26.67)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6d2fc374-764e-4808-97d5-6c891bec5230))
     (fp_line (start -6.35 26.67) (end -11.43 26.67)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 1a204493-dd68-4d04-9bca-8d6f59979318))
-    (fp_line (start 6.35 -24.13) (end 10.43 -24.13)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d56f0742-af15-49f1-9594-c6d5073d1fe8))
-    (fp_line (start 6.35 26.67) (end 6.35 -24.13)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d514fa46-937d-44bf-ad61-ec8b78cc9acf))
-    (fp_line (start 10.43 -24.13) (end 11.43 -23.13)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b595305f-fe52-4b37-8b74-c6a8b1e0643a))
-    (fp_line (start 11.43 -23.13) (end 11.43 26.67)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c3aaa500-8d87-4bd5-93bf-1e1eca2ddd44))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp cc0f670a-3121-4291-9c19-d62a5537b020))
+    (fp_line (start 6.35 -22.86) (end 7.62 -24.13)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 2c2a802c-490a-455e-ba7d-19ded3b7e797))
+    (fp_line (start 6.35 26.67) (end 6.35 -22.86)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp adaae206-4ab1-4916-9750-e96f3ce8e0d6))
+    (fp_line (start 7.62 -24.13) (end 11.43 -24.13)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ae0956ca-1c47-423b-bb65-443d8e8cc1a4))
+    (fp_line (start 11.43 -24.13) (end 11.43 26.67)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 0c4572cc-238b-468b-b8cd-5ba7141b29cb))
     (fp_line (start 11.43 26.67) (end 6.35 26.67)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 98cc4e6f-2878-446c-a430-40839cbb091c))
-    (pad "1" thru_hole rect (at 10.16 -22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 12 "unconnected-(U1-ICE_FLASH_IO2-Pad1)") (pinfunction "ICE_FLASH_IO2") (pintype "no_connect") (tstamp 53bc7485-786c-48fa-aca9-c9e811672678))
-    (pad "2" thru_hole oval (at 7.62 -22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 10 "/~{ICE_RST}") (pinfunction "~{ICE_RST}") (pintype "input") (tstamp c53f8705-9cde-486c-86ce-b8d577be2c24))
-    (pad "3" thru_hole oval (at 10.16 -20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 13 "unconnected-(U1-ICE_FLASH_IO3-Pad3)") (pinfunction "ICE_FLASH_IO3") (pintype "no_connect") (tstamp 69a0fae2-8b27-4135-b35d-016a7c43a82b))
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 01c8729b-3b8b-4350-a3aa-ee9f86690c44))
+    (pad "1" thru_hole rect (at -10.16 -22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 12 "unconnected-(U1-ICE_FLASH_IO2-Pad1)") (pinfunction "ICE_FLASH_IO2") (pintype "no_connect") (tstamp c8da9b3a-147a-4970-913f-2db603b63f69))
+    (pad "2" thru_hole oval (at -7.62 -22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 10 "/~{ICE_RST}") (pinfunction "~{ICE_RST}") (pintype "input") (tstamp 9a6c0460-95e7-47bf-a1b3-a04c4530e352))
+    (pad "3" thru_hole oval (at -10.16 -20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 13 "unconnected-(U1-ICE_FLASH_IO3-Pad3)") (pinfunction "ICE_FLASH_IO3") (pintype "no_connect") (tstamp 9914d0ae-e2c0-4587-ac13-a35ce997be94))
     (pad "4" thru_hole circle (at -10.915 -26.67) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp ab93f93b-ba33-4746-b143-73d4b2f9da4d))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 6129e9ea-6a59-49ef-9376-294e829d04e6))
     (pad "4" thru_hole circle (at -10.915 29.21) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 2832ad13-edb4-4812-85cc-32c43ab9abdd))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 8d724bf2-2f52-4152-ba3b-6724351dd954))
     (pad "4" thru_hole circle (at -10.321891 -28.101891) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 7c310b13-54be-4fe6-bb1f-790318f04e12))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 65d2fb11-0c64-4ef0-b9a0-ee61ee8c110a))
     (pad "4" thru_hole circle (at -10.321891 -25.238109) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp b2317141-60b9-4b45-be04-50f82138aa9c))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp aed3520f-3997-498c-ad80-ca3ab48af8c4))
     (pad "4" thru_hole circle (at -10.321891 27.778109) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 6b2e91b3-0a7a-48cc-a591-70754a1e7557))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 002c13d0-c27b-455b-90d1-cf27f40b0e94))
     (pad "4" thru_hole circle (at -10.321891 30.641891) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 1078407c-7033-45d7-8abf-b879c8a97303))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp baedcba6-01ea-4837-a126-1e1dd25b9520))
     (pad "4" thru_hole circle (at -8.89 -28.695) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 59abb88f-d2b7-4f27-bbce-314cda04933c))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp e713279d-672d-496c-ab50-912a9f01649d))
     (pad "4" thru_hole circle (at -8.89 -26.67) (size 5.4 5.4) (drill 2.7) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 89473e76-17f7-4f10-ba3b-6df344761b2d))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 0f64fe5a-8e58-45ae-8cd0-dc2b9baa696b))
     (pad "4" thru_hole circle (at -8.89 -24.645) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp b15f7397-bf9a-4186-8766-09c65b4200f8))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 107374a3-02fe-4c21-9aa1-1427bbb321f2))
     (pad "4" thru_hole circle (at -8.89 27.185) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp b88f1339-0669-41cf-998f-279d33046827))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 40f20cdc-253a-49fe-b5ae-3f53abc1faa3))
     (pad "4" thru_hole circle (at -8.89 29.21) (size 5.4 5.4) (drill 2.7) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 0eff1cb1-6b11-44ab-97f6-0797056c26f3))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 32234908-c75e-4f80-942f-0c8dac4567e6))
     (pad "4" thru_hole circle (at -8.89 31.235) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 55789cfa-874d-44ae-95b1-6e10f9768397))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 6d78707d-fd87-44e7-817e-91edbfaba460))
+    (pad "4" thru_hole oval (at -7.62 -20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 9ca3d66e-7083-4794-b183-87a4ad2b32b1))
     (pad "4" thru_hole circle (at -7.458109 -28.101891) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 7bd2c12b-d90d-4601-b841-b70b8dd89b12))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 3add0afb-6f8e-4276-b433-f3cb99d77403))
     (pad "4" thru_hole circle (at -7.458109 -25.238109) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp c1be6a41-fd9d-4386-8504-d06a0c815943))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 11aeec16-8e5c-4a30-8188-7b87619755f3))
     (pad "4" thru_hole circle (at -7.458109 27.778109) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp e2d56c22-7c59-4f90-bd2e-5a171c2c3731))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 84ab3175-5c4a-41c1-b3b0-ea8b8a235883))
     (pad "4" thru_hole circle (at -7.458109 30.641891) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp ce8cbec7-b33f-42d6-b145-9aa3fd5c299e))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 1988dc77-7b89-453f-97e6-1c14695357a2))
     (pad "4" thru_hole circle (at -6.865 -26.67) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 6aa13f57-b9ce-4358-bb5c-f2c57be846f8))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp ff5a877b-0907-40c3-88ef-cd9709370ae0))
     (pad "4" thru_hole circle (at -6.865 29.21) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 642e8906-4140-418a-b61b-9364a15fc33d))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 4d22bdbf-ce1e-4b75-a9de-cc9ab5e0078c))
     (pad "4" thru_hole circle (at 6.865 -26.67) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp a1854c71-410b-47f6-acfd-c0aa88ca65db))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 4020d296-3612-411f-972b-f8674b01bff7))
     (pad "4" thru_hole circle (at 6.865 29.21) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp d7ebdbe6-ec3e-4e38-af7e-35e232c76838))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp b197ff5b-4d4f-4f4a-b0dd-108a83522c35))
     (pad "4" thru_hole circle (at 7.458109 -28.101891) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 972332c3-5dd2-46f4-8fae-fd1335633584))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp d2cdf550-ae22-4e9a-bc74-838ec7f060bb))
     (pad "4" thru_hole circle (at 7.458109 -25.238109) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp ad16ea05-1865-4df1-bc89-4dc0fd38522f))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 681f3727-d61d-40f3-9f19-03400ee69baf))
     (pad "4" thru_hole circle (at 7.458109 27.778109) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 214acbb0-1734-4c08-a236-fd251f14ee77))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 871427f3-576c-4cd1-a600-fab416c6beb6))
     (pad "4" thru_hole circle (at 7.458109 30.641891) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 6f5dc835-83de-4671-b164-a98bb0d5180d))
-    (pad "4" thru_hole oval (at 7.62 -20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 9e612ed7-ac9e-48e1-ab62-a6e2b5b40db9))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp ed51940f-9bbd-4e65-8c17-c998d266600c))
     (pad "4" thru_hole circle (at 8.89 -28.695) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 431c3e2c-7970-4283-95fb-5af2ec8b7af7))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 2b9640c7-2bb6-48c5-b41e-b7c236c9374c))
     (pad "4" thru_hole circle (at 8.89 -26.67) (size 5.4 5.4) (drill 2.7) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 1c1f4fc4-bd36-41c1-a2c0-762185fe9ee1))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 1162a06b-3ea6-497b-b1f0-3b8003f28d08))
     (pad "4" thru_hole circle (at 8.89 -24.645) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 82f916ff-cbc7-439e-9ba5-a1586be3354f))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp aa41b976-1844-4d4d-af3b-8ea23f10f618))
     (pad "4" thru_hole circle (at 8.89 27.185) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp df02e262-d383-4d2f-9e60-5cb538d687ef))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp d5ee5843-a964-471a-a969-09a8cdba356d))
     (pad "4" thru_hole circle (at 8.89 29.21) (size 5.4 5.4) (drill 2.7) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 1414b62e-e9b5-4fde-afbc-2194fa1eb12b))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 89503c9b-dcb8-4c4f-ada7-37f9f44eadd1))
     (pad "4" thru_hole circle (at 8.89 31.235) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp e0e80902-c9c6-4426-896c-3eaad006b7ec))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp d009926c-2fde-4035-9741-f66840a7a803))
     (pad "4" thru_hole circle (at 10.321891 -28.101891) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 93ba2aca-4eba-4290-a02e-d54d2fa42196))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp e3aaaac1-d0eb-497b-9484-b99c54b366bb))
     (pad "4" thru_hole circle (at 10.321891 -25.238109) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp bc754d8a-29cf-4dd1-934e-ecfb228a45b1))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp c207b1e7-cc59-43d0-9ac0-45547de499ea))
     (pad "4" thru_hole circle (at 10.321891 27.778109) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 2294361c-cdfd-4cae-9521-41871a022e74))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp b3b31c1b-6b7a-4cb4-b185-1390803d7b62))
     (pad "4" thru_hole circle (at 10.321891 30.641891) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp a7f6f510-55d7-447a-9f2f-77be4b13429b))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp f6052142-9262-4fdd-b8ab-9de3e0d5ed95))
     (pad "4" thru_hole circle (at 10.915 -26.67) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 728d8f19-556f-414f-8c16-e263e893e1e6))
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 61639c8e-63af-46a8-9b1d-5bf006d9ad98))
     (pad "4" thru_hole circle (at 10.915 29.21) (size 0.8 0.8) (drill 0.5) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp e206ff73-7820-4e56-8a7a-5cd50b4fa169))
-    (pad "5" thru_hole oval (at 10.16 -17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "power_out") (tstamp fd15d76d-1f95-4a13-bfc5-3b1885397c7c))
-    (pad "6" thru_hole oval (at 7.62 -17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp 21e7558e-4cd4-4199-ae9e-dfb289c7f6ed))
-    (pad "7" thru_hole oval (at 10.16 -15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 8d37d664-51f5-4e68-b8ed-a036d1792484))
-    (pad "8" thru_hole oval (at 7.62 -15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 7de6644e-7a14-4c96-b06f-470e4ded036b))
-    (pad "9" thru_hole oval (at 10.16 -12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 104 "SENSE_{PRECISE}") (pinfunction "ICE_28") (pintype "input") (tstamp a741ae5f-6a03-4ce9-b4d1-25461c25eff7))
-    (pad "10" thru_hole oval (at 7.62 -12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 144 "HV_{CONTROL}") (pinfunction "ICE_31") (pintype "output") (tstamp eb23ec67-5899-4331-bc48-5c47544e654a))
-    (pad "11" thru_hole oval (at 10.16 -10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 89 "LSD_{ADC_D3}") (pinfunction "ICE_32") (pintype "input") (tstamp aaff9e40-99fe-492e-b0cc-a64c78a10ca8))
-    (pad "12" thru_hole oval (at 7.62 -10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 99 "LSD_{ADC_~{OFL}}") (pinfunction "ICE_34") (pintype "input") (tstamp 310c954a-5859-4c86-bc48-6108b61f461f))
-    (pad "13" thru_hole oval (at 10.16 -7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 88 "LSD_{ADC_D2}") (pinfunction "ICE_36") (pintype "input") (tstamp 61248190-6b6c-40a6-be10-8e3070af55e6))
-    (pad "14" thru_hole oval (at 7.62 -7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 98 "LSD_{ADC_D7}") (pinfunction "ICE_38") (pintype "input") (tstamp 6f1b03b5-2fc3-4ad1-9114-c9030a46d352))
-    (pad "15" thru_hole oval (at 10.16 -5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 87 "LSD_{ADC_D1}") (pinfunction "ICE_42") (pintype "input") (tstamp 4164871c-4170-4ff4-bde1-61a5418ca4b3))
-    (pad "16" thru_hole oval (at 7.62 -5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 97 "LSD_{ADC_D6}") (pinfunction "ICE_43") (pintype "input") (tstamp 54fe1dc6-f73a-4ea7-92c9-0fec006dda49))
-    (pad "17" thru_hole oval (at 10.16 -2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 15 "unconnected-(U1-SRAM_SS-Pad17)") (pinfunction "SRAM_SS") (pintype "no_connect") (tstamp ace7a43b-2f81-4c99-b79b-4961fe317fc7))
-    (pad "18" thru_hole oval (at 7.62 -2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 96 "LSD_{ADC_D5}") (pinfunction "ICE_35_G0") (pintype "input") (tstamp 8ba5a2a6-d07f-4e93-8ec3-ab75ab9d76ad))
-    (pad "19" thru_hole oval (at 10.16 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 86 "LSD_{ADC_D0}") (pinfunction "ICE_11") (pintype "input") (tstamp 23a92c16-e17f-4819-8723-a648f3980c17))
-    (pad "20" thru_hole oval (at 7.62 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 95 "LSD_{ADC_D4}") (pinfunction "ICE_6") (pintype "input") (tstamp 6540d81a-df76-4601-ae75-3541b6bec381))
-    (pad "21" thru_hole oval (at 10.16 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 57 "PPS_{TRIMMED}") (pinfunction "ICE_10|PB") (pintype "output") (tstamp fe8dcac7-98e3-403e-a8cc-b0cef1cab51d))
-    (pad "22" thru_hole oval (at 7.62 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 91 "LSD_{ADC_MODE}") (pinfunction "ICE_9") (pintype "output") (tstamp 4b422177-6011-49e3-88bc-cd7d20bcfa5b))
-    (pad "23" thru_hole oval (at 10.16 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 16 "unconnected-(U1-VIO_BANK_2-Pad23)") (pinfunction "VIO_BANK_2") (pintype "no_connect") (tstamp dc52af9e-8516-4210-86db-dec592aca8b1))
-    (pad "24" thru_hole oval (at 7.62 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 17 "unconnected-(U1-VIO_BANK_2-Pad24)") (pinfunction "VIO_BANK_2") (pintype "no_connect") (tstamp 63e5b3db-0a91-491b-83a1-deab61ba1b45))
-    (pad "25" thru_hole oval (at 10.16 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 52492427-9429-4feb-821e-678b202600e0))
-    (pad "26" thru_hole oval (at 7.62 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 4c09dde5-5459-4303-b1c7-3b0fb9774c8a))
-    (pad "27" thru_hole oval (at 10.16 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 90 "LSD_{ADC_~{WR}{slash}RDY}") (pinfunction "ICE_44_G6") (pintype "output") (tstamp 0e626eeb-4f5c-4548-87da-9201d9326cf8))
-    (pad "28" thru_hole oval (at 7.62 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 92 "LSD_{ADC_~{RD}}") (pinfunction "ICE_45") (pintype "output") (tstamp ba5e695e-d8a7-4b02-89a0-27813b95d00c))
-    (pad "29" thru_hole oval (at 10.16 12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 59 "GPS_{1PPS2}") (pinfunction "ICE_46") (pintype "input") (tstamp cca25bb6-6596-4a8b-b192-357e8e96c83f))
-    (pad "30" thru_hole oval (at 7.62 12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 93 "LSD_{ADC_~{INT}}") (pinfunction "ICE_47") (pintype "input") (tstamp e6380b07-c466-4bef-8a13-a9e9c43ceb26))
-    (pad "31" thru_hole oval (at 10.16 15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 58 "GPS_{1PPS}") (pinfunction "ICE_48") (pintype "input") (tstamp 016ac0ba-4dbd-43b0-920c-c3d73c8d0bbc))
-    (pad "32" thru_hole oval (at 7.62 15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 94 "LSD_{ADC_~{CS}}") (pinfunction "ICE_2") (pintype "output") (tstamp 82d42898-d048-4640-b211-43566eed3cb4))
-    (pad "33" thru_hole oval (at 10.16 17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 61 "DATA_{HV}") (pinfunction "ICE_3") (pintype "output") (tstamp 23aa3039-5b28-4a96-82ba-9ec0f6a9569f))
-    (pad "34" thru_hole oval (at 7.62 17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 60 "CLOCK_{HV}") (pinfunction "ICE_4") (pintype "output") (tstamp fc3baced-b3a9-4a42-9b70-8b2c7d843e26))
-    (pad "35" thru_hole oval (at 10.16 20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 18 "unconnected-(U1-SWD-Pad35)") (pinfunction "SWD") (pintype "no_connect") (tstamp 51d4fc1a-8fc4-475e-809b-0fd954f5a14d))
-    (pad "36" thru_hole oval (at 7.62 20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 8 "/~{RESET}") (pinfunction "~{RESET}") (pintype "input") (tstamp f5f71942-177c-4bf4-8221-06b3d0718973))
-    (pad "37" thru_hole oval (at 10.16 22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 19 "unconnected-(U1-SWCLK-Pad37)") (pinfunction "SWCLK") (pintype "no_connect") (tstamp 69932656-9ad3-4274-9ead-04a43a42e2db))
-    (pad "38" thru_hole oval (at 7.62 22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 38719476-7562-4bb6-b00d-9559175ea799))
-    (pad "39" thru_hole oval (at 10.16 25.4) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 20 "unconnected-(U1-PICO_CLKOUT-Pad39)") (pinfunction "PICO_CLKOUT") (pintype "no_connect") (tstamp 34cd50e1-d551-4f9b-bbf6-67060de769bd))
-    (pad "40" thru_hole oval (at 7.62 25.4) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 9 "/~{USB_BOOT}") (pinfunction "~{USB_BOOT}") (pintype "input") (tstamp b85605a1-e51b-4c9b-a237-08886578e238))
-    (pad "41" thru_hole rect (at -7.62 -22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 21 "unconnected-(U1-ICE_SSN-Pad41)") (pinfunction "ICE_SSN") (pintype "no_connect") (tstamp 5dd63a81-ef8a-486d-a95a-1c7b9255cd0e))
-    (pad "42" thru_hole oval (at -10.16 -22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 22 "unconnected-(U1-ICE_SO-Pad42)") (pinfunction "ICE_SO") (pintype "no_connect") (tstamp fdd1ad17-6e48-404b-87ad-597367fd12c9))
-    (pad "43" thru_hole oval (at -7.62 -20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 23 "unconnected-(U1-ICE_SI-Pad43)") (pinfunction "ICE_SI") (pintype "no_connect") (tstamp 07eeab6b-c912-4368-8f2a-4aa964a80c71))
-    (pad "44" thru_hole oval (at -10.16 -20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 24 "unconnected-(U1-ICE_SCK-Pad44)") (pinfunction "ICE_SCK") (pintype "no_connect") (tstamp 2759c908-4b62-4e82-9358-07f452c11dc7))
-    (pad "45" thru_hole oval (at -7.62 -17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 6 "/DST_force") (pinfunction "ICE_25") (pintype "input") (tstamp 0c69ee27-e130-4271-ab3c-0745c430ed0b))
-    (pad "46" thru_hole oval (at -10.16 -17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 7 "/DST_check") (pinfunction "ICE_23") (pintype "input") (tstamp 034d20dd-fe56-49bd-a6ec-296af6b11f78))
-    (pad "47" thru_hole oval (at -7.62 -15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 47 "/anti-poison_routine") (pinfunction "ICE_19") (pintype "input") (tstamp 3c57df60-a97c-49f8-9b08-c39601c31191))
-    (pad "48" thru_hole oval (at -10.16 -15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 27 "/manual_brightness") (pinfunction "ICE_18") (pintype "input") (tstamp 4e54a909-a0e1-4a06-8630-91c2b09b8824))
-    (pad "49" thru_hole oval (at -7.62 -12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 49 "/24h_mode") (pinfunction "ICE_27") (pintype "input") (tstamp 8c1a4487-0383-4df6-8cc6-17165d9faf79))
-    (pad "50" thru_hole oval (at -10.16 -12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 48 "/anti-poison_force") (pinfunction "ICE_26") (pintype "input") (tstamp bc565804-053b-4841-9c81-b54a51566d13))
-    (pad "51" thru_hole oval (at -7.62 -10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 51 "/RESERVED_2") (pinfunction "ICE_21") (pintype "input") (tstamp c2d2f9ab-efbd-4d92-8a0c-d6ba130ab499))
-    (pad "52" thru_hole oval (at -10.16 -10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 50 "/RESERVED_1") (pinfunction "ICE_20_G3") (pintype "input") (tstamp b6d8da42-b9d4-4b1a-b6cc-e32c0b667007))
-    (pad "53" thru_hole oval (at -7.62 -7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp f3694495-8432-4bf3-8026-1c9bc4ae3727))
-    (pad "54" thru_hole oval (at -10.16 -7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 13b786df-f609-4af8-9149-96bb57c1d496))
-    (pad "55" thru_hole oval (at -7.62 -5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp 57cdc1e7-2fa1-4d55-8674-ad095d151e9a))
-    (pad "56" thru_hole oval (at -10.16 -5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp 966c2c07-0722-4188-aa53-b01a39dd0a2d))
-    (pad "57" thru_hole oval (at -7.62 -2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 25 "unconnected-(U1-ICE_DONE_ADC0-Pad57)") (pinfunction "ICE_DONE_ADC0") (pintype "no_connect") (tstamp 124ecbeb-68c2-4ca1-a365-34a3c6e3005a))
-    (pad "58" thru_hole oval (at -10.16 -2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 26 "unconnected-(U1-LED_B-Pad58)") (pinfunction "LED_B") (pintype "no_connect") (tstamp dee15cb2-38ba-457e-8a4b-5cf17ffc5402))
-    (pad "59" thru_hole oval (at -7.62 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 123 "HV_{MEASURE}") (pinfunction "ADC2|PB") (pintype "input") (tstamp 96799e3e-e216-47ee-8da4-5042250c5a95))
-    (pad "60" thru_hole oval (at -10.16 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 28 "unconnected-(U1-LED_R-Pad60)") (pinfunction "LED_R") (pintype "no_connect") (tstamp 785057b9-fe04-4eb5-b3b3-bed3b73a6d21))
-    (pad "61" thru_hole oval (at -7.62 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 52 "/brightness_control") (pinfunction "ADC3") (pintype "input") (tstamp 75d9fd78-1688-4f3b-9f26-92d06fd74108))
-    (pad "62" thru_hole oval (at -10.16 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 29 "unconnected-(U1-LED_G-Pad62)") (pinfunction "LED_G") (pintype "no_connect") (tstamp 5c616175-79f8-4d54-87c4-d3d6996b0f8c))
-    (pad "63" thru_hole oval (at -7.62 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 63 "GPS_{RXD}") (pinfunction "PICO_PMOD_A1") (pintype "output") (tstamp 951c97a5-9706-42be-b00f-1f08b0082070))
-    (pad "64" thru_hole oval (at -10.16 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 141 "unconnected-(U1-PICO_PMOD_B1-Pad64)") (pinfunction "PICO_PMOD_B1") (pintype "no_connect") (tstamp ee388565-b58c-4f2a-9859-7953444678f5))
-    (pad "65" thru_hole oval (at -7.62 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 64 "GPS_{TXD}") (pinfunction "PICO_PMOD_A2") (pintype "input") (tstamp 1551bd3f-cc38-4311-97ac-a8e7a938706d))
-    (pad "66" thru_hole oval (at -10.16 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 156 "unconnected-(U1-PICO_PMOD_B2-Pad66)") (pinfunction "PICO_PMOD_B2") (pintype "no_connect") (tstamp 4241f156-63f0-43ca-a51f-195e32a57a01))
-    (pad "67" thru_hole oval (at -7.62 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 65 "GPS_{RSTN}") (pinfunction "PICO_PMOD_A3") (pintype "output") (tstamp 82aa2a37-3d63-42be-979c-dd8175f48da7))
-    (pad "68" thru_hole oval (at -10.16 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 157 "unconnected-(U1-PICO_PMOD_B3-Pad68)") (pinfunction "PICO_PMOD_B3") (pintype "no_connect") (tstamp 64331ca7-0a29-435b-890f-193c8315abb4))
-    (pad "69" thru_hole oval (at -7.62 12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 62 "GPS_{BOOT_SEL}") (pinfunction "PICO_PMOD_A4") (pintype "output") (tstamp 30e6262d-076d-4f21-bf18-a2c49f94e9f7))
-    (pad "70" thru_hole oval (at -10.16 12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 158 "unconnected-(U1-PICO_PMOD_B4-Pad70)") (pinfunction "PICO_PMOD_B4") (pintype "no_connect") (tstamp 9939e4bf-e2b3-4a22-bc24-2419690f4245))
-    (pad "71" thru_hole oval (at -7.62 15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 9783ef28-024b-497d-b2e8-3e3a8f2bcf80))
-    (pad "72" thru_hole oval (at -10.16 15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 57b43cf3-52cb-4ca2-b2f6-59f4da2f8c8e))
-    (pad "73" thru_hole oval (at -7.62 17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp e0d4c01a-4667-4fc3-b2d1-ee10be47e0d5))
-    (pad "74" thru_hole oval (at -10.16 17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp 322f8cc4-f6cc-45a7-972f-3dc2aac51c25))
-    (pad "75" thru_hole oval (at -7.62 20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp bd3aa5dd-1836-4495-a68b-e8e6b39a7691))
-    (pad "76" thru_hole oval (at -10.16 20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 30 "unconnected-(U1-VBUS-Pad76)") (pinfunction "VBUS") (pintype "no_connect") (tstamp 8287ca59-f479-44bd-8005-674403f2c882))
-    (pad "77" thru_hole oval (at -7.62 22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 5 "+3V3_STDBY") (pinfunction "+3V3_STDBY") (pintype "power_in") (tstamp 5fb2bc9f-49cb-46ec-9735-baecc4800d5e))
-    (pad "78" thru_hole oval (at -10.16 22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 31 "unconnected-(U1-PWR_EN-Pad78)") (pinfunction "PWR_EN") (pintype "no_connect") (tstamp 86b30fa9-55c0-4e7f-9b95-dcf0fe9eae2e))
-    (pad "79" thru_hole oval (at -7.62 25.4) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 84 "/5V_{SENSE}") (pinfunction "+5V") (pintype "power_out") (tstamp 3d864180-dce2-45f2-85f9-5e02f56065a9))
-    (pad "80" thru_hole oval (at -10.16 25.4) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
-      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 5766d5f7-0e91-4c7c-980b-362840c7cb9b))
-    (group "" (id ff242464-ad35-4b4e-9d84-cba356d00a7e)
+      (net 2 "GND") (pinfunction "GND") (pintype "power_out") (tstamp 2206aa83-d0e6-4111-8765-56cd09b561f6))
+    (pad "5" thru_hole oval (at -10.16 -17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "power_out") (tstamp 7c55bd02-5571-4ad1-acf7-eff2ef54fd9f))
+    (pad "6" thru_hole oval (at -7.62 -17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp 3e66a367-8d5d-4db5-a5b7-18bcee40c831))
+    (pad "7" thru_hole oval (at -10.16 -15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 1b612c19-68bc-4ae6-b303-4d46c823fc3d))
+    (pad "8" thru_hole oval (at -7.62 -15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp ae34a944-fe33-4f71-826c-c75aa76bd405))
+    (pad "9" thru_hole oval (at -10.16 -12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 104 "SENSE_{PRECISE}") (pinfunction "ICE_28") (pintype "input") (tstamp de21e753-df6a-42c4-a617-0e25493d520a))
+    (pad "10" thru_hole oval (at -7.62 -12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 144 "HV_{CONTROL}") (pinfunction "ICE_31") (pintype "output") (tstamp 3e8aa62e-15c5-45ee-94f9-2139149ae0e6))
+    (pad "11" thru_hole oval (at -10.16 -10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 89 "LSD_{ADC_D3}") (pinfunction "ICE_32") (pintype "input") (tstamp 945fc48d-610f-4df0-8389-db03c6d03b34))
+    (pad "12" thru_hole oval (at -7.62 -10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 99 "LSD_{ADC_~{OFL}}") (pinfunction "ICE_34") (pintype "input") (tstamp f8d4f1a8-9b2d-48ee-ae68-50a6455a1f79))
+    (pad "13" thru_hole oval (at -10.16 -7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 88 "LSD_{ADC_D2}") (pinfunction "ICE_36") (pintype "input") (tstamp ca0da1b7-2262-4a94-8446-2d400bc1195d))
+    (pad "14" thru_hole oval (at -7.62 -7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 98 "LSD_{ADC_D7}") (pinfunction "ICE_38") (pintype "input") (tstamp be5d2687-1c1d-4e31-bfa4-b8278ae35e29))
+    (pad "15" thru_hole oval (at -10.16 -5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 87 "LSD_{ADC_D1}") (pinfunction "ICE_42") (pintype "input") (tstamp 13ed84d3-5c3d-4068-893d-474b58c52543))
+    (pad "16" thru_hole oval (at -7.62 -5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 97 "LSD_{ADC_D6}") (pinfunction "ICE_43") (pintype "input") (tstamp 539e1d18-bdae-4af9-ae7e-05763d95492f))
+    (pad "17" thru_hole oval (at -10.16 -2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 15 "unconnected-(U1-SRAM_SS-Pad17)") (pinfunction "SRAM_SS") (pintype "no_connect") (tstamp 49caaa8b-a740-4c12-892f-4897e4c5643f))
+    (pad "18" thru_hole oval (at -7.62 -2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 96 "LSD_{ADC_D5}") (pinfunction "ICE_35_G0") (pintype "input") (tstamp d0ecd534-548f-4ba1-9cfe-fc4aa5328c16))
+    (pad "19" thru_hole oval (at -10.16 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 86 "LSD_{ADC_D0}") (pinfunction "ICE_11") (pintype "input") (tstamp 284e1119-18cc-4996-8448-4e5f278cb9d7))
+    (pad "20" thru_hole oval (at -7.62 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 95 "LSD_{ADC_D4}") (pinfunction "ICE_6") (pintype "input") (tstamp c47ace15-3c37-47a9-9ce7-32358240100f))
+    (pad "21" thru_hole oval (at -10.16 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 57 "PPS_{TRIMMED}") (pinfunction "ICE_10|PB") (pintype "output") (tstamp 0390b967-e1db-4a44-8f15-71ef3d1437cc))
+    (pad "22" thru_hole oval (at -7.62 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 91 "LSD_{ADC_MODE}") (pinfunction "ICE_9") (pintype "output") (tstamp 77888f46-61cf-426d-96d5-9eba8dfde29e))
+    (pad "23" thru_hole oval (at -10.16 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 16 "unconnected-(U1-VIO_BANK_2-Pad23)") (pinfunction "VIO_BANK_2") (pintype "no_connect") (tstamp f6ca1c41-44e7-468a-9391-af41aef620f6))
+    (pad "24" thru_hole oval (at -7.62 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 17 "unconnected-(U1-VIO_BANK_2-Pad24)") (pinfunction "VIO_BANK_2") (pintype "no_connect") (tstamp fae30fd4-6a92-4f0b-98ec-b2b9d548ac10))
+    (pad "25" thru_hole oval (at -10.16 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 4b8776a1-469e-4843-b2b9-f01b7be495f0))
+    (pad "26" thru_hole oval (at -7.62 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp dbb400da-5469-4e2b-b8fb-eed1583bfdd1))
+    (pad "27" thru_hole oval (at -10.16 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 90 "LSD_{ADC_~{WR}{slash}RDY}") (pinfunction "ICE_44_G6") (pintype "output") (tstamp dcc71ed6-0fd1-4109-be3b-39925142147b))
+    (pad "28" thru_hole oval (at -7.62 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 92 "LSD_{ADC_~{RD}}") (pinfunction "ICE_45") (pintype "output") (tstamp 0f155e94-39ee-4667-9886-2894739fc707))
+    (pad "29" thru_hole oval (at -10.16 12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 59 "GPS_{1PPS2}") (pinfunction "ICE_46") (pintype "input") (tstamp 27f53157-bf4f-460c-be62-e4ec36391e4c))
+    (pad "30" thru_hole oval (at -7.62 12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 93 "LSD_{ADC_~{INT}}") (pinfunction "ICE_47") (pintype "input") (tstamp e0d0f1fa-354c-474a-860c-d4c8f34c97ae))
+    (pad "31" thru_hole oval (at -10.16 15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 58 "GPS_{1PPS}") (pinfunction "ICE_48") (pintype "input") (tstamp f4e0ee63-5057-4d7a-b040-f5befd803d32))
+    (pad "32" thru_hole oval (at -7.62 15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 94 "LSD_{ADC_~{CS}}") (pinfunction "ICE_2") (pintype "output") (tstamp b6af8133-72db-4db5-a7bb-9a32b14d37e9))
+    (pad "33" thru_hole oval (at -10.16 17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 61 "DATA_{HV}") (pinfunction "ICE_3") (pintype "output") (tstamp 4dcca42c-f233-489f-bed4-89dac3082b61))
+    (pad "34" thru_hole oval (at -7.62 17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 60 "CLOCK_{HV}") (pinfunction "ICE_4") (pintype "output") (tstamp 9947f276-70f6-4daf-9def-e03a88f948ed))
+    (pad "35" thru_hole oval (at -10.16 20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 18 "unconnected-(U1-SWD-Pad35)") (pinfunction "SWD") (pintype "no_connect") (tstamp b5b9dbb5-eafa-4260-904f-10d3592716f7))
+    (pad "36" thru_hole oval (at -7.62 20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 8 "/~{RESET}") (pinfunction "~{RESET}") (pintype "input") (tstamp dc8dada5-acdc-413c-b23c-4350453a2ded))
+    (pad "37" thru_hole oval (at -10.16 22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 19 "unconnected-(U1-SWCLK-Pad37)") (pinfunction "SWCLK") (pintype "no_connect") (tstamp 2d389e9b-b227-4797-b59f-705cc1452c13))
+    (pad "38" thru_hole oval (at -7.62 22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp a7ff5c8c-af67-41ab-a6af-ffeb788fbc5e))
+    (pad "39" thru_hole oval (at -10.16 25.4) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 20 "unconnected-(U1-PICO_CLKOUT-Pad39)") (pinfunction "PICO_CLKOUT") (pintype "no_connect") (tstamp 0bffb056-8f5e-4c20-8280-df85b2805fd7))
+    (pad "40" thru_hole oval (at -7.62 25.4) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 9 "/~{USB_BOOT}") (pinfunction "~{USB_BOOT}") (pintype "input") (tstamp 17b110ed-0a18-4e69-9260-82a2e9868f57))
+    (pad "41" thru_hole rect (at 7.62 -22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 21 "unconnected-(U1-ICE_SSN-Pad41)") (pinfunction "ICE_SSN") (pintype "no_connect") (tstamp 220f687c-46a6-43ed-ad4f-38a5cbcdc1bc))
+    (pad "42" thru_hole oval (at 10.16 -22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 22 "unconnected-(U1-ICE_SO-Pad42)") (pinfunction "ICE_SO") (pintype "no_connect") (tstamp f9f95498-7c2e-404d-a9c2-e1de54ace12e))
+    (pad "43" thru_hole oval (at 7.62 -20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 23 "unconnected-(U1-ICE_SI-Pad43)") (pinfunction "ICE_SI") (pintype "no_connect") (tstamp 614fd959-6611-490d-83ab-419dfab73949))
+    (pad "44" thru_hole oval (at 10.16 -20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 24 "unconnected-(U1-ICE_SCK-Pad44)") (pinfunction "ICE_SCK") (pintype "no_connect") (tstamp 7702295b-8ace-4104-b7ed-bc006ac51f2f))
+    (pad "45" thru_hole oval (at 7.62 -17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 6 "/DST_force") (pinfunction "ICE_25") (pintype "input") (tstamp 9e784e6b-ea35-4012-ae6b-1f6b1dd5938b))
+    (pad "46" thru_hole oval (at 10.16 -17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 7 "/DST_check") (pinfunction "ICE_23") (pintype "input") (tstamp b3792ec1-dbaa-4191-b3fb-f5551950357c))
+    (pad "47" thru_hole oval (at 7.62 -15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 47 "/anti-poison_routine") (pinfunction "ICE_19") (pintype "input") (tstamp f5aa2214-0eba-4814-a989-8ce84d5d91fd))
+    (pad "48" thru_hole oval (at 10.16 -15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 27 "/manual_brightness") (pinfunction "ICE_18") (pintype "input") (tstamp 4297d15c-3137-4468-bb12-013e8fb536d4))
+    (pad "49" thru_hole oval (at 7.62 -12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 49 "/24h_mode") (pinfunction "ICE_27") (pintype "input") (tstamp 237dc730-7f29-49e2-be64-2dfc36d179aa))
+    (pad "50" thru_hole oval (at 10.16 -12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 48 "/anti-poison_force") (pinfunction "ICE_26") (pintype "input") (tstamp f7c2261c-abab-48a2-8844-3f1ac55b46e8))
+    (pad "51" thru_hole oval (at 7.62 -10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 51 "/RESERVED_2") (pinfunction "ICE_21") (pintype "input") (tstamp 9bfb2661-e91d-47eb-9af2-9189fc3f687d))
+    (pad "52" thru_hole oval (at 10.16 -10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 50 "/RESERVED_1") (pinfunction "ICE_20_G3") (pintype "input") (tstamp d3c2278d-d4b1-4169-a437-fbeadf66d165))
+    (pad "53" thru_hole oval (at 7.62 -7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 3ffb6c5c-2449-4c31-a72e-2b41f59a75cd))
+    (pad "54" thru_hole oval (at 10.16 -7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 261ae2ee-42d9-401d-b3d6-82839b316532))
+    (pad "55" thru_hole oval (at 7.62 -5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp 7407b8a6-af93-4ee7-8a2f-0b4e10b8ef8c))
+    (pad "56" thru_hole oval (at 10.16 -5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp 260a73dd-f312-4d07-887a-08b9df381a15))
+    (pad "57" thru_hole oval (at 7.62 -2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 25 "unconnected-(U1-ICE_DONE_ADC0-Pad57)") (pinfunction "ICE_DONE_ADC0") (pintype "no_connect") (tstamp 26c66f1e-c6ec-4c4f-8106-9e13ff42862a))
+    (pad "58" thru_hole oval (at 10.16 -2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 26 "unconnected-(U1-LED_B-Pad58)") (pinfunction "LED_B") (pintype "no_connect") (tstamp 5f7d94bc-c06d-4bcc-9df9-e208a6cadeb1))
+    (pad "59" thru_hole oval (at 7.62 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 123 "HV_{MEASURE}") (pinfunction "ADC2|PB") (pintype "input") (tstamp 5033bd4b-2285-4b78-9456-064f9ad39f24))
+    (pad "60" thru_hole oval (at 10.16 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 28 "unconnected-(U1-LED_R-Pad60)") (pinfunction "LED_R") (pintype "no_connect") (tstamp d24fee32-02d7-40d3-ac6b-4c2d2c9d7fcc))
+    (pad "61" thru_hole oval (at 7.62 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 52 "/brightness_control") (pinfunction "ADC3") (pintype "input") (tstamp 6a2167c1-4f9e-4ee9-bc5c-0a1d002f22a0))
+    (pad "62" thru_hole oval (at 10.16 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 29 "unconnected-(U1-LED_G-Pad62)") (pinfunction "LED_G") (pintype "no_connect") (tstamp ceccea35-9d4e-4286-a936-0419326d3c97))
+    (pad "63" thru_hole oval (at 7.62 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 63 "GPS_{RXD}") (pinfunction "PICO_PMOD_A1") (pintype "output") (tstamp d42a3174-1ca7-41b1-8077-301000748d19))
+    (pad "64" thru_hole oval (at 10.16 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 141 "unconnected-(U1-PICO_PMOD_B1-Pad64)") (pinfunction "PICO_PMOD_B1") (pintype "no_connect") (tstamp 7619ebbd-f812-4f89-ae4b-4097a30eced7))
+    (pad "65" thru_hole oval (at 7.62 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 64 "GPS_{TXD}") (pinfunction "PICO_PMOD_A2") (pintype "input") (tstamp 134bbdb1-1645-4a79-bf98-636f60dcf781))
+    (pad "66" thru_hole oval (at 10.16 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 156 "unconnected-(U1-PICO_PMOD_B2-Pad66)") (pinfunction "PICO_PMOD_B2") (pintype "no_connect") (tstamp 3de26096-a381-461c-b9ba-c4e3865f49d1))
+    (pad "67" thru_hole oval (at 7.62 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 65 "GPS_{RSTN}") (pinfunction "PICO_PMOD_A3") (pintype "output") (tstamp 9b70db3d-2ea2-4c78-9c21-722e136b666e))
+    (pad "68" thru_hole oval (at 10.16 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 157 "unconnected-(U1-PICO_PMOD_B3-Pad68)") (pinfunction "PICO_PMOD_B3") (pintype "no_connect") (tstamp 8af53863-2917-48ad-8344-8b5b7d1de235))
+    (pad "69" thru_hole oval (at 7.62 12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 62 "GPS_{BOOT_SEL}") (pinfunction "PICO_PMOD_A4") (pintype "output") (tstamp 90058c32-d246-4ff6-8812-63832180bbc1))
+    (pad "70" thru_hole oval (at 10.16 12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 158 "unconnected-(U1-PICO_PMOD_B4-Pad70)") (pinfunction "PICO_PMOD_B4") (pintype "no_connect") (tstamp 1d399684-443c-4722-9d73-ac4e13f34e3f))
+    (pad "71" thru_hole oval (at 7.62 15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 373689a9-dc05-4a74-acaa-7a3a2a85f821))
+    (pad "72" thru_hole oval (at 10.16 15.24) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 6d238ed9-3754-4a04-b555-9b6093d04b7e))
+    (pad "73" thru_hole oval (at 7.62 17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp db58cbe3-7a80-4ee4-925b-a3f44133af43))
+    (pad "74" thru_hole oval (at 10.16 17.78) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp c7802f25-4eaf-4ef6-b807-bc0d444d2853))
+    (pad "75" thru_hole oval (at 7.62 20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 85 "/3.3V_{SENSE}") (pinfunction "+3.3V") (pintype "passive") (tstamp 23c07b98-95cc-4598-9133-9da6098f3cb8))
+    (pad "76" thru_hole oval (at 10.16 20.32) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 30 "unconnected-(U1-VBUS-Pad76)") (pinfunction "VBUS") (pintype "no_connect") (tstamp b459b4c8-97cd-45e3-9998-5de82c197041))
+    (pad "77" thru_hole oval (at 7.62 22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 5 "+3V3_STDBY") (pinfunction "+3V3_STDBY") (pintype "power_in") (tstamp 4dce521b-4db5-4b7d-a09e-e1784ab39324))
+    (pad "78" thru_hole oval (at 10.16 22.86) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 31 "unconnected-(U1-PWR_EN-Pad78)") (pinfunction "PWR_EN") (pintype "no_connect") (tstamp 6ed9dd99-182b-42c2-9bbf-e83f93705677))
+    (pad "79" thru_hole oval (at 7.62 25.4) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 84 "/5V_{SENSE}") (pinfunction "+5V") (pintype "power_out") (tstamp 864c7b4f-f6ea-45d8-9b31-5501809ce2dd))
+    (pad "80" thru_hole oval (at 10.16 25.4) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp 995661ba-a8cd-4186-bb46-2e297235aba2))
+    (group "" (id 3f39ce64-20a1-4296-a07d-8e80ef618a7c)
       (members
-        034d20dd-fe56-49bd-a6ec-296af6b11f78
-        07eeab6b-c912-4368-8f2a-4aa964a80c71
-        0a2adf7f-84aa-4c83-9dee-06f4b03cc3ae
-        0c69ee27-e130-4271-ab3c-0745c430ed0b
-        108a384c-3dfa-4c27-9448-f8a1c48b59e7
-        124ecbeb-68c2-4ca1-a365-34a3c6e3005a
-        13b786df-f609-4af8-9149-96bb57c1d496
-        1551bd3f-cc38-4311-97ac-a8e7a938706d
-        1a204493-dd68-4d04-9bca-8d6f59979318
-        227bcb60-0554-43cf-bef0-fbd748013f90
-        26e848fd-8457-4d49-b923-75e6ae31f2a2
-        2759c908-4b62-4e82-9358-07f452c11dc7
-        30e6262d-076d-4f21-bf18-a2c49f94e9f7
-        322f8cc4-f6cc-45a7-972f-3dc2aac51c25
-        3c57df60-a97c-49f8-9b08-c39601c31191
-        3d864180-dce2-45f2-85f9-5e02f56065a9
-        3ed98d69-6f09-4ada-b090-7f8108988c58
-        4241f156-63f0-43ca-a51f-195e32a57a01
-        46843207-33f4-4d9e-bb6b-c663c8c33286
-        4e54a909-a0e1-4a06-8630-91c2b09b8824
-        5766d5f7-0e91-4c7c-980b-362840c7cb9b
-        57b43cf3-52cb-4ca2-b2f6-59f4da2f8c8e
-        57cdc1e7-2fa1-4d55-8674-ad095d151e9a
-        593e4ef6-759d-419c-8fda-054fd680035c
-        5c616175-79f8-4d54-87c4-d3d6996b0f8c
-        5dd63a81-ef8a-486d-a95a-1c7b9255cd0e
-        5fb2bc9f-49cb-46ec-9735-baecc4800d5e
-        64331ca7-0a29-435b-890f-193c8315abb4
-        6cd81681-d528-49a6-b59d-3c6db1fc1f2d
-        75d9fd78-1688-4f3b-9f26-92d06fd74108
-        785057b9-fe04-4eb5-b3b3-bed3b73a6d21
-        8287ca59-f479-44bd-8005-674403f2c882
-        82aa2a37-3d63-42be-979c-dd8175f48da7
-        86b30fa9-55c0-4e7f-9b95-dcf0fe9eae2e
-        87ea98a7-4e28-40bf-897f-82db7ac86384
-        8c1a4487-0383-4df6-8cc6-17165d9faf79
-        92093c1d-5f60-49e6-9e9c-eed3d6de5fa3
-        951c97a5-9706-42be-b00f-1f08b0082070
-        966c2c07-0722-4188-aa53-b01a39dd0a2d
-        96799e3e-e216-47ee-8da4-5042250c5a95
-        9783ef28-024b-497d-b2e8-3e3a8f2bcf80
-        9939e4bf-e2b3-4a22-bc24-2419690f4245
-        b46de7fa-4e93-4d5f-bd76-4bcdc7516dd9
-        b6d8da42-b9d4-4b1a-b6cc-e32c0b667007
-        bc565804-053b-4841-9c81-b54a51566d13
-        bd3aa5dd-1836-4495-a68b-e8e6b39a7691
-        c2d2f9ab-efbd-4d92-8a0c-d6ba130ab499
-        cd87404a-d613-46b9-bf10-74422c0edfad
-        dee15cb2-38ba-457e-8a4b-5cf17ffc5402
-        e0d4c01a-4667-4fc3-b2d1-ee10be47e0d5
-        ee388565-b58c-4f2a-9859-7953444678f5
-        f32eebcf-a674-4e2e-af5e-aea9a6cf29e1
-        f3694495-8432-4bf3-8026-1c9bc4ae3727
-        fdd1ad17-6e48-404b-87ad-597367fd12c9
+        0006eec0-827c-45cd-a15c-066db1724331
+        01c8729b-3b8b-4350-a3aa-ee9f86690c44
+        0c4572cc-238b-468b-b8cd-5ba7141b29cb
+        134bbdb1-1645-4a79-bf98-636f60dcf781
+        1d399684-443c-4722-9d73-ac4e13f34e3f
+        220f687c-46a6-43ed-ad4f-38a5cbcdc1bc
+        237dc730-7f29-49e2-be64-2dfc36d179aa
+        23c07b98-95cc-4598-9133-9da6098f3cb8
+        260a73dd-f312-4d07-887a-08b9df381a15
+        261ae2ee-42d9-401d-b3d6-82839b316532
+        26c66f1e-c6ec-4c4f-8106-9e13ff42862a
+        2c2a802c-490a-455e-ba7d-19ded3b7e797
+        373689a9-dc05-4a74-acaa-7a3a2a85f821
+        3de26096-a381-461c-b9ba-c4e3865f49d1
+        3ffb6c5c-2449-4c31-a72e-2b41f59a75cd
+        4297d15c-3137-4468-bb12-013e8fb536d4
+        48ea8864-cb4a-4ada-ac03-343bdfac2fde
+        4dce521b-4db5-4b7d-a09e-e1784ab39324
+        5033bd4b-2285-4b78-9456-064f9ad39f24
+        50975285-6725-48b4-b649-06be8643ff64
+        5f7d94bc-c06d-4bcc-9df9-e208a6cadeb1
+        614fd959-6611-490d-83ab-419dfab73949
+        6a2167c1-4f9e-4ee9-bc5c-0a1d002f22a0
+        6d238ed9-3754-4a04-b555-9b6093d04b7e
+        6ed9dd99-182b-42c2-9bbf-e83f93705677
+        7407b8a6-af93-4ee7-8a2f-0b4e10b8ef8c
+        7619ebbd-f812-4f89-ae4b-4097a30eced7
+        7702295b-8ace-4104-b7ed-bc006ac51f2f
+        802ed02c-01f4-432e-96d3-c9b192292147
+        864c7b4f-f6ea-45d8-9b31-5501809ce2dd
+        8af53863-2917-48ad-8344-8b5b7d1de235
+        90058c32-d246-4ff6-8812-63832180bbc1
+        995661ba-a8cd-4186-bb46-2e297235aba2
+        9b70db3d-2ea2-4c78-9c21-722e136b666e
+        9bfb2661-e91d-47eb-9af2-9189fc3f687d
+        9e784e6b-ea35-4012-ae6b-1f6b1dd5938b
+        adaae206-4ab1-4916-9750-e96f3ce8e0d6
+        ae0956ca-1c47-423b-bb65-443d8e8cc1a4
+        b3792ec1-dbaa-4191-b3fb-f5551950357c
+        b396e618-aaee-429a-a222-a061e48f08e9
+        b3e2bbef-942c-425d-ab0a-b396e8b5b79e
+        b459b4c8-97cd-45e3-9998-5de82c197041
+        c7802f25-4eaf-4ef6-b807-bc0d444d2853
+        ceccea35-9d4e-4286-a936-0419326d3c97
+        d24fee32-02d7-40d3-ac6b-4c2d2c9d7fcc
+        d3c2278d-d4b1-4169-a437-fbeadf66d165
+        d42a3174-1ca7-41b1-8077-301000748d19
+        db58cbe3-7a80-4ee4-925b-a3f44133af43
+        f5aa2214-0eba-4814-a989-8ce84d5d91fd
+        f7c2261c-abab-48a2-8844-3f1ac55b46e8
+        f9f95498-7c2e-404d-a9c2-e1de54ace12e
       )
     )
-    (group "" (id f29174c2-ed85-43f6-8726-0370fa4a375c)
+    (group "" (id ae74718f-8424-4b03-b528-d4abcd4a80a8)
       (members
-        016ac0ba-4dbd-43b0-920c-c3d73c8d0bbc
-        0e626eeb-4f5c-4548-87da-9201d9326cf8
-        21e7558e-4cd4-4199-ae9e-dfb289c7f6ed
-        23a92c16-e17f-4819-8723-a648f3980c17
-        23aa3039-5b28-4a96-82ba-9ec0f6a9569f
-        310c954a-5859-4c86-bc48-6108b61f461f
-        34cd50e1-d551-4f9b-bbf6-67060de769bd
-        38719476-7562-4bb6-b00d-9559175ea799
-        4164871c-4170-4ff4-bde1-61a5418ca4b3
-        4b422177-6011-49e3-88bc-cd7d20bcfa5b
-        4c09dde5-5459-4303-b1c7-3b0fb9774c8a
-        51d4fc1a-8fc4-475e-809b-0fd954f5a14d
-        52492427-9429-4feb-821e-678b202600e0
-        53bc7485-786c-48fa-aca9-c9e811672678
-        54fe1dc6-f73a-4ea7-92c9-0fec006dda49
-        566c3512-a425-4d51-bdc1-408366efb323
-        60826eba-503c-4159-916f-874bea2bce79
-        61248190-6b6c-40a6-be10-8e3070af55e6
-        61fec95d-492a-41fa-b337-03bed75777fb
-        63e5b3db-0a91-491b-83a1-deab61ba1b45
-        63f41807-b0d9-4f00-a37c-3421c75f41fd
-        6540d81a-df76-4601-ae75-3541b6bec381
-        69932656-9ad3-4274-9ead-04a43a42e2db
-        69a0fae2-8b27-4135-b35d-016a7c43a82b
-        6f1b03b5-2fc3-4ad1-9114-c9030a46d352
-        7de6644e-7a14-4c96-b06f-470e4ded036b
-        82d42898-d048-4640-b211-43566eed3cb4
-        8ba5a2a6-d07f-4e93-8ec3-ab75ab9d76ad
-        8d37d664-51f5-4e68-b8ed-a036d1792484
-        98cc4e6f-2878-446c-a430-40839cbb091c
-        9a7b6143-a161-436e-8ce3-07e0ca515102
-        9e612ed7-ac9e-48e1-ab62-a6e2b5b40db9
-        a741ae5f-6a03-4ce9-b4d1-25461c25eff7
-        aaff9e40-99fe-492e-b0cc-a64c78a10ca8
-        ace7a43b-2f81-4c99-b79b-4961fe317fc7
-        b595305f-fe52-4b37-8b74-c6a8b1e0643a
-        b85605a1-e51b-4c9b-a237-08886578e238
-        ba5e695e-d8a7-4b02-89a0-27813b95d00c
-        c3aaa500-8d87-4bd5-93bf-1e1eca2ddd44
-        c53f8705-9cde-486c-86ce-b8d577be2c24
-        cca25bb6-6596-4a8b-b192-357e8e96c83f
-        d3dc3cdb-e7c6-4750-9d23-0a4413f55cab
-        d514fa46-937d-44bf-ad61-ec8b78cc9acf
-        d56f0742-af15-49f1-9594-c6d5073d1fe8
-        dc52af9e-8516-4210-86db-dec592aca8b1
-        e6380b07-c466-4bef-8a13-a9e9c43ceb26
-        eb23ec67-5899-4331-bc48-5c47544e654a
-        f282e5f5-c6cf-4c59-8c73-bf162ba38485
-        f5f71942-177c-4bf4-8221-06b3d0718973
-        fc3baced-b3a9-4a42-9b70-8b2c7d843e26
-        fd15d76d-1f95-4a13-bfc5-3b1885397c7c
-        fe8dcac7-98e3-403e-a8cc-b0cef1cab51d
+        0390b967-e1db-4a44-8f15-71ef3d1437cc
+        0bffb056-8f5e-4c20-8280-df85b2805fd7
+        0f155e94-39ee-4667-9886-2894739fc707
+        13ed84d3-5c3d-4068-893d-474b58c52543
+        17b110ed-0a18-4e69-9260-82a2e9868f57
+        1b612c19-68bc-4ae6-b303-4d46c823fc3d
+        25ae5a55-3cdf-401f-bf0d-35e744650eed
+        2713dfa6-1715-4e2f-810f-aea7d037ef0a
+        27f53157-bf4f-460c-be62-e4ec36391e4c
+        284e1119-18cc-4996-8448-4e5f278cb9d7
+        2d389e9b-b227-4797-b59f-705cc1452c13
+        35a85613-024a-4c49-8ee0-6a770fa55100
+        3e66a367-8d5d-4db5-a5b7-18bcee40c831
+        3e8aa62e-15c5-45ee-94f9-2139149ae0e6
+        49caaa8b-a740-4c12-892f-4897e4c5643f
+        4b8776a1-469e-4843-b2b9-f01b7be495f0
+        4dcca42c-f233-489f-bed4-89dac3082b61
+        5124bf3f-bd1d-43ee-b55a-13ce302ac1b5
+        539e1d18-bdae-4af9-ae7e-05763d95492f
+        572db01b-b8ae-4ace-811c-b068642e510e
+        6d2fc374-764e-4808-97d5-6c891bec5230
+        77888f46-61cf-426d-96d5-9eba8dfde29e
+        7c55bd02-5571-4ad1-acf7-eff2ef54fd9f
+        945fc48d-610f-4df0-8389-db03c6d03b34
+        9914d0ae-e2c0-4587-ac13-a35ce997be94
+        9947f276-70f6-4daf-9def-e03a88f948ed
+        9a6c0460-95e7-47bf-a1b3-a04c4530e352
+        9ca3d66e-7083-4794-b183-87a4ad2b32b1
+        a7ff5c8c-af67-41ab-a6af-ffeb788fbc5e
+        aba850b1-f656-41ad-9234-929def015159
+        ae34a944-fe33-4f71-826c-c75aa76bd405
+        b5b9dbb5-eafa-4260-904f-10d3592716f7
+        b6af8133-72db-4db5-a7bb-9a32b14d37e9
+        baa8998f-d3e7-4ad5-b05e-8941d2e6c775
+        be5d2687-1c1d-4e31-bfa4-b8278ae35e29
+        c47ace15-3c37-47a9-9ce7-32358240100f
+        c789e6fa-5776-4442-ab72-c182a5ff9cc1
+        c8da9b3a-147a-4970-913f-2db603b63f69
+        ca0da1b7-2262-4a94-8446-2d400bc1195d
+        cc0f670a-3121-4291-9c19-d62a5537b020
+        d0ecd534-548f-4ba1-9cfe-fc4aa5328c16
+        dbb400da-5469-4e2b-b8fb-eed1583bfdd1
+        dc8dada5-acdc-413c-b23c-4350453a2ded
+        dcc71ed6-0fd1-4109-be3b-39925142147b
+        de21e753-df6a-42c4-a617-0e25493d520a
+        e0d0f1fa-354c-474a-860c-d4c8f34c97ae
+        e211e975-bd94-4979-9c4f-20b6901b94f1
+        f4e0ee63-5057-4d7a-b040-f5befd803d32
+        f6ca1c41-44e7-468a-9391-af41aef620f6
+        f8d4f1a8-9b2d-48ee-ae68-50a6455a1f79
+        fae30fd4-6a92-4f0b-98ec-b2b9d548ac10
       )
     )
-    (group "" (id 30bbc83e-c606-45ed-9ad7-ffeb36bffc2a)
+    (group "" (id 2ec9d3de-0c8d-43a8-b4e3-9e6e595d8a81)
       (members
-        0851c582-77b1-4502-afc5-6af130446f56
-        59abb88f-d2b7-4f27-bbce-314cda04933c
-        6aa13f57-b9ce-4358-bb5c-f2c57be846f8
-        7bd2c12b-d90d-4601-b841-b70b8dd89b12
-        7c310b13-54be-4fe6-bb1f-790318f04e12
-        89473e76-17f7-4f10-ba3b-6df344761b2d
-        ab93f93b-ba33-4746-b143-73d4b2f9da4d
-        b15f7397-bf9a-4186-8766-09c65b4200f8
-        b2317141-60b9-4b45-be04-50f82138aa9c
-        c1be6a41-fd9d-4386-8504-d06a0c815943
+        1162a06b-3ea6-497b-b1f0-3b8003f28d08
+        2b9640c7-2bb6-48c5-b41e-b7c236c9374c
+        4020d296-3612-411f-972b-f8674b01bff7
+        61639c8e-63af-46a8-9b1d-5bf006d9ad98
+        681f3727-d61d-40f3-9f19-03400ee69baf
+        aa41b976-1844-4d4d-af3b-8ea23f10f618
+        ba777ff8-0a6b-4f02-bd48-cf6c9f70c716
+        c207b1e7-cc59-43d0-9ac0-45547de499ea
+        d2cdf550-ae22-4e9a-bc74-838ec7f060bb
+        e3aaaac1-d0eb-497b-9484-b99c54b366bb
       )
     )
-    (group "" (id 5a5d848a-1eb0-41d0-b418-b771065acd33)
+    (group "" (id c91d5a80-bffb-45ad-bed2-0bf405e9a1da)
       (members
-        0c1b4068-e811-4370-bb27-e0ba3908298f
-        1414b62e-e9b5-4fde-afbc-2194fa1eb12b
-        214acbb0-1734-4c08-a236-fd251f14ee77
-        2294361c-cdfd-4cae-9521-41871a022e74
-        6f5dc835-83de-4671-b164-a98bb0d5180d
-        a7f6f510-55d7-447a-9f2f-77be4b13429b
-        d7ebdbe6-ec3e-4e38-af7e-35e232c76838
-        df02e262-d383-4d2f-9e60-5cb538d687ef
-        e0e80902-c9c6-4426-896c-3eaad006b7ec
-        e206ff73-7820-4e56-8a7a-5cd50b4fa169
+        2206aa83-d0e6-4111-8765-56cd09b561f6
+        871427f3-576c-4cd1-a600-fab416c6beb6
+        89503c9b-dcb8-4c4f-ada7-37f9f44eadd1
+        912741d6-d0ef-477b-b023-eab70adfb2ac
+        b197ff5b-4d4f-4f4a-b0dd-108a83522c35
+        b3b31c1b-6b7a-4cb4-b185-1390803d7b62
+        d009926c-2fde-4035-9741-f66840a7a803
+        d5ee5843-a964-471a-a969-09a8cdba356d
+        ed51940f-9bbd-4e65-8c17-c998d266600c
+        f6052142-9262-4fdd-b8ab-9de3e0d5ed95
       )
     )
-    (group "" (id ca88b82d-f739-470b-a783-7ed0dd52a3af)
+    (group "" (id cdfe4884-60e2-4762-8220-67b0f419cc9a)
       (members
-        0eff1cb1-6b11-44ab-97f6-0797056c26f3
-        1078407c-7033-45d7-8abf-b879c8a97303
-        1453c4f1-67b8-4b6d-bca9-179cfea0dffb
-        2832ad13-edb4-4812-85cc-32c43ab9abdd
-        55789cfa-874d-44ae-95b1-6e10f9768397
-        642e8906-4140-418a-b61b-9364a15fc33d
-        6b2e91b3-0a7a-48cc-a591-70754a1e7557
-        b88f1339-0669-41cf-998f-279d33046827
-        ce8cbec7-b33f-42d6-b145-9aa3fd5c299e
-        e2d56c22-7c59-4f90-bd2e-5a171c2c3731
+        0f64fe5a-8e58-45ae-8cd0-dc2b9baa696b
+        107374a3-02fe-4c21-9aa1-1427bbb321f2
+        11aeec16-8e5c-4a30-8188-7b87619755f3
+        3848e327-b4a4-4dc9-b5dd-71e946b6fcc2
+        3add0afb-6f8e-4276-b433-f3cb99d77403
+        6129e9ea-6a59-49ef-9376-294e829d04e6
+        65d2fb11-0c64-4ef0-b9a0-ee61ee8c110a
+        aed3520f-3997-498c-ad80-ca3ab48af8c4
+        e713279d-672d-496c-ab50-912a9f01649d
+        ff5a877b-0907-40c3-88ef-cd9709370ae0
       )
     )
-    (group "" (id d08014ac-de8f-42ab-9ab2-9c3c29b7c763)
+    (group "" (id ec22048c-cdfa-4dac-b099-a82189382304)
       (members
-        1c1f4fc4-bd36-41c1-a2c0-762185fe9ee1
-        431c3e2c-7970-4283-95fb-5af2ec8b7af7
-        728d8f19-556f-414f-8c16-e263e893e1e6
-        82f916ff-cbc7-439e-9ba5-a1586be3354f
-        93ba2aca-4eba-4290-a02e-d54d2fa42196
-        972332c3-5dd2-46f4-8fae-fd1335633584
-        a1854c71-410b-47f6-acfd-c0aa88ca65db
-        ad16ea05-1865-4df1-bc89-4dc0fd38522f
-        bc754d8a-29cf-4dd1-934e-ecfb228a45b1
-        d4179656-e188-4551-ba3e-65d4aa55293e
+        002c13d0-c27b-455b-90d1-cf27f40b0e94
+        0a8719db-7ae8-4b32-8105-ce9c5d8d55c6
+        1988dc77-7b89-453f-97e6-1c14695357a2
+        32234908-c75e-4f80-942f-0c8dac4567e6
+        40f20cdc-253a-49fe-b5ae-3f53abc1faa3
+        4d22bdbf-ce1e-4b75-a9de-cc9ab5e0078c
+        6d78707d-fd87-44e7-817e-91edbfaba460
+        84ab3175-5c4a-41c1-b3b0-ea8b8a235883
+        8d724bf2-2f52-4152-ba3b-6724351dd954
+        baedcba6-01ea-4837-a126-1e1dd25b9520
       )
     )
     (model "${KIPRJMOD}/lib.pretty/pico-ice-v3.wrl"
@@ -2633,11 +2625,6 @@
     )
     (model "${KIPRJMOD}/lib.pretty/M2.5_hex_5mm.stp"
       (offset (xyz -8.9 -29.2 5))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 180 0))
-    )
-    (model "${KIPRJMOD}/lib.pretty/M2.5_hex_5mm.stp"
-      (offset (xyz -8.9 -29.2 -6.6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
