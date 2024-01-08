@@ -9,7 +9,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 06d8eb6a-4222-41d9-b518-4d60ad588f3b)
   )
-  (fp_text user "USB-C" (at 0 27.94 unlocked) (layer "F.SilkS")
+  (fp_text user "USB-C" (at 0 30.48 unlocked) (layer "F.SilkS")
       (effects (font (size 2 2) (thickness 0.2) bold) (justify bottom))
     (tstamp 286a92ee-231c-436e-95d8-c238d668c26a)
   )
