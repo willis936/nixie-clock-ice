@@ -2,9 +2,9 @@
 [D] Finish decoupling caps on main board
 [D] Use a common emitter to bleed HV capacitor only when 3.3V is not present (simulate behavior), bleed with 10M always
 [ ] Check that analog traces are clear of DIO traces
-[ ] Check TX/RX polarity
-[ ] Check FPGA GPIO banking rules
-[ ] Flip pico iCE over for better access to user I/O
+[D] Check TX/RX polarity
+[D] Check FPGA GPIO banking rules
+[D] Flip pico iCE over for better access to user I/O
 [D] Make sure SW2 is used for timezone offset control
 [D] Remove pulldown resistors from DIP switches
 [D] Make sure DIP switches connect to ground for pull-up compatability
@@ -20,6 +20,7 @@
 [D] ML2032 charging circuit (LTC4054) + 3.3V regulator (shelved, KISS)
 [ ] Second set of tubes on another board to the side for precision time (use a sense GPIO to increase the HV data width and OE rate)
 [ ] Add fiducials
+[D] Check if bias-T is needed for GPS active antenna
 
 https://github.com/azonenberg/pcb-checklist
 
