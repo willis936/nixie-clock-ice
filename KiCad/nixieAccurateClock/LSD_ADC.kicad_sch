@@ -1065,10 +1065,6 @@
     (stroke (width 0) (type default))
     (uuid 126e1e08-7d6c-4bbb-ad50-5ab7dac01c93)
   )
-  (wire (pts (xy 67.31 40.64) (xy 71.12 40.64))
-    (stroke (width 0) (type default))
-    (uuid 147f4704-cc71-405d-9ef4-8182b678b64c)
-  )
   (wire (pts (xy 67.31 53.34) (xy 71.12 53.34))
     (stroke (width 0) (type default))
     (uuid 1aa1dc49-de8e-4001-bf5c-ed707031ba97)
@@ -1092,6 +1088,10 @@
   (wire (pts (xy 157.48 60.96) (xy 166.37 60.96))
     (stroke (width 0) (type default))
     (uuid 28f1d4c0-a1b6-47f9-91a7-69bf1e36340f)
+  )
+  (wire (pts (xy 67.31 40.64) (xy 71.12 40.64))
+    (stroke (width 0) (type default))
+    (uuid 29a49caf-90ac-4a29-b956-acf038ee2971)
   )
   (wire (pts (xy 257.81 74.93) (xy 254 74.93))
     (stroke (width 0) (type default))
@@ -1402,8 +1402,8 @@
     (uuid fe0d68ed-d1a2-4723-9311-63a25102017d)
   )
 
-  (text_box "Use HV_{SENSE} signal as reference to have range track brightness."
-    (at 26.67 39.37 0) (size 29.21 8.89)
+  (text_box "Use HV_{MEASURE} signal as reference to have range track brightness."
+    (at 24.13 38.1 0) (size 29.21 8.89)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
@@ -1581,6 +1581,13 @@
     (uuid fff6c5fa-b375-40de-9976-fbe8214d8b4d)
   )
 
+  (global_label "HV_{MEASURE}" (shape input) (at 67.31 40.64 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 0086a94a-704c-47e0-8aac-f2ad03eb4b45)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 54.9365 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "LSD_{ADC_D6}" (shape output) (at 229.87 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 042f1ebb-5cbb-40a8-8561-d2fca2c47f74)
@@ -1637,13 +1644,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "HV_{SENSE}" (shape input) (at 67.31 40.64 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 75a924d6-fcbc-435b-a420-c761cc9c0643)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 57.0169 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "LSD_{ADC_~{WR}{slash}RDY}" (shape input) (at 154.94 82.55 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8d373a6a-d365-476b-a0ad-e91471fc6290)
@@ -1665,10 +1665,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "HV_{SENSE}" (shape input) (at 114.3 149.86 90) (fields_autoplaced)
+  (global_label "HV_{MEASURE}" (shape input) (at 114.3 149.86 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c1b68602-0547-49f2-aa9e-d2c4288b4b98)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 114.3 139.5669 90)
+    (uuid ce30e5b4-4bed-4dfd-9e44-9eec9f9e3791)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 114.3 137.4865 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1733,7 +1733,7 @@
   (symbol (lib_id "power:GND") (at 87.63 30.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10451663-89c3-4bff-b255-3d936c1e5467)
-    (property "Reference" "#PWR088" (at 87.63 24.13 0)
+    (property "Reference" "#PWR085" (at 87.63 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 25.4 90)
@@ -1749,7 +1749,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -1758,7 +1758,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 88.9 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12ca070e-4a48-4570-90a6-9a187e4772cf)
-    (property "Reference" "TP20" (at 85.598 119.38 90)
+    (property "Reference" "TP17" (at 85.598 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 85.598 121.92 90)
@@ -1780,7 +1780,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "TP20") (unit 1)
+          (reference "TP17") (unit 1)
         )
       )
     )
@@ -1789,7 +1789,7 @@
   (symbol (lib_id "power:+3.3V") (at 241.3 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 154bbb53-1e87-4f88-99f0-664deb800e8c)
-    (property "Reference" "#PWR092" (at 241.3 54.61 0)
+    (property "Reference" "#PWR089" (at 241.3 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 241.3 44.45 90)
@@ -1805,7 +1805,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -1919,7 +1919,7 @@
   (symbol (lib_id "Device:R") (at 140.97 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 530588a1-ae55-4002-8f21-a44aa054160a)
-    (property "Reference" "R28" (at 140.97 63.5 90)
+    (property "Reference" "R27" (at 140.97 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 140.97 66.04 90)
@@ -1939,7 +1939,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "R28") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -1948,7 +1948,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 125.73 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5681992f-9965-45f5-8e9d-3ff1238f8b53)
-    (property "Reference" "TP21" (at 128.27 155.448 0)
+    (property "Reference" "TP18" (at 128.27 155.448 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 128.27 157.988 0)
@@ -1970,7 +1970,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "TP21") (unit 1)
+          (reference "TP18") (unit 1)
         )
       )
     )
@@ -2018,7 +2018,7 @@
   (symbol (lib_id "power:GND") (at 133.35 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63bf9cc5-45e1-4b6a-9c3c-8af9bdef950b)
-    (property "Reference" "#PWR094" (at 127 69.85 0)
+    (property "Reference" "#PWR091" (at 127 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 69.85 90)
@@ -2034,7 +2034,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -2043,7 +2043,7 @@
   (symbol (lib_id "power:+5V") (at 246.38 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68c3dc8b-5d97-40b0-bd74-8807a699d62b)
-    (property "Reference" "#PWR093" (at 246.38 54.61 0)
+    (property "Reference" "#PWR090" (at 246.38 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 246.38 45.72 90)
@@ -2059,7 +2059,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -2068,7 +2068,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 107.95 176.53 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69f74aba-2cae-4e9e-8395-35cfc48ae4ba)
-    (property "Reference" "TP22" (at 104.648 181.61 90)
+    (property "Reference" "TP19" (at 104.648 181.61 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 104.648 179.07 90)
@@ -2090,7 +2090,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "TP22") (unit 1)
+          (reference "TP19") (unit 1)
         )
       )
     )
@@ -2099,7 +2099,7 @@
   (symbol (lib_id "Device:R") (at 215.9 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c119fde-384b-407b-af43-d3b4158ce75a)
-    (property "Reference" "R29" (at 215.9 63.5 90)
+    (property "Reference" "R28" (at 215.9 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 215.9 66.04 90)
@@ -2119,7 +2119,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "R29") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -2128,7 +2128,7 @@
   (symbol (lib_id "power:GND") (at 135.89 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e1194ed-fc3a-44ec-ab66-7dbea0acb42f)
-    (property "Reference" "#PWR0100" (at 135.89 196.85 0)
+    (property "Reference" "#PWR097" (at 135.89 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 195.58 0)
@@ -2144,7 +2144,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -2153,7 +2153,7 @@
   (symbol (lib_id "power:+3.3V") (at 166.37 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84a8571b-404c-4a16-bea6-80a68792a404)
-    (property "Reference" "#PWR090" (at 166.37 54.61 0)
+    (property "Reference" "#PWR087" (at 166.37 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 166.37 44.45 90)
@@ -2169,7 +2169,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -2178,7 +2178,7 @@
   (symbol (lib_id "power:GND") (at 114.3 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2534161-b6f0-42f4-8b46-babbbcba90c6)
-    (property "Reference" "#PWR099" (at 114.3 196.85 0)
+    (property "Reference" "#PWR096" (at 114.3 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 114.3 195.58 0)
@@ -2194,7 +2194,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -2203,7 +2203,7 @@
   (symbol (lib_id "power:GND") (at 168.91 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a815d683-a427-4474-852f-178002417ed1)
-    (property "Reference" "#PWR096" (at 168.91 107.95 0)
+    (property "Reference" "#PWR093" (at 168.91 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 106.68 0)
@@ -2219,7 +2219,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -2228,7 +2228,7 @@
   (symbol (lib_id "Device:R") (at 93.98 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b446af70-9f8f-43e9-9bcf-90699834b211)
-    (property "Reference" "R30" (at 96.52 110.49 0)
+    (property "Reference" "R29" (at 96.52 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10M" (at 96.52 113.03 0)
@@ -2248,7 +2248,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "R30") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -2257,7 +2257,7 @@
   (symbol (lib_id "Device:R") (at 114.3 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b770210c-aca3-41de-8719-1804924ba5dd)
-    (property "Reference" "R33" (at 116.84 180.34 0)
+    (property "Reference" "R32" (at 116.84 180.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 116.84 182.88 0)
@@ -2277,7 +2277,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "R33") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -2286,7 +2286,7 @@
   (symbol (lib_id "power:VPP") (at 93.98 144.78 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7a9a718-7550-463b-8f4b-65bf86574c96)
-    (property "Reference" "#PWR098" (at 93.98 140.97 0)
+    (property "Reference" "#PWR095" (at 93.98 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VPP" (at 93.98 149.86 0)
@@ -2302,7 +2302,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -2311,7 +2311,7 @@
   (symbol (lib_id "power:+5V") (at 171.45 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8b120ce-b0df-4c9f-8863-beba8697e374)
-    (property "Reference" "#PWR091" (at 171.45 54.61 0)
+    (property "Reference" "#PWR088" (at 171.45 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 171.45 45.72 90)
@@ -2327,7 +2327,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -2336,7 +2336,7 @@
   (symbol (lib_id "power:GND") (at 243.84 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3746efd-3a71-4e3c-ad64-165783a9c1db)
-    (property "Reference" "#PWR097" (at 243.84 107.95 0)
+    (property "Reference" "#PWR094" (at 243.84 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 106.68 0)
@@ -2352,7 +2352,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -2361,7 +2361,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 135.89 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3af6297-04ec-4d58-866d-4cd77850b4eb)
-    (property "Reference" "TP23" (at 138.43 183.388 0)
+    (property "Reference" "TP20" (at 138.43 183.388 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (at 138.43 185.928 0)
@@ -2383,7 +2383,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "TP23") (unit 1)
+          (reference "TP20") (unit 1)
         )
       )
     )
@@ -2392,7 +2392,7 @@
   (symbol (lib_id "power:GND") (at 68.58 43.18 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3c9cdc5-76dd-43ac-8db6-6f0d6c1fbb61)
-    (property "Reference" "#PWR089" (at 62.23 43.18 0)
+    (property "Reference" "#PWR086" (at 62.23 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 43.18 90)
@@ -2408,7 +2408,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -2417,7 +2417,7 @@
   (symbol (lib_id "power:+5V") (at 83.82 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d60c62d6-4c3b-481a-8f50-795d7c1ab325)
-    (property "Reference" "#PWR087" (at 83.82 27.94 0)
+    (property "Reference" "#PWR084" (at 83.82 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 83.82 19.05 90)
@@ -2433,7 +2433,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -2547,7 +2547,7 @@
   (symbol (lib_id "Device:R") (at 114.3 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed0dcda1-6538-4853-b5e8-e887f56cbf88)
-    (property "Reference" "R32" (at 116.84 156.21 0)
+    (property "Reference" "R31" (at 116.84 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 116.84 158.75 0)
@@ -2567,7 +2567,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "R32") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -2576,7 +2576,7 @@
   (symbol (lib_id "Device:R") (at 93.98 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4a7c680-55eb-4cab-aba5-4a30013e75ba)
-    (property "Reference" "R31" (at 96.52 134.62 0)
+    (property "Reference" "R30" (at 96.52 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 96.52 137.16 0)
@@ -2596,7 +2596,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "R31") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -2652,7 +2652,7 @@
   (symbol (lib_id "power:GND") (at 208.28 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc49077e-ea74-4651-aa4d-7729f025d9ee)
-    (property "Reference" "#PWR095" (at 201.93 69.85 0)
+    (property "Reference" "#PWR092" (at 201.93 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 69.85 90)
@@ -2668,7 +2668,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/919829db-9d44-4db4-a8a4-73523a1d66d3"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )

@@ -479,36 +479,12 @@
         "pattern": "/High voltage supply/HV_{BOOST}"
       },
       {
-        "netclass": "Default",
-        "pattern": "*LSD_{ADC*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "+3.3V"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "unconnected-(U11-*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "*VCC_{lvl*"
+        "netclass": "HV",
+        "pattern": "HV_{SENSE}"
       },
       {
         "netclass": "HV",
-        "pattern": "/High voltage supply/HV_{SENSE}"
-      },
-      {
-        "netclass": "HV",
-        "pattern": "/HV_bleed/HV_Bleed_{drain}"
+        "pattern": "/HV bleed/HV_bleed_{drain}"
       }
     ]
   },

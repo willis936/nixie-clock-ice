@@ -1499,7 +1499,7 @@
     (property "Value" "40m" (at 163.83 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 161.798 66.04 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 161.798 66.04 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.vishay.com/docs/30122/wslp.pdf" (at 160.02 66.04 0)
