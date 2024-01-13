@@ -1229,6 +1229,13 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 285c4539-d2cb-42aa-b399-2fbc9ea02bbd)
   )
+  (text_box "See ../../LTSpice/HV_control.asc for simulation."
+    (at 140.97 116.84 0) (size 50.8 3.81)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 6674582d-137e-4179-ae6a-86fa8b7335ce)
+  )
   (text_box "Calculations captured in LM5155_56_Quickstart_Calculator_for_Boost_Converter_Design_V1_1_1_20to210.xlsx."
     (at 46.99 102.87 0) (size 82.55 6.35)
     (stroke (width 0) (type default))
