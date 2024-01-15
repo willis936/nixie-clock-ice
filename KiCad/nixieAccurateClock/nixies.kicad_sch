@@ -1173,7 +1173,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 45.72 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4034fb47-4d4f-4fbd-bc7a-9b8f6aac9e31)
-    (property "Reference" "J9" (at 46.99 124.46 0)
+    (property "Reference" "J11" (at 46.99 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x05_Odd_Even" (at 46.99 127 0)
@@ -1210,7 +1210,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "J9") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
