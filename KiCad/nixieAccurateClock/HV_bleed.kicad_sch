@@ -689,7 +689,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 66.04 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 357d0d96-60b7-4db3-9343-785018171bfd)
-    (property "Reference" "TP15" (at 62.738 63.5 90)
+    (property "Reference" "TP12" (at 62.738 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 62.738 66.04 90)
@@ -720,7 +720,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/21095f53-01f6-40ea-bb6b-e8b09c532104"
-          (reference "TP15") (unit 1)
+          (reference "TP12") (unit 1)
         )
       )
     )
@@ -875,7 +875,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 90.17 77.47 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbbd8d2b-a5d8-401b-826e-b805b0bfb814)
-    (property "Reference" "TP16" (at 86.868 82.4284 90)
+    (property "Reference" "TP13" (at 86.868 82.4284 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 86.868 79.8884 90)
@@ -906,7 +906,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/21095f53-01f6-40ea-bb6b-e8b09c532104"
-          (reference "TP16") (unit 1)
+          (reference "TP13") (unit 1)
         )
       )
     )
@@ -997,7 +997,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 90.17 58.42 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid efbdd4a9-a26c-4ca1-bb91-b85a8d237123)
-    (property "Reference" "TP14" (at 86.868 63.5 90)
+    (property "Reference" "TP11" (at 86.868 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 86.868 60.96 90)
@@ -1028,7 +1028,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/21095f53-01f6-40ea-bb6b-e8b09c532104"
-          (reference "TP14") (unit 1)
+          (reference "TP11") (unit 1)
         )
       )
     )
