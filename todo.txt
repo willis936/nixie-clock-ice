@@ -1,7 +1,7 @@
 [D] Finish decoupling caps on daughter board
 [D] Finish decoupling caps on main board
 [D] Use a common emitter to bleed HV capacitor only when 3.3V is not present (simulate behavior), bleed with 10M always
-[ ] Check that analog traces are clear of DIO traces
+[D] Check that analog traces are clear of DIO traces
 [D] Check TX/RX polarity
 [D] Check FPGA GPIO banking rules
 [D] Flip pico iCE over for better access to user I/O
