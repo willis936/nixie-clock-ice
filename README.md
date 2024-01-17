@@ -13,7 +13,7 @@ Uses a PICO-iCE v3 FPGA + MCU module.
 4. Do not require or allow the user to manually set the time.
 5. Display the time within 30 seconds of power on.
 6. Use a single power entry.
-7. Use no more than 3 W of power.
+7. Use no more than 3 W of power.  [not a real requirement, also difficult to achive with brightness control]
 8. Use a single radio receiver to establish local timebase.
 9. Have a user-selectable mode for Daylight Savings Time (DST) checking.
 10. Use longitude to estimate DST date range.
@@ -24,7 +24,7 @@ Uses a PICO-iCE v3 FPGA + MCU module.
 15. Use an ambient light detector to automatically adjust nixie tube brightness.
 16. Have a user-selectable manual brightness mode.
 17. Use a potentiometer to set the brightness in manual brightness mode.
-18. Run a nixie tube anti-poisoning routine once a day (cycle through all digits at reasonably high brightness for a minute).
+18. Run a nixie tube anti-poisoning routine once a day (cycle through all digits at high brightness for a minute).
 19. Have a user-selectable mode to enable daily anti-poisoning routine
 20. Have a user-selectable mode to force anti-poisoning routine on indefinitely.
 21. Have a user-selectable 12-hour / 24-hour display mode.
