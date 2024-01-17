@@ -28,6 +28,11 @@ fp-info-cache
 *.xml
 *.csv
 
+# output files
+*.gbr
+*.drl
+*.pdf
+
 
 # LTSpice
 # Logfile
