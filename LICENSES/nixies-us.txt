@@ -1,0 +1,8 @@
+https://github.com/judge2005/Eagle-and-KiCAD-Nixie-Libs
+https://www.nixies.us/resources/eagle-kicad-libraries/
+
+The IN-12 and IN-14 footprints were copied from nixies.us github repo.
+
+There is no license in this repo.
+
+These footprints can be reproduced from public domain drawings if necessary.
