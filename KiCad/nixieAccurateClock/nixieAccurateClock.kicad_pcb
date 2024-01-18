@@ -10303,8 +10303,8 @@
   (gr_text "4.5" (at 123.442142 171.496) (layer "Cmts.User") (tstamp ff09d075-27e5-4c31-a16d-a50c38e38b58)
     (effects (font (size 1.5 1.5) (thickness 0.1)) (justify left top))
   )
-  (gr_text_box "Fabrication notes:\n1. Use ENIG coating.\n2. Use black solder mask.\n3. All vias are tented.\n4. All vias are 0.4 mm.\n5. 1.6 mm thick board.\n6. Use FR4 core.\n7. Use 2 oz copper on outer layers.\n8. Use 1.5 oz copper on inner layers.\n9. Use 0.22 mm thick prepreg.\n\nAssembly notes:\n1. Single side assembly (top).\n2. Use lead free solder.\n3. Do not procure or install U2 (pico iCE).  Install only 2x 2x20 0.1{dblquote} pin sockets.\n4. No special component handling."
-    (start 173.875 55.375) (end 278.375 95.625) (layer "Cmts.User") (tstamp 8e981569-3de8-4f47-b10b-b8bb858e40d7)
+  (gr_text_box "Fabrication notes:\n1. Use ENIG coating.\n2. Use black solder mask.\n3. All vias are tented.\n4. All vias are 0.4 mm.\n5. 1.6 mm thick board.\n6. Use FR4 core.\n7. Use 2 oz copper on outer layers.\n8. Use 1.5 oz copper on inner layers.\n9. Use 0.22 mm thick prepreg.\n\nAssembly notes:\n1. Single side assembly (top).\n2. Use lead free solder.\n3. Do not procure or install U2 (pico iCE).\n   Install only 2x 2x20 0.1{dblquote} pin sockets.\n4. Do not procure or install U7-U12 (nixie daughter boards).\n   Install only 6x 2x5 0.1{dblquote} pin sockets.\n5. No special component handling."
+    (start 173.875 55.375) (end 278.375 103.125) (layer "Cmts.User") (tstamp 8e981569-3de8-4f47-b10b-b8bb858e40d7)
       (effects (font (size 1.5 1.5) (thickness 0.15)) (justify left top))
     (stroke (width 0.15) (type solid))  )
 
