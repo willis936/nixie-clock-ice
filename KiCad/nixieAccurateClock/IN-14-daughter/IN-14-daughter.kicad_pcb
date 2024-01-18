@@ -1427,8 +1427,8 @@
   (gr_text "" (at 67.539285 143.949) (layer "Cmts.User") (tstamp fd74a4af-eb75-4d0e-8483-d3b1e518a0fd)
     (effects (font (size 1.5 1.5) (thickness 0.1)) (justify left top))
   )
-  (gr_text_box "Fabrication notes:\n1. Use ENIG coating.\n2. Use black solder mask.\n3. 1.6 mm thick board.\n4. Use FR4 core.\n5. Use 2 oz copper on outer layers.\n6. Use 1.5 oz copper on inner layers.\n7. Use 0.22 mm thick prepreg.\n\nAssembly notes:\n1. Single side assembly (bottom).\n2. Use lead free solder.\n3. Do not procure or install N1 (IN-14).\n4. No special component handling."
-    (start 67.25 18.75) (end 171.75 54.75) (layer "Cmts.User") (tstamp a56619ce-4ce4-483a-a40b-685d6f1ddd39)
+  (gr_text_box "Fabrication notes:\n1. Use ENIG coating.\n2. Use black solder mask.\n3. All vias are tented.\n4. All vias are 0.3 mm.\n5. 1.6 mm thick board.\n6. Use FR4 core.\n7. Use 2 oz copper on outer layers.\n8. Use 1.5 oz copper on inner layers.\n9. Use 0.22 mm thick prepreg.\n\nAssembly notes:\n1. Single side assembly (bottom).\n2. Use lead free solder.\n3. Do not procure or install N1 (IN-14).\n4. No special component handling."
+    (start 67.25 18.25) (end 171.75 58.25) (layer "Cmts.User") (tstamp a56619ce-4ce4-483a-a40b-685d6f1ddd39)
       (effects (font (size 1.5 1.5) (thickness 0.15)) (justify left top))
     (stroke (width 0.15) (type solid))  )
 
