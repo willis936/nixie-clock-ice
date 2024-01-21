@@ -24,7 +24,8 @@
 
 https://github.com/azonenberg/pcb-checklist
 
-[ ] SW: blink LED
+[D] SW: blink LED
+[ ] SW: configure pinouts
 [ ] SW: PWM drive for HV
 [ ] SW: read in ADC value to trim PWM
 [ ] SW: read in DIP switches
@@ -32,4 +33,4 @@ https://github.com/azonenberg/pcb-checklist
 [ ] SW: HV509 shift register driver
 [ ] SW: delay locked loop PPS to current sense comparator inputs
 [ ] SW: experiment with adjusting brightness based on ambient light with voltage control
-[ ] SW new year's countdown with pulsing brightness and decimal point scan celebration
+[ ] SW: new year's countdown with pulsing brightness and decimal point scan celebration

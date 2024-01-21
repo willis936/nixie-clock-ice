@@ -6,6 +6,24 @@ Uses a PICO-iCE v3 FPGA + MCU module.
  - Raspberry Pi RP2040 processor
  - Lattice UltraPlus ICE40UP5K FPGA with 5.3k LUTs, 1Mb SPRAM, 120Kb DPRAM, 8 Multipliers
 
+# Building
+
+## FPGA
+Use Visual Studio Code.
+
+Install python.
+
+Install apio and oss CAD suite
+pip install -U apio
+
+Test project using the APIO guide here:
+https://pico-ice.tinyvision.ai/md_programming_the_fpga.html
+
+Use UF2 on WSL to convert the bin to UF2 then copy over CURRENT.UF2 on mounted USB drive pico ice.
+https://github.com/tinyvision-ai-inc/uf2-utils/
+
+`bin2uf2 -f 0x692e7263 -o NEW.UF2 hardware.bin
+
 # Requirements
 1. Display the time with 1 microsecond accuracy.
 2. Display the time with 1 second precision.

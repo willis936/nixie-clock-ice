@@ -32,7 +32,7 @@ fp-info-cache
 *.gbr
 *.drl
 *.pdf
-renders/*
+hardware/renders
 
 
 # LTSpice
@@ -45,3 +45,19 @@ renders/*
 
 # Netlist
 *.net
+
+# preserve design files
+!/hardware/*/*.asc
+!/hardware/*/*.asy
+!/hardware/*/*.plt
+!/hardware/*/*.lib
+
+
+# FPGA
+/software/UP5K/*/*.uf2
+/software/UP5K/*/*.bin
+/software/UP5K/*/*.asc
+/software/UP5K/*/*.json
+/software/UP5K/*/*.history
+/software/UP5K/*/*.dblite
+
