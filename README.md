@@ -1,4 +1,5 @@
 # nixie-clock-ice
+
  Hardware and software source for a GPS nixie tube clock with delay correction.
 
 Uses a PICO-iCE v3 FPGA + MCU module.
@@ -8,14 +9,33 @@ Uses a PICO-iCE v3 FPGA + MCU module.
 
 # Building
 
+## MCU
+
+Follow the pico ice Getting Started section.
+
+Using Ubuntu WSL the apt version of cmake is not high enough.
+
+Install an appropriate version like this:
+
+```cd /usr/local/src
+
+sudo wget https://github.com/Kitware/CMake/releases/download/v3.28.1/cmake-3.28.1-linux-x86_64.tar.gz
+
+sudo tar -zxvf cmake-3.28.1-linux-x86_64.tar.gz
+
+sudo rm cmake-3.28.1-linux-x86_64.tar.gz
+
+sudo ln /usr/local/src/cmake-3.28.1-linux-x86_64/bin/cmake /usr/local/bin/cmake```
+
 ## FPGA
-Use Visual Studio Code.
 
-Install python.
+Install python 3.5+.
 
-Install apio and oss CAD suite
+Install apio and oss CAD suite.
 
 `pip install -U apio`
+
+`apio install -a`
 
 Test project using the APIO guide here:
 
@@ -26,6 +46,7 @@ Use UF2 on WSL to convert the bin to UF2 then copy over CURRENT.UF2 on mounted U
 https://github.com/tinyvision-ai-inc/uf2-utils/
 
 # Requirements
+
 1. Display the time with 1 microsecond accuracy.
 2. Display the time with 1 second precision.
 3. Use nixie tubes to display the time.
