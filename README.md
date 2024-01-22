@@ -13,19 +13,29 @@ Uses a PICO-iCE v3 FPGA + MCU module.
 
 Follow the pico ice Getting Started section.
 
-Using Ubuntu WSL the apt version of cmake is not high enough.
+Using Ubuntu WSL the apt version of cmake is currently not high enough.
 
 Install an appropriate version like this:
 
-```cd /usr/local/src
+https://www.linuxcapable.com/how-to-install-cmake-on-ubuntu-linux/
 
-sudo wget https://github.com/Kitware/CMake/releases/download/v3.28.1/cmake-3.28.1-linux-x86_64.tar.gz
+```sudo apt update && sudo apt install build-essential checkinstall zlib1g-dev libssl-dev g++ gdb make ninja-build rsync zip gcc-arm-none-eabi
 
-sudo tar -zxvf cmake-3.28.1-linux-x86_64.tar.gz
+cd /usr/local/src
 
-sudo rm cmake-3.28.1-linux-x86_64.tar.gz
+sudo wget https://github.com/Kitware/CMake/archive/refs/tags/v3.28.1.tar.gz
 
-sudo ln /usr/local/src/cmake-3.28.1-linux-x86_64/bin/cmake /usr/local/bin/cmake```
+sudo tar -zxvf v3.28.1.tar.gz
+
+sudo rm v3.28.1.tar.gz
+
+cd CMake-3.28.1
+
+sudo ./bootstrap
+
+sudo make
+
+sudo make install```
 
 ## FPGA
 

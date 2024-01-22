@@ -63,4 +63,4 @@ hardware/renders
 /software/UP5K/*/*.dblite
 
 $ MCU
-/software/RP2040/!lib/build
+/software/RP2040/build
