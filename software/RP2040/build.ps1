@@ -7,4 +7,4 @@ $WSLdir = '~/nixieIce/software/RP2040/build'
 wsl cd $WSLdir `&`& cmake .. `&`& make
 
 # copy output to pico iCE
-copy build\pico_usb_uart.uf2 D:\NEW.UF2
+#copy build\pico_usb_uart.uf2 D:\NEW.UF2

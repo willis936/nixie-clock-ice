@@ -19,7 +19,8 @@ Install an appropriate version like this:
 
 https://www.linuxcapable.com/how-to-install-cmake-on-ubuntu-linux/
 
-```sudo apt update && sudo apt install build-essential checkinstall zlib1g-dev libssl-dev g++ gdb make ninja-build rsync zip gcc-arm-none-eabi
+```
+sudo apt update && sudo apt install build-essential checkinstall zlib1g-dev libssl-dev g++ gdb make ninja-build rsync zip gcc-arm-none-eabi
 
 cd /usr/local/src
 
@@ -35,7 +36,8 @@ sudo ./bootstrap
 
 sudo make
 
-sudo make install```
+sudo make install
+```
 
 ## FPGA
 
