@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
 # import the pico-sdk
-set(PICO_SDK_PATH ${CMAKE_CURRENT_SOURCE_DIR}/lib/pico-sdk/)
+set(PICO_SDK_PATH ${CMAKE_CURRENT_SOURCE_DIR}/pico-sdk/)
 include(pico_sdk_import.cmake)
 
 # configure the pico-sdk project
@@ -9,7 +9,7 @@ project(pico_usb_uart C CXX ASM)
 pico_sdk_init()
 
 # add the pico-ice-sdk
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/lib/pico-ice-sdk/)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/pico-ice-sdk/)
 add_compile_definitions(VERSION=\"${PICO_ICE_SDK_VERSION}\")
 
 # add the local files

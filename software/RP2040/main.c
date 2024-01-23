@@ -27,6 +27,7 @@
 #include "hardware/irq.h"
 #include "hardware/gpio.h"
 #include "hardware/uart.h"
+#include "hardware/i2c.h"
 #include "pico/stdlib.h"
 #include "boards/pico_ice.h"
 
