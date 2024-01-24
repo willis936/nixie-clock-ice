@@ -1,9 +1,17 @@
-# pico_usb_uart
+# nixie_pico_ice
 
-In addition to the main USB-UART interface, used for the standard I/O (as used by `<stdio.h>`) (#0),
-a second USB-UART (#1) interface is created:
+# Build Instructions
 
-- mirrors all input from the USB-UART to the FPGA as UART data,
-- mirrors back all UART data from the FPGA to the USB-UART
+Build in Windows by running the powershell script `build.ps1`.
 
-Any shared I/O pins can be used. In this example, pins 0 and 1 are used.
+WSL will need to be installed.  WSL will need CMake and APIO installed (see repository base README).
+
+Output will be a UF2 file in the `build` directory.  The build script attempts to copy this to the `D:` drive after compilation.
+
+## Features
+
+Host a UF2 interface over USB (broken right now).
+
+Synthesize gateware then have RP2040 image write the bitstream to FPGA configuration NVM.
+
+Initialize pinout to validate hardware pinout configuration.
