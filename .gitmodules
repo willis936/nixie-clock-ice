@@ -1,6 +1,0 @@
-[submodule "software/RP2040/pico-sdk"]
-	path = software/RP2040/pico-sdk
-	url = https://github.com/raspberrypi/pico-sdk
-[submodule "software/RP2040/pico-ice-sdk"]
-	path = software/RP2040/pico-ice-sdk
-	url = https://github.com/tinyvision-ai-inc/pico-ice-sdk

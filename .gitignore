@@ -55,13 +55,13 @@ hardware/renders
 
 
 # FPGA
-/software/*/*/*.uf2
-/software/*/*/*.bin
-/software/*/*/*.asc
-/software/*/*/*.json
-/software/*/*/*.history
-/software/*/*/*.dblite
-/software/RP2040/bitstream.h
+/software/*/*.uf2
+/software/*/*.bin
+/software/*/*.asc
+/software/*/*.json
+/software/*/*.history
+/software/*/*.dblite
+/software/bitstream.h
 
-$ MCU
-/software/RP2040/build
+# MCU
+/software/build
