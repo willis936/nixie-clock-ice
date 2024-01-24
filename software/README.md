@@ -1,6 +1,6 @@
 # nixie_pico_ice
 
-# Build Instructions
+## Build Instructions
 
 Build in Windows by running the powershell script `build.ps1`.
 
