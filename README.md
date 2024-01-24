@@ -45,9 +45,15 @@ Install python 3.5+.
 
 Install apio and oss CAD suite.
 
-`pip install -U apio`
+You may need to restart WSL in between the pip installation of the package and the package installation (last two commands).
 
-`apio install -a`
+```
+sudo apt update && sudo apt install python3-pip yosys
+
+pip install -U apio
+
+apio install -a
+```
 
 Test project using the APIO guide here:
 
@@ -56,6 +62,14 @@ https://pico-ice.tinyvision.ai/md_programming_the_fpga.html
 Use UF2 on WSL to convert the bin to UF2 then copy over CURRENT.UF2 on mounted USB drive pico ice.
 
 https://github.com/tinyvision-ai-inc/uf2-utils/
+
+```
+cd /usr/local/src
+
+sudo git clone https://github.com/tinyvision-ai-inc/uf2-utils.git
+
+cd uf2-utils && sudo make install
+```
 
 # Requirements
 

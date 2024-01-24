@@ -19,6 +19,7 @@
 [D] Use a fixed LM5155 to boost 5V to 15V then another LM5155 with a voltage controller resistor (FET if necessary, MPSA42 if possible, sim it)
 [D] ML2032 charging circuit (LTC4054) + 3.3V regulator (shelved, KISS)
 [ ] Second set of tubes on another board to the side for precision time (use a sense GPIO to increase the HV data width and OE rate)
+[ ] IN-12 daughter board
 [D] Add fiducials
 [D] Check if bias-T is needed for GPS active antenna
 
@@ -34,3 +35,4 @@ https://github.com/azonenberg/pcb-checklist
 [ ] SW: delay locked loop PPS to current sense comparator inputs
 [ ] SW: experiment with adjusting brightness based on ambient light with voltage control
 [ ] SW: new year's countdown with pulsing brightness and decimal point scan celebration
+[ ] SW: show date once a minute with DIP switch setting

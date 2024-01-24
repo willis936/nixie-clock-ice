@@ -1,0 +1,121 @@
+
+set_io clock 35
+set_frequency clock 48
+
+set_io --warn-no-port led_blue 39
+set_io --warn-no-port led_green 40
+set_io --warn-no-port led_red 41
+set_io --warn-no-port clk 35
+
+
+set_io --warn-no-port lsd_adc_ofl 28
+set_io --warn-no-port lsd_adc_d7 31
+set_io --warn-no-port lsd_adc_d6 32
+set_io --warn-no-port lsd_adc_d5 34
+set_io --warn-no-port lsd_adc_d4 36
+set_io --warn-no-port lsd_adc_cs 38
+set_io --warn-no-port lsd_adc_d3 42
+set_io --warn-no-port lsd_adc_d2 43
+set_io --warn-no-port lsd_adc_rd 11
+set_io --warn-no-port lsd_adc_mode 6
+set_io --warn-no-port lsd_adc_int 9
+
+set_io --warn-no-port gps_pps2 44
+set_io --warn-no-port gps_pps1 45
+set_io --warn-no-port lsd_adc_d0 46
+set_io --warn-no-port lsd_adc_d1 47
+set_io --warn-no-port lsd_adc_wr_rdy 48
+set_io --warn-no-port sense_precise 2
+set_io --warn-no-port data_hv 3
+set_io --warn-no-port clock_hv 4
+
+set_io --warn-no-port i2c_clock 23
+set_io --warn-no-port clock_precise 19
+set_io --warn-no-port data_precise 18
+set_io --warn-no-port i2c_data 26
+set_io --warn-no-port pps_trimmed 20
+
+
+# Signals definition (as in the circuit diagram)
+set_io -nowarn ICE_2            2
+set_io -nowarn ICE_3            3
+set_io -nowarn ICE_4            4
+set_io -nowarn ICE_6            6
+set_io -nowarn ICE_9            9
+set_io -nowarn ICE_10           10
+set_io -nowarn ICE_11           11
+set_io -nowarn ICE_18           18
+set_io -nowarn ICE_19           19
+set_io -nowarn ICE_20_G3        20
+set_io -nowarn ICE_21           21
+set_io -nowarn ICE_23           23
+set_io -nowarn ICE_25           25
+set_io -nowarn ICE_26           26
+set_io -nowarn ICE_27           27
+set_io -nowarn ICE_28           28
+set_io -nowarn ICE_31           31
+set_io -nowarn ICE_32           32
+set_io -nowarn ICE_34           34
+set_io -nowarn ICE_35_G0        35
+set_io -nowarn ICE_36           36
+set_io -nowarn ICE_38           38
+set_io -nowarn ICE_42           42
+set_io -nowarn ICE_43           43
+set_io -nowarn ICE_44_G6        44
+set_io -nowarn ICE_45           45
+set_io -nowarn ICE_46           46
+set_io -nowarn ICE_47           47
+set_io -nowarn ICE_48           48
+set_io -nowarn ICE_FLASH_IO2    12
+set_io -nowarn ICE_FLASH_IO3    13
+set_io -nowarn ICE_PB           10
+set_io -nowarn ICE_SO           14
+set_io -nowarn ICE_SI           17
+set_io -nowarn ICE_SCK          15
+set_io -nowarn ICE_SSN          16
+set_io -nowarn SRAM_SS          37
+set_io -nowarn LED_G            39
+set_io -nowarn LED_B            40
+set_io -nowarn LED_R            41
+
+# Silicon IO names
+set_io -nowarn IOB_6a           2
+set_io -nowarn IOB_9b           3
+set_io -nowarn IOB_8a           4
+set_io -nowarn IOB_13b          6
+set_io -nowarn IOB_16a          9
+set_io -nowarn IOB_18a          10
+set_io -nowarn IOB_20a          11
+set_io -nowarn IOB_31b          18
+set_io -nowarn IOB_29b          19
+set_io -nowarn IOB_25b          20
+set_io -nowarn IOT_23b          21
+set_io -nowarn IOT_37a          23
+set_io -nowarn IOT_36b          25
+set_io -nowarn IOT_39a          26
+set_io -nowarn IOT_38b          27
+set_io -nowarn IOT_41a          28
+set_io -nowarn IOT_42b          31
+set_io -nowarn IOT_43a          32
+set_io -nowarn IOT_44b          34
+set_io -nowarn IOT_46b          35
+set_io -nowarn IOT_48b          36
+set_io -nowarn IOT_50b          38
+set_io -nowarn IOT_51a          42
+set_io -nowarn IOT_49a          43
+set_io -nowarn IOB_3b           44
+set_io -nowarn IOB_5b           45
+set_io -nowarn IOB_0a           46
+set_io -nowarn IOB_2b           47
+set_io -nowarn IOB_4a           48
+set_io -nowarn IOB_22a          12
+set_io -nowarn IOB_24a          13
+set_io -nowarn IOB_18a          10
+set_io -nowarn IOB_32a          14
+set_io -nowarn IOB_33b          17
+set_io -nowarn IOB_34a          15
+set_io -nowarn IOB_35b          16
+set_io -nowarn IOT_45a          37
+set_io -nowarn RGB0             39
+set_io -nowarn RGB1             40
+set_io -nowarn RGB2             41

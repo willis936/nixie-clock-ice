@@ -10,7 +10,7 @@
 *-backups
 *.kicad_prl
 *.sch-bak
-*~
+*~*
 _autosave-*
 *.tmp
 *-save.pro
@@ -55,12 +55,13 @@ hardware/renders
 
 
 # FPGA
-/software/UP5K/*/*.uf2
-/software/UP5K/*/*.bin
-/software/UP5K/*/*.asc
-/software/UP5K/*/*.json
-/software/UP5K/*/*.history
-/software/UP5K/*/*.dblite
+/software/*/*/*.uf2
+/software/*/*/*.bin
+/software/*/*/*.asc
+/software/*/*/*.json
+/software/*/*/*.history
+/software/*/*/*.dblite
+/software/RP2040/bitstream.h
 
 $ MCU
 /software/RP2040/build

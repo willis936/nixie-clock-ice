@@ -23,18 +23,27 @@
  */
 
 // pico-sdk
+#include "pico/stdlib.h"
 #include "pico/stdio.h"
+#include "boards/pico_ice.h"
 #include "hardware/irq.h"
 #include "hardware/gpio.h"
 #include "hardware/uart.h"
 #include "hardware/i2c.h"
-#include "pico/stdlib.h"
-#include "boards/pico_ice.h"
+#include "hardware/adc.h"
 
 // pico-ice-sdk
 #include "ice_usb.h"
+#include "ice_cram.h"
 #include "ice_fpga.h"
 #include "ice_led.h"
+#include "ice_spi.h"
+
+uint8_t bitstream[] = {
+#include "bitstream.h"
+};
+
+// pin definitions
 
 #define UART_TX_PIN 0
 #define UART_RX_PIN 1
@@ -162,18 +171,19 @@ int main(void) {
     gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
     gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
 
-    // Configure the piping as configured in <tusb_config.h>
-    ice_usb_init();
-
     // Let the FPGA start
-    ice_fpga_init(12);
+    ice_fpga_init(48);
+	ice_led_init();
     ice_fpga_start();
+
+    // Write the whole bitstream to the FPGA CRAM
+    ice_cram_open();
+    ice_cram_write(bitstream, sizeof(bitstream));
+    ice_cram_close();
 
     // Configure USB as defined in tusb_config.h
     ice_usb_init();
 
-    // Prevent the LEDs from glowing slightly
-    ice_led_init();
 
     while (true) {
         tud_task();

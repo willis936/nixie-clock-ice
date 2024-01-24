@@ -21,6 +21,8 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     pico_ice_sdk
     pico_ice_usb
     pico_stdio_usb
+    hardware_i2c
+    hardware_adc
     )
 target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC
     ${CMAKE_CURRENT_LIST_DIR}
@@ -28,3 +30,11 @@ target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC
 pico_add_extra_outputs(${CMAKE_PROJECT_NAME})
 pico_enable_stdio_usb(${CMAKE_PROJECT_NAME} 0)
 pico_enable_stdio_uart(${CMAKE_PROJECT_NAME} 0)
+
+set(VERILOG ${CMAKE_CURRENT_LIST_DIR}/UP5K)
+add_custom_target(bitstream.h
+    DEPENDS ${VERILOG}
+    COMMAND cd ${VERILOG} && apio build
+    COMMAND python3 ${VERILOG}/exportBitstream.py ${VERILOG} > ${CMAKE_CURRENT_SOURCE_DIR}/bitstream.h
+    )
+add_dependencies(${CMAKE_PROJECT_NAME} bitstream.h)
