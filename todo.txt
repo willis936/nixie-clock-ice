@@ -26,7 +26,9 @@
 https://github.com/azonenberg/pcb-checklist
 
 [D] SW: blink LED
-[ ] SW: configure pinouts
+[D] SW: configure pinouts
+[ ] SW: get USB UF2 loading working
+[ ] SW: switch from C to C++
 [ ] SW: PWM drive for HV
 [ ] SW: read in ADC value to trim PWM
 [ ] SW: read in DIP switches
