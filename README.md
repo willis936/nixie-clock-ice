@@ -41,7 +41,13 @@ sudo make install
 
 ## FPGA
 
-Install python 3.5+.
+Make sure python 3.7+ is installed on WSL.
+
+You may need to install pyenv, remove prior pip installations, and re-bootstrap.
+
+https://gist.github.com/monkut/35c2ef098b871144b49f3f9979032cee
+
+https://pip.pypa.io/en/stable/installation/
 
 Install apio and oss CAD suite.
 

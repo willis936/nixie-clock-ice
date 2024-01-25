@@ -9,6 +9,7 @@ Remove-Item -Path UP5K\*.asc
 Remove-Item -Path UP5K\*.bin
 Remove-Item -Path UP5K\*.uf2
 Remove-Item -Path UP5K\*.json
+Remove-Item -Path bitstream.h
 
 # clean MCU build directory
 Remove-Item -Recurse -Path build\*
