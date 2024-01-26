@@ -1,27 +1,10 @@
-[D] Finish decoupling caps on daughter board
-[D] Finish decoupling caps on main board
-[D] Use a common emitter to bleed HV capacitor only when 3.3V is not present (simulate behavior), bleed with 10M always
-[D] Check that analog traces are clear of DIO traces
-[D] Check TX/RX polarity
-[D] Check FPGA GPIO banking rules
-[D] Flip pico iCE over for better access to user I/O
-[D] Make sure SW2 is used for timezone offset control
-[D] Remove pulldown resistors from DIP switches
-[D] Make sure DIP switches connect to ground for pull-up compatability
-[D] Add test points for ground, power supply rails, HV gate, and pre-digitized signals
-[D] Add shunt jumpers for current measurements on power supply rails
-[D] Simulate HV circuit
-[D] Try to reduce inductor and capacitor size to fit under daughter boards
-[D] Switch to axial cap for HV for low profile (yeah right, these are massive)
-[D] Try to have IC GND pads make a minimal loop size with the decoupling cap GND pad
-[D] Change decoupling cap vias to 0.3 mm for reduced inductance and try to put the GND and +5V vias close together
-[D] Move ADC up near U8 to have trace lengths closer matches
-[D] Use a fixed LM5155 to boost 5V to 15V then another LM5155 with a voltage controller resistor (FET if necessary, MPSA42 if possible, sim it)
-[D] ML2032 charging circuit (LTC4054) + 3.3V regulator (shelved, KISS)
+[ ] switch to single stage flyback topology
+[ ] simulate HV supply
+[ ] swap all TH for SM options
+[ ] swap daughter board footprints for proper pin socket BOM items
+
 [ ] Second set of tubes on another board to the side for precision time (use a sense GPIO to increase the HV data width and OE rate)
 [ ] IN-12 daughter board
-[D] Add fiducials
-[D] Check if bias-T is needed for GPS active antenna
 
 https://github.com/azonenberg/pcb-checklist
 
