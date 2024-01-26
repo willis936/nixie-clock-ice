@@ -20,6 +20,8 @@ git -C pico-ice-sdk submodule update --init
 git -C pico-sdk submodule update --init lib/tinyusb
 ```
 
+Run these commands until the output stops changing.  Running them once is likely not sufficient.
+
 See the "Using the SDK" section of the pico iCE "Getting Started" page.
 
 https://pico-ice.tinyvision.ai/md_getting_started.html
