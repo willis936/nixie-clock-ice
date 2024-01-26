@@ -9,6 +9,21 @@ Uses a PICO-iCE v3 FPGA + MCU module.
 
 # Building
 
+## Cloning
+
+Clone with git CLI.  Github desktop recursively inits submodules, which breaks on Windows due to path length limitations.
+
+Once cloned cd to `software/lib` and run these commands to initialize the submodules:
+
+```
+git -C pico-ice-sdk submodule update --init
+git -C pico-sdk submodule update --init lib/tinyusb
+```
+
+See the "Using the SDK" section of the pico iCE "Getting Started" page.
+
+https://pico-ice.tinyvision.ai/md_getting_started.html
+
 ## MCU
 
 Follow the pico ice Getting Started section.
@@ -21,21 +36,13 @@ https://www.linuxcapable.com/how-to-install-cmake-on-ubuntu-linux/
 
 ```
 sudo apt update && sudo apt install build-essential checkinstall zlib1g-dev libssl-dev g++ gdb make ninja-build rsync zip gcc-arm-none-eabi
-
 cd /usr/local/src
-
 sudo wget https://github.com/Kitware/CMake/archive/refs/tags/v3.28.1.tar.gz
-
 sudo tar -zxvf v3.28.1.tar.gz
-
 sudo rm v3.28.1.tar.gz
-
 cd CMake-3.28.1
-
 sudo ./bootstrap
-
 sudo make
-
 sudo make install
 ```
 
@@ -55,9 +62,7 @@ You may need to restart WSL in between the pip installation of the package and t
 
 ```
 sudo apt update && sudo apt install python3-pip yosys
-
 pip install -U apio
-
 apio install -a
 ```
 
@@ -71,9 +76,7 @@ https://github.com/tinyvision-ai-inc/uf2-utils/
 
 ```
 cd /usr/local/src
-
 sudo git clone https://github.com/tinyvision-ai-inc/uf2-utils.git
-
 cd uf2-utils && sudo make install
 ```
 
