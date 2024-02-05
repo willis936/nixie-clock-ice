@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "MAY BE USED WITH SOCKET: SK-136")
   (tags "MAY BE USED WITH SOCKET: SK-136")
-  (attr exclude_from_pos_files exclude_from_bom)
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference ">NAME" (at 9.68248 -0.3175 90) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.1016)))
     (tstamp c2c7e340-b1a7-4a1c-b8e2-b27f2737a25a)

@@ -1,7 +1,9 @@
 [ ] switch to single stage flyback topology
 [ ] simulate HV supply
-[ ] swap all TH for SM options
-[ ] swap daughter board footprints for proper pin socket BOM items
+[D] swap all TH for SM options
+[D] swap daughter board footprints for proper pin socket BOM items
+[ ] refresh BOM
+[D] switch to static level shifter, tie CS and RD low, direct connect WR, ignore INT
 
 [ ] Second set of tubes on another board to the side for precision time (use a sense GPIO to increase the HV data width and OE rate)
 [ ] IN-12 daughter board
@@ -10,7 +12,7 @@ https://github.com/azonenberg/pcb-checklist
 
 [D] SW: blink LED
 [D] SW: configure pinouts
-[ ] SW: get USB UF2 loading working
+[D] SW: get USB UF2 loading working (not possible for RP2040 firmware)
 [ ] SW: switch from C to C++
 [ ] SW: PWM drive for HV
 [ ] SW: read in ADC value to trim PWM

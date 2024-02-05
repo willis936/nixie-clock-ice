@@ -1,6 +1,6 @@
 (footprint "pico iCE (mounting)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 7b6318cd-3c93-4a16-ae04-8be05bfbbf5c)

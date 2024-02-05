@@ -1,7 +1,7 @@
 (footprint "IN-14 daughter board (mounting)" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Daughter board that has an IN-14 nixie tube and HV509 driver IC.")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0 -7.62 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b00886a9-580b-48a9-a197-fd90f81ff594)

@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (descr "FOR USE WITH FEMALE D-SUB PINS")
   (tags "FOR USE WITH FEMALE D-SUB PINS")
-  (attr exclude_from_pos_files exclude_from_bom)
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference ">NAME" (at 11.58748 0.3175 90) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.1016)))
     (tstamp 333c9f07-a420-4380-bbe4-2183bcd615d0)

@@ -1,6 +1,6 @@
 (footprint "nixies-us-IN-14" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr exclude_from_pos_files exclude_from_bom)
+  (attr through_hole exclude_from_pos_files exclude_from_bom)
   (fp_text reference ">NAME" (at 10.63498 -0.635 90) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.1016)))
     (tstamp fdeef034-9964-45c2-9bc1-ea78743de061)
