@@ -15,7 +15,7 @@ LINE Normal 48 16 16 16
 LINE Normal 48 0 48 16
 WINDOW 0 56 32 Left 2
 WINDOW 3 56 72 Left 2
-SYMATTR Value BSP88
+SYMATTR Value BSP88_L1
 SYMATTR Prefix X
 SYMATTR ModelFile IFX-Power_OptiMOS_N-channel_small_signal_MOSFET_240V_250V_400V_600V_Spice-web.lib
 SYMATTR Description N-Channel MOSFET transistor
@@ -28,9 +28,3 @@ PINATTR SpiceOrder 2
 PIN 48 96 NONE 0
 PINATTR PinName S
 PINATTR SpiceOrder 3
-PIN 80 -16 LEFT 8
-PINATTR PinName Tj
-PINATTR SpiceOrder 4
-PIN 80 112 LEFT 8
-PINATTR PinName Tcase
-PINATTR SpiceOrder 5
