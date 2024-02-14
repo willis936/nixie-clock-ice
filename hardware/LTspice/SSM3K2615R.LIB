@@ -1,0 +1,161 @@
+*********************************************************************
+*  TOSHIBA CORPORATION SEMICONDUCTOR & STORAGE PRODUCTS COMPANY
+*  Date                 : 24/11/2015
+*  File name            : SSM3K2615R.lib
+*  Part Number          : SSM3K2615R
+*  Parameter ver.       : Ver.1
+*  Simulator            : PSPICE
+*  Model call name      : NMOS_SSM3K2615R
+*  TNOM                 : 25 degree
+*********************************************************************
+.SUBCKT NMOS_SSM3K2615R 1 2 3
+M0 1 22 3 3 smsmosfet
++ L = 5e-06
++ W = 0.07
++ AD = 2e-09
++ AS = 2e-09
++ PD = 0.14
++ PS = 0.14
+D0 3 1 DDS1
+D1 3 1 DDS2
+D2 2 10 DGS1
+D3 3 10 DGS2
+R2 10 2 1E+009
+R3 10 3 1E+009
+RG 2 22 70
+.MODEL smsmosfet NMOS
++ LEVEL = 7
++ MOBMOD = 1
++ CAPMOD = 3
++ NOIMOD = 1
++ TOX = 1.5e-08
++ XJ = 1.5E-007
++ NCH = 1.7E+017
++ NGATE = 0
++ RSH = 0
++ TNOM = 25
++ VTH0 = 1.61
++ VOFF = -0.08
++ NFACTOR = 7.1
++ U0 = 9930.098
++ K1 = 0.5
++ K2 = 0
++ K3 = 80
++ K3B = 0
++ W0 = 2.5E-006
++ NLX = 1.74E-007
++ DVT0 = 2.2
++ DVT1 = 0.53
++ DVT2 = -0.032
++ DVT0W = 0
++ DVT1W = 5.3E+006
++ DVT2W = -0.032
++ DWG = 0
++ DWB = 0
++ UA = 3.2245e-08
++ UB = 5.87E-019
++ UC = -4.65E-011
++ VSAT = 55926.9836
++ A0 = 0.0043271
++ AGS = 2.4367
++ B0 = 0
++ B1 = 0
++ KETA = -0.047
++ A1 = 0
++ A2 = 1
++ DELTA = 0.018775
++ RDSW = 6300
++ PRWG = 0
++ PRWB = 0
++ WR = 1
++ CDSC = 2.4E-004
++ CDSCD = 0
++ CDSCB = 0
++ CIT = 0
++ ETA0 = 0.08
++ ETAB = -0.07
++ DSUB = 0.56
++ PCLM = 0.043446
++ PDIBLC1 = 0.39
++ PDIBLC2 = 0.082128
++ PDIBLCB = 0
++ DROUT = 0.56
++ PSCBE1 = 4.24E+008
++ PSCBE2 = 1E-009
++ PVAG = 0
++ ALPHA0 = 0
++ ALPHA1 = 0
++ BETA0 = 30
++ NJ = 1
++ JS = 0
++ XPART = 0
++ CGSO = 2.7817e-08
++ CGDO = 2.664e-13
++ CGBO = 0
++ CGDL = 2.1923e-08
++ CGSL = 2.6697e-11
++ CKAPPA = 1.2503
++ CF = 0
++ CLC = 1E-007
++ CLE = 0.6
++ VOFFCV = 0
++ NOFF = 1
++ DLC = 0
++ ACDE = 1
++ MOIN = 15
++ CJ = 5E-003
++ CJSW = 1E-012
++ CJSWG = 1E-012
++ PB = 1
++ PBSW = 1
++ PBSWG = 1
++ MJ = 0.5
++ MJSW = 0.33
++ MJSWG = 0.33
++ AF = 1
++ EF = 1
++ KF = 0
++ UTE = -0.01
++ KT1 = -0.4
++ KT1L = 0
++ KT2 = 0.022
++ UA1 = 4.31E-009
++ UB1 = -7.61E-018
++ UC1 = -5.6E-011
++ AT = 33000
++ PRT = 30000
++ XTI = 3
++ TCJ = 0
++ TPB = 0
++ TCJSW = 0
++ TPBSW = 0
++ TCJSWG = 0
++ TPBSWG = 0
++ DWC = 0.030919
+.MODEL DDS1 D
++ TNOM = 25
++ IS = 1.9146e-09
++ RS = 0.091861
++ N = 1.4999
++ CJO = 1.0519e-10
++ VJ = 0.40861
++ M = 0.42452
++ XTI = 3
++ BV = 60
++ IBV = 0.01
+.MODEL DDS2 D
++ TNOM = 25
++ IS = 1.9146e-09
++ RS = 0.091861
++ N = 1.4999
++ CJO = 4.5769e-11
++ VJ = 0.40054
++ M = 0.37859
++ XTI = 3
+.MODEL DGS1 D
++ TNOM = 25
++ IS = 1E-015
+.MODEL DGS2 D
++ TNOM = 25
++ IS = 1E-015
+.ENDS

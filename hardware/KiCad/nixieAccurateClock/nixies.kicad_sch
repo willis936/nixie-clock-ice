@@ -1311,7 +1311,7 @@
   (symbol (lib_id "power:GND") (at 95.25 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 036f65f8-9cfe-4497-8e87-a5604c837528)
-    (property "Reference" "#PWR074" (at 88.9 64.77 0)
+    (property "Reference" "#PWR052" (at 88.9 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 64.77 90)
@@ -1327,7 +1327,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -1336,7 +1336,7 @@
   (symbol (lib_name "nixie_daughter_board_3") (lib_id "00_lib:nixie_daughter_board") (at 166.37 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a993b77-4f45-448d-ba30-16faa316151d)
-    (property "Reference" "J15" (at 179.705 57.15 0)
+    (property "Reference" "J13" (at 179.705 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 118.11 125.73 0)
@@ -1345,13 +1345,10 @@
     (property "Footprint" "00_lib:IN-14 daughter board" (at 118.11 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 118.11 125.73 0)
+    (property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssm_sm.pdf" (at 118.11 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Enable" "0" (at 166.37 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Price" "21.30" (at 166.37 78.74 0)
+    (property "Price" "2.59" (at 166.37 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Digikey link" "https://www.digikey.com/en/products/detail/samtec-inc/SSM-105-L-DV/1106226" (at 166.37 78.74 0)
@@ -1376,7 +1373,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "J15") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -1385,7 +1382,7 @@
   (symbol (lib_id "power:+3.3V") (at 69.85 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f7b9a6f-5f99-455c-ba9d-e6c658da5429)
-    (property "Reference" "#PWR093" (at 66.04 99.06 0)
+    (property "Reference" "#PWR071" (at 66.04 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 73.66 99.06 90)
@@ -1401,7 +1398,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -1410,7 +1407,7 @@
   (symbol (lib_id "power:VPP") (at 199.39 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0facb655-14c0-46f2-97ee-e5cc057f0e9c)
-    (property "Reference" "#PWR077" (at 195.58 64.77 0)
+    (property "Reference" "#PWR055" (at 195.58 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VPP" (at 203.2 64.77 90)
@@ -1426,7 +1423,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -1435,7 +1432,7 @@
   (symbol (lib_id "power:+5V") (at 199.39 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1392e7de-4fcd-468c-a81f-ff97f46d288b)
-    (property "Reference" "#PWR092" (at 195.58 96.52 0)
+    (property "Reference" "#PWR070" (at 195.58 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 203.2 96.52 90)
@@ -1451,7 +1448,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -1460,7 +1457,7 @@
   (symbol (lib_id "power:GND") (at 160.02 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e89c978-b359-4903-9fc1-3cbd72b355e1)
-    (property "Reference" "#PWR088" (at 153.67 93.98 0)
+    (property "Reference" "#PWR066" (at 153.67 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 93.98 90)
@@ -1476,7 +1473,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -1485,7 +1482,7 @@
   (symbol (lib_id "power:GND") (at 30.48 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ff61ab6-c886-44dc-85d0-a8c5751e9d37)
-    (property "Reference" "#PWR084" (at 24.13 93.98 0)
+    (property "Reference" "#PWR062" (at 24.13 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.67 93.98 90)
@@ -1501,7 +1498,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -1510,7 +1507,7 @@
   (symbol (lib_id "power:+3.3V") (at 199.39 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3af80c94-b442-40e1-9982-e51a94cff48e)
-    (property "Reference" "#PWR095" (at 195.58 99.06 0)
+    (property "Reference" "#PWR073" (at 195.58 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 203.2 99.06 90)
@@ -1526,7 +1523,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -1535,7 +1532,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 45.72 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4034fb47-4d4f-4fbd-bc7a-9b8f6aac9e31)
-    (property "Reference" "J19" (at 46.99 124.46 0)
+    (property "Reference" "J17" (at 46.99 124.46 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x05_Odd_Even" (at 46.99 127 0)
@@ -1572,7 +1569,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "J19") (unit 1)
+          (reference "J17") (unit 1)
         )
       )
     )
@@ -1581,7 +1578,7 @@
   (symbol (lib_id "power:VPP") (at 69.85 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45c90598-155c-48ab-9443-04c0fbc46480)
-    (property "Reference" "#PWR073" (at 66.04 64.77 0)
+    (property "Reference" "#PWR051" (at 66.04 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VPP" (at 73.66 64.77 90)
@@ -1597,7 +1594,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -1606,7 +1603,7 @@
   (symbol (lib_name "nixie_daughter_board_2") (lib_id "00_lib:nixie_daughter_board") (at 101.6 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50b97cc9-2c1e-461b-a47c-a2d8244ca80d)
-    (property "Reference" "J14" (at 114.935 57.15 0)
+    (property "Reference" "J12" (at 114.935 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 53.34 125.73 0)
@@ -1615,13 +1612,10 @@
     (property "Footprint" "00_lib:IN-14 daughter board" (at 53.34 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 53.34 125.73 0)
+    (property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssm_sm.pdf" (at 53.34 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Enable" "0" (at 101.6 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Price" "21.30" (at 101.6 78.74 0)
+    (property "Price" "2.59" (at 101.6 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Digikey link" "https://www.digikey.com/en/products/detail/samtec-inc/SSM-105-L-DV/1106226" (at 101.6 78.74 0)
@@ -1646,7 +1640,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "J14") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -1655,7 +1649,7 @@
   (symbol (lib_name "nixie_daughter_board_1") (lib_id "00_lib:nixie_daughter_board") (at 36.83 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56ef6fff-cbfc-4b50-b104-bc1acd81bee3)
-    (property "Reference" "J13" (at 50.165 57.15 0)
+    (property "Reference" "J11" (at 50.165 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at -11.43 125.73 0)
@@ -1664,13 +1658,10 @@
     (property "Footprint" "00_lib:IN-14 daughter board" (at -11.43 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at -11.43 125.73 0)
+    (property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssm_sm.pdf" (at -11.43 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Enable" "0" (at 36.83 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Price" "21.30" (at 36.83 78.74 0)
+    (property "Price" "2.59" (at 36.83 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Digikey link" "https://www.digikey.com/en/products/detail/samtec-inc/SSM-105-L-DV/1106226" (at 36.83 78.74 0)
@@ -1695,7 +1686,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "J13") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1704,7 +1695,7 @@
   (symbol (lib_id "power:+3.3V") (at 199.39 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5824c001-c795-44ff-876b-7784e63eff9c)
-    (property "Reference" "#PWR083" (at 195.58 69.85 0)
+    (property "Reference" "#PWR061" (at 195.58 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 203.2 69.85 90)
@@ -1720,7 +1711,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -1729,7 +1720,7 @@
   (symbol (lib_id "power:+3.3V") (at 134.62 99.06 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 595c48e9-b33d-4fba-be7e-1a04319ce9c7)
-    (property "Reference" "#PWR094" (at 130.81 99.06 0)
+    (property "Reference" "#PWR072" (at 130.81 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 138.43 99.06 90)
@@ -1745,7 +1736,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -1754,7 +1745,7 @@
   (symbol (lib_id "power:+5V") (at 69.85 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c1a2de4-88e5-403a-b90a-a75b74ced457)
-    (property "Reference" "#PWR090" (at 66.04 96.52 0)
+    (property "Reference" "#PWR068" (at 66.04 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 73.66 96.52 90)
@@ -1770,7 +1761,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -1779,7 +1770,7 @@
   (symbol (lib_id "power:VPP") (at 199.39 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f725a54-b3fb-4371-9eee-848384e4e28e)
-    (property "Reference" "#PWR089" (at 195.58 93.98 0)
+    (property "Reference" "#PWR067" (at 195.58 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VPP" (at 203.2 93.98 90)
@@ -1795,7 +1786,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -1804,7 +1795,7 @@
   (symbol (lib_id "power:VPP") (at 69.85 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 635dd1fd-07c0-4e89-b655-37cadaf7b846)
-    (property "Reference" "#PWR085" (at 66.04 93.98 0)
+    (property "Reference" "#PWR063" (at 66.04 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VPP" (at 73.66 93.98 90)
@@ -1820,7 +1811,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -1829,7 +1820,7 @@
   (symbol (lib_id "power:VPP") (at 134.62 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 678b4c7c-177c-4e3c-aaf2-370778361398)
-    (property "Reference" "#PWR087" (at 130.81 93.98 0)
+    (property "Reference" "#PWR065" (at 130.81 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VPP" (at 138.43 93.98 90)
@@ -1845,7 +1836,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -1854,7 +1845,7 @@
   (symbol (lib_id "power:+3.3V") (at 63.5 135.89 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7711fe85-1ef5-4c51-81af-f3c4211073e6)
-    (property "Reference" "#PWR098" (at 59.69 135.89 0)
+    (property "Reference" "#PWR076" (at 59.69 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 67.31 135.89 90)
@@ -1870,7 +1861,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -1879,7 +1870,7 @@
   (symbol (lib_id "power:+5V") (at 134.62 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79a4b853-0b5c-4a47-998b-d58bf147168a)
-    (property "Reference" "#PWR091" (at 130.81 96.52 0)
+    (property "Reference" "#PWR069" (at 130.81 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 138.43 96.52 90)
@@ -1895,7 +1886,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -1904,7 +1895,7 @@
   (symbol (lib_id "power:+5V") (at 63.5 130.81 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8acb4a2a-8b02-4fa5-8e87-2e88f6b965ec)
-    (property "Reference" "#PWR096" (at 59.69 130.81 0)
+    (property "Reference" "#PWR074" (at 59.69 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 67.31 130.81 90)
@@ -1920,7 +1911,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -1929,7 +1920,7 @@
   (symbol (lib_id "power:VPP") (at 30.48 140.97 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d250af6-97c0-4081-aba1-58f433c2c2df)
-    (property "Reference" "#PWR099" (at 34.29 140.97 0)
+    (property "Reference" "#PWR077" (at 34.29 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VPP" (at 26.67 140.97 90)
@@ -1945,7 +1936,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -1954,7 +1945,7 @@
   (symbol (lib_name "nixie_daughter_board_5") (lib_id "00_lib:nixie_daughter_board") (at 101.6 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8dcde58a-7086-4f1e-a7ae-6e08beec8e5d)
-    (property "Reference" "J17" (at 114.935 86.36 0)
+    (property "Reference" "J15" (at 114.935 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 53.34 154.94 0)
@@ -1963,13 +1954,10 @@
     (property "Footprint" "00_lib:IN-14 daughter board" (at 53.34 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 53.34 154.94 0)
+    (property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssm_sm.pdf" (at 53.34 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Enable" "0" (at 101.6 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Price" "21.30" (at 101.6 107.95 0)
+    (property "Price" "2.59" (at 101.6 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Digikey link" "https://www.digikey.com/en/products/detail/samtec-inc/SSM-105-L-DV/1106226" (at 101.6 107.95 0)
@@ -1994,7 +1982,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "J17") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -2003,7 +1991,7 @@
   (symbol (lib_id "power:+3.3V") (at 69.85 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 907d1033-d12d-4a1c-a65b-8c5e03e0514f)
-    (property "Reference" "#PWR081" (at 66.04 69.85 0)
+    (property "Reference" "#PWR059" (at 66.04 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 73.66 69.85 90)
@@ -2019,7 +2007,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -2028,7 +2016,7 @@
   (symbol (lib_id "power:GND") (at 160.02 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 951389f6-2451-4e81-b92a-88d75d267dcc)
-    (property "Reference" "#PWR076" (at 153.67 64.77 0)
+    (property "Reference" "#PWR054" (at 153.67 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 64.77 90)
@@ -2044,7 +2032,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -2053,7 +2041,7 @@
   (symbol (lib_id "power:+3.3V") (at 134.62 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a372d3d4-e3d0-4ccf-8f5c-f5f0f27ff723)
-    (property "Reference" "#PWR082" (at 130.81 69.85 0)
+    (property "Reference" "#PWR060" (at 130.81 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 138.43 69.85 90)
@@ -2069,7 +2057,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -2078,7 +2066,7 @@
   (symbol (lib_id "power:VPP") (at 134.62 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a704d1e2-f62d-4bbc-828b-6fb58270c1bc)
-    (property "Reference" "#PWR075" (at 130.81 64.77 0)
+    (property "Reference" "#PWR053" (at 130.81 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VPP" (at 138.43 64.77 90)
@@ -2094,7 +2082,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -2103,7 +2091,7 @@
   (symbol (lib_id "00_lib:nixie_daughter_board") (at 166.37 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa8241fd-79ce-4cf7-9ebd-425e4b61b721)
-    (property "Reference" "J18" (at 179.705 86.36 0)
+    (property "Reference" "J16" (at 179.705 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 118.11 154.94 0)
@@ -2112,13 +2100,10 @@
     (property "Footprint" "00_lib:IN-14 daughter board" (at 118.11 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 118.11 154.94 0)
+    (property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssm_sm.pdf" (at 118.11 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Enable" "0" (at 166.37 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Price" "21.30" (at 166.37 107.95 0)
+    (property "Price" "2.59" (at 166.37 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Digikey link" "https://www.digikey.com/en/products/detail/samtec-inc/SSM-105-L-DV/1106226" (at 166.37 107.95 0)
@@ -2143,7 +2128,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "J18") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -2152,7 +2137,7 @@
   (symbol (lib_id "power:GND") (at 30.48 135.89 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8fd9317-a9ca-4b29-a43c-305d07898922)
-    (property "Reference" "#PWR097" (at 24.13 135.89 0)
+    (property "Reference" "#PWR075" (at 24.13 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.67 135.89 90)
@@ -2168,7 +2153,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -2177,7 +2162,7 @@
   (symbol (lib_name "nixie_daughter_board_4") (lib_id "00_lib:nixie_daughter_board") (at 36.83 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccbaeec6-6174-4926-b7b3-df63b00954bf)
-    (property "Reference" "J16" (at 50.165 86.36 0)
+    (property "Reference" "J14" (at 50.165 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at -11.43 154.94 0)
@@ -2186,13 +2171,10 @@
     (property "Footprint" "00_lib:IN-14 daughter board" (at -11.43 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at -11.43 154.94 0)
+    (property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssm_sm.pdf" (at -11.43 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Sim.Enable" "0" (at 36.83 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Price" "21.30" (at 36.83 107.95 0)
+    (property "Price" "2.59" (at 36.83 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Digikey link" "https://www.digikey.com/en/products/detail/samtec-inc/SSM-105-L-DV/1106226" (at 36.83 107.95 0)
@@ -2217,7 +2199,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "J16") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -2226,7 +2208,7 @@
   (symbol (lib_id "power:+5V") (at 199.39 67.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce9f60bb-398a-4f07-a1d5-b950c4c8aa33)
-    (property "Reference" "#PWR080" (at 195.58 67.31 0)
+    (property "Reference" "#PWR058" (at 195.58 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 203.2 67.31 90)
@@ -2242,7 +2224,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -2251,7 +2233,7 @@
   (symbol (lib_id "power:GND") (at 30.48 64.77 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf8a2e2a-4c34-4a36-ae2d-990cefd06e48)
-    (property "Reference" "#PWR072" (at 24.13 64.77 0)
+    (property "Reference" "#PWR050" (at 24.13 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.67 64.77 90)
@@ -2267,7 +2249,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -2276,7 +2258,7 @@
   (symbol (lib_id "power:GND") (at 95.25 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid efdf2343-59af-4352-b637-90443f991efd)
-    (property "Reference" "#PWR086" (at 88.9 93.98 0)
+    (property "Reference" "#PWR064" (at 88.9 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 93.98 90)
@@ -2292,7 +2274,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -2301,7 +2283,7 @@
   (symbol (lib_id "power:+5V") (at 69.85 67.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f32d967e-f24a-4a39-aa98-f736cb6890c1)
-    (property "Reference" "#PWR078" (at 66.04 67.31 0)
+    (property "Reference" "#PWR056" (at 66.04 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 73.66 67.31 90)
@@ -2317,7 +2299,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -2326,7 +2308,7 @@
   (symbol (lib_id "power:+5V") (at 134.62 67.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa04b845-8ca4-4517-bf5a-9cd043342a8d)
-    (property "Reference" "#PWR079" (at 130.81 67.31 0)
+    (property "Reference" "#PWR057" (at 130.81 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 138.43 67.31 90)
@@ -2342,7 +2324,7 @@
     (instances
       (project "nixieAccurateClock"
         (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/1d5016d9-fde4-4367-b1de-5d16dd08b171"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
