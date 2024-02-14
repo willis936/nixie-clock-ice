@@ -454,23 +454,6 @@
     )
   )
 
-  (sheet (at 24.13 29.21) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ac90bec9-e81c-48a3-a05a-91ebbd16a83b)
-    (property "Sheetname" "Boost Quadrupler 2" (at 24.13 28.4984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Boost_quad.kicad_sch" (at 24.13 33.6046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "nixieAccurateClock"
-        (path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0" (page "5"))
-      )
-    )
-  )
-
   (sheet (at 24.13 19.05) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
