@@ -11,7 +11,13 @@ Uses a PICO-iCE v3 FPGA + MCU module.
 
 ## Cloning
 
-Clone with git CLI.  Github desktop recursively inits submodules, which breaks on Windows due to path length limitations.
+Clone with git CLI of the native OS (Windows if running WSL).
+This avoids checkout conflicts.
+Github desktop recursively inits submodules, which breaks on Windows due to path length limitations.
+
+```
+git clone https://github.com/willis936/nixie-clock-ice.git
+```
 
 Once cloned cd to `software/lib` and run these commands to initialize the submodules:
 
