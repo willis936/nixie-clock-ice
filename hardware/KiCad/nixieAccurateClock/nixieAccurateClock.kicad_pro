@@ -467,7 +467,7 @@
       },
       {
         "netclass": "HV",
-        "pattern": "/*Boost Quadrupler*/HV*"
+        "pattern": "/High voltage supply/HV*"
       }
     ]
   },
@@ -536,10 +536,6 @@
     [
       "f2852417-d6c8-4bbe-bd15-a29bc4083bd0",
       "High voltage supply"
-    ],
-    [
-      "d21f9c29-a898-42aa-9c12-3bb297e76325",
-      "Boost Quadrupler 1"
     ],
     [
       "21095f53-01f6-40ea-bb6b-e8b09c532104",
