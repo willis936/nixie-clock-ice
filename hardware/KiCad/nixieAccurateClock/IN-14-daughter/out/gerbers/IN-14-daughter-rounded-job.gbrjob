@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "7.0.9"
     },
-    "CreationDate": "2024-01-25T23:25:39-05:00"
+    "CreationDate": "2024-02-24T10:05:49-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "IN-14-daughter-rounded",
       "GUID": "494e2d31-342d-4646-9175-67687465722d",
-      "Revision": "A"
+      "Revision": "B"
     },
     "Size": {
       "X": 19.1,

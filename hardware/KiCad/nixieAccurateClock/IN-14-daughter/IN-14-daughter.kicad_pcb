@@ -7,7 +7,8 @@
   (paper "A5" portrait)
   (title_block
     (title "IN-14 daughter board")
-    (rev "A")
+    (date "2024-02-24")
+    (rev "B")
     (company "Paul Willis")
   )
 
@@ -1138,7 +1139,7 @@
     (stroke (width 0.1) (type default)) (layer "Cmts.User") (tstamp faac100e-4aa9-4bbc-aed0-53b611dc2ae3))
   (gr_rect (start 31.75 15.875) (end 50.75 52.32)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 247387e6-84f5-4788-ac9d-a5eb4e57c7c9))
-  (gr_text "IN-14\ndaughter board\nRev A" (at 37.75 47.875) (layer "F.SilkS") (tstamp a82c4e27-5a86-4f66-a67e-680382fc9448)
+  (gr_text "IN-14\ndaughter board\nRev B" (at 37.75 47.875) (layer "F.SilkS") (tstamp a82c4e27-5a86-4f66-a67e-680382fc9448)
     (effects (font (size 0.8 0.8) (thickness 0.125)) (justify bottom))
   )
   (gr_text "Material" (at 54.521426 93.375) (layer "Cmts.User") (tstamp 039df5ce-e872-4289-9d02-f9d1714a625a)

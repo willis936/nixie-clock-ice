@@ -33,6 +33,7 @@ fp-info-cache
 *.gbr
 *.drl
 *.pdf
+*.rpt
 hardware/renders
 
 

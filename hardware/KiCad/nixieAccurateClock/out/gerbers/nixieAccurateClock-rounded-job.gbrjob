@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "7.0.9"
     },
-    "CreationDate": "2024-01-25T19:23:10-05:00"
+    "CreationDate": "2024-02-24T10:17:48-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "nixieAccurateClock-rounded",
       "GUID": "6e697869-6541-4636-9375-72617465436c",
-      "Revision": "rev?"
+      "Revision": "B"
     },
     "Size": {
       "X": 152.5,

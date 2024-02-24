@@ -6,7 +6,8 @@
 
   (title_block
     (title "IN-14 daughter board")
-    (rev "A")
+    (date "2024-02-24")
+    (rev "B")
     (company "Paul Willis")
   )
 

@@ -6,6 +6,7 @@
 
   (title_block
     (title "Nixie Accurate Clock")
+    (date "2024-02-24")
     (rev "B")
     (company "Paul Willis")
   )
