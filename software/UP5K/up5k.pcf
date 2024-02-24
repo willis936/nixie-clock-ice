@@ -8,23 +8,23 @@ set_io --warn-no-port led_red 41
 set_io --warn-no-port clk 35
 
 
-set_io --warn-no-port lsd_adc_ofl 28
-set_io --warn-no-port lsd_adc_d7 31
-set_io --warn-no-port lsd_adc_d6 32
+set_io --warn-no-port lsd_adc_d0 48
+set_io --warn-no-port lsd_adc_d1 46
+set_io --warn-no-port lsd_adc_d2 47
+set_io --warn-no-port lsd_adc_d3 11
+set_io --warn-no-port lsd_adc_d4 31
 set_io --warn-no-port lsd_adc_d5 34
-set_io --warn-no-port lsd_adc_d4 36
-set_io --warn-no-port lsd_adc_cs 38
-set_io --warn-no-port lsd_adc_d3 42
-set_io --warn-no-port lsd_adc_d2 43
-set_io --warn-no-port lsd_adc_rd 11
-set_io --warn-no-port lsd_adc_mode 6
-set_io --warn-no-port lsd_adc_int 9
+set_io --warn-no-port lsd_adc_d6 38
+set_io --warn-no-port lsd_adc_d7 43
+set_io --warn-no-port lsd_adc_ofl 9
+set_io --warn-no-port lsd_adc_cs 28
+set_io --warn-no-port lsd_adc_rd 32
+set_io --warn-no-port lsd_adc_mode 36
+set_io --warn-no-port lsd_adc_int 6
+set_io --warn-no-port lsd_adc_wr_rdy 42
 
 set_io --warn-no-port gps_pps2 44
 set_io --warn-no-port gps_pps1 45
-set_io --warn-no-port lsd_adc_d0 46
-set_io --warn-no-port lsd_adc_d1 47
-set_io --warn-no-port lsd_adc_wr_rdy 48
 set_io --warn-no-port sense_precise 2
 set_io --warn-no-port data_hv 3
 set_io --warn-no-port clock_hv 4
