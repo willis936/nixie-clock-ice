@@ -8,6 +8,7 @@
   (title_block
     (title "IN-14 daughter board")
     (rev "A")
+    (company "Paul Willis")
   )
 
   (layers
