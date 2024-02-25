@@ -14,8 +14,7 @@ add_compile_definitions(VERSION=\"${PICO_ICE_SDK_VERSION}\")
 
 # add the local files
 add_executable(${CMAKE_PROJECT_NAME}
-    main.c
-    usb_descriptors.c
+    main.cpp
     )
 target_link_libraries(${CMAKE_PROJECT_NAME}
     pico_ice_sdk
