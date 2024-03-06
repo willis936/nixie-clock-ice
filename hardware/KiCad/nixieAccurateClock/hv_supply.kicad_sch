@@ -965,6 +965,152 @@
 				)
 			)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2223,6 +2369,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 46.99) (xy 53.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50284df3-a43d-40b1-8dbd-5acfeaca66a9")
+	)
+	(wire
+		(pts
 			(xy 177.8 46.99) (xy 210.82 46.99)
 		)
 		(stroke
@@ -2243,16 +2399,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 46.99) (xy 41.91 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57813631-4a79-44fd-af0b-882d4459a73a")
-	)
-	(wire
-		(pts
 			(xy 231.14 46.99) (xy 246.38 46.99)
 		)
 		(stroke
@@ -2270,6 +2416,16 @@
 			(type default)
 		)
 		(uuid "6796d9aa-97d1-43e9-9085-08de6c744f7f")
+	)
+	(wire
+		(pts
+			(xy 24.13 46.99) (xy 27.94 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c69fcb-76b2-405a-8730-2bffd5a7770c")
 	)
 	(wire
 		(pts
@@ -2523,7 +2679,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 46.99) (xy 96.52 46.99)
+			(xy 60.96 46.99) (xy 96.52 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2701,6 +2857,25 @@
 		)
 		(uuid "ff5ef5cc-e194-495d-9cf6-46de3867dc6b")
 	)
+	(text_box "Polyfuse input with 1A hold current and 1.8A trip current.\n\nSimulation shows this will hold up to 110 mA load and trip on 170 mA load.\n\n12 Nixie tubes @ 2.8 mA each would be 33.6 mA worst case load.\n\nThe goal is to allow max load driving while tripping on faults.\nThis is limits the energy delivered to humans / environment during shocks to be ~12 J / 2.9 cal (300 ms trip time * 200 V^2 / 1 kOhm)."
+		(exclude_from_sim no)
+		(at 19.05 17.78 0)
+		(size 78.74 20.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "09b04cc0-25ff-4d2d-b500-d5862a897469")
+	)
 	(text_box "100:1 divider to bring (0-333.3 V) down to (0-3.3V) for feedback ADC"
 		(exclude_from_sim no)
 		(at 247.65 62.23 0)
@@ -2829,6 +3004,17 @@
 		)
 		(uuid "3ff76d18-140d-4433-9892-d2335793c8aa")
 	)
+	(label "5V_{BOOST-FUSE}"
+		(at 36.83 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "471ff1b6-1a4e-4477-9956-e93d53325d84")
+	)
 	(label "HV_{QUARTER-BOOST}"
 		(at 95.25 63.5 180)
 		(fields_autoplaced yes)
@@ -2896,7 +3082,7 @@
 		(uuid "a8891233-8fda-4bd3-a404-68490446a41c")
 	)
 	(label "HV_{HALF-BOOST}"
-		(at 58.42 46.99 0)
+		(at 67.31 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4339,7 +4525,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 33.02 46.99 90)
+		(at 24.13 46.99 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -4348,7 +4534,7 @@
 		(fields_autoplaced yes)
 		(uuid "8035643a-52a1-42f4-b263-fa4a42427010")
 		(property "Reference" "#PWR043"
-			(at 36.83 46.99 0)
+			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,7 +4543,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 29.21 46.99 90)
+			(at 20.32 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +4552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 46.99 0)
+			(at 24.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 46.99 0)
+			(at 24.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +4570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 33.02 46.99 0)
+			(at 24.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,6 +4585,111 @@
 			(project "nixieAccurateClock"
 				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 31.75 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b2a8ac1-ab35-43aa-b5cf-bf2e372fdac3")
+		(property "Reference" "F1"
+			(at 31.75 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A"
+			(at 31.75 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 36.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zcj-series.pdf"
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "0ZCJ0100FF2E"
+			(at 31.75 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/bel-fuse-inc/0ZCJ0100FF2E/4156136"
+			(at 31.75 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser link" "https://www.mouser.com/ProductDetail/Bel-Fuse/0ZCJ0100FF2E?qs=SRYZG9HaIQ16trCtSE8WyA%3D%3D"
+			(at 31.75 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.23"
+			(at 31.75 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e0b8e69-a0c5-47d4-8cdf-64ab23deab3d")
+		)
+		(pin "2"
+			(uuid "be73c7ec-cef9-40e2-9874-283e4deb1b51")
+		)
+		(instances
+			(project "nixieAccurateClock"
+				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -5873,7 +6164,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 45.72 46.99 90)
+		(at 57.15 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5882,7 +6173,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd23510a-a526-4c1f-a444-1d76c651d88e")
 		(property "Reference" "L1"
-			(at 45.72 41.91 90)
+			(at 57.15 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +6181,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 45.72 44.45 90)
+			(at 57.15 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +6189,7 @@
 			)
 		)
 		(property "Footprint" "00_lib:IND_BOURNS_SRR1280"
-			(at 45.72 46.99 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +6198,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR1280.pdf"
-			(at 45.72 46.99 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +6207,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 45.72 46.99 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +6216,7 @@
 			)
 		)
 		(property "Model" "SRR1280-100M"
-			(at 45.72 46.99 90)
+			(at 57.15 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +6225,7 @@
 			)
 		)
 		(property "Price" "1.02"
-			(at 45.72 46.99 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +6234,7 @@
 			)
 		)
 		(property "Digikey link" "https://www.digikey.com/en/products/detail/bourns-inc/SRR1280-100M/1969992"
-			(at 45.72 46.99 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +6243,7 @@
 			)
 		)
 		(property "Mouser link" "https://www.mouser.com/ProductDetail/Bourns/SRR1280-100M?qs=brMhP%2FMjUfe%2FtbNTKcGHiQ%3D%3D"
-			(at 45.72 46.99 0)
+			(at 57.15 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
