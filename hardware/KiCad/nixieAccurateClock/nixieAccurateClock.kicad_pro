@@ -600,7 +600,7 @@
       },
       {
         "netclass": "HV",
-        "pattern": "HV_{SENSE}"
+        "pattern": "/HV bleed/HV_{SENSE}"
       },
       {
         "netclass": "HV",
@@ -618,7 +618,7 @@
       "idf": "",
       "netlist": "",
       "plot": "out/gerbers",
-      "pos_files": "",
+      "pos_files": "out/placement",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -788,6 +788,10 @@
     [
       "fa3a63c9-954d-4f39-b9f7-6285953d7b2b",
       "Pico Ice"
+    ],
+    [
+      "d7872826-aa23-4186-9110-e37d946491ae",
+      "Peripherals"
     ],
     [
       "9610945c-9df3-4d66-a574-d19433fdc707",

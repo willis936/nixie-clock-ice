@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Nixie Accurate Clock")
-		(date "2024-02-25")
+		(date "2024-03-07")
 		(rev "B")
 		(company "Paul Willis")
 	)
@@ -1949,50 +1949,6 @@
 		)
 		(uuid "b270c148-3104-4797-b215-dfe0c09eedd5")
 	)
-	(global_label "GPS_{RSTN}"
-		(shape input)
-		(at 157.48 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2dd5c68a-16a3-47be-a5b0-7707a399f955")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.0876 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPS_{TXD}"
-		(shape output)
-		(at 106.68 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "35d5cbba-440f-4b11-9f69-746867baaa29")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1368 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+3.3V_STDBY"
 		(shape output)
 		(at 67.31 120.65 180)
@@ -2015,29 +1971,7 @@
 			)
 		)
 	)
-	(global_label "GPS_{BOOT_SEL}"
-		(shape input)
-		(at 157.48 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4fd533d4-0a39-438a-820e-d3effec982f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.6678 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPS_{1PPS2}"
+	(hierarchical_label "GPS_{1PPS2}"
 		(shape output)
 		(at 157.48 107.95 0)
 		(fields_autoplaced yes)
@@ -2047,19 +1981,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9dc20716-26f0-411d-aa21-9418528a55bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.2003 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "2f01f60c-9249-4116-a82a-17caaf96cc7c")
 	)
-	(global_label "GPS_{1PPS}"
+	(hierarchical_label "GPS_{1PPS}"
 		(shape output)
 		(at 157.48 110.49 0)
 		(fields_autoplaced yes)
@@ -2069,19 +1993,45 @@
 			)
 			(justify left)
 		)
-		(uuid "b684f16c-e1fe-49d8-9626-c81f05a55505")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.2327 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "463b8792-849e-408f-8251-ba436c5c24eb")
 	)
-	(global_label "GPS_{RXD}"
+	(hierarchical_label "GPS_{BOOT_SEL}"
+		(shape input)
+		(at 157.48 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "579ce241-4d75-4b93-93ac-c9416a48b547")
+	)
+	(hierarchical_label "GPS_{TXD}"
+		(shape output)
+		(at 106.68 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88695e18-b8b1-4bd9-b17e-727e36d0a721")
+	)
+	(hierarchical_label "GPS_{RSTN}"
+		(shape input)
+		(at 157.48 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91267403-8371-4b6f-8ba6-d9bab032baa2")
+	)
+	(hierarchical_label "GPS_{RXD}"
 		(shape input)
 		(at 106.68 107.95 180)
 		(fields_autoplaced yes)
@@ -2091,17 +2041,7 @@
 			)
 			(justify right)
 		)
-		(uuid "d028b969-19f9-4ee1-8251-441396e469a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.8949 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "94f5313e-89b0-496e-af68-aa679cdc56cb")
 	)
 	(symbol
 		(lib_id "power:GND")

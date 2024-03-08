@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Nixie Accurate Clock")
-		(date "2024-02-25")
+		(date "2024-03-07")
 		(rev "B")
 		(company "Paul Willis")
 	)
@@ -1338,7 +1338,7 @@
 		)
 		(uuid "f5718b95-5b2c-4b6c-b579-88fbaeaea8eb")
 	)
-	(global_label "HV_{SENSE}"
+	(hierarchical_label "HV_{SENSE}"
 		(shape input)
 		(at 66.04 43.18 180)
 		(fields_autoplaced yes)
@@ -1348,17 +1348,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2e069c21-ab7b-4541-be97-f589be74e463")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.7469 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "990afd7e-3fb0-4565-a0d5-e935a0822080")
 	)
 	(symbol
 		(lib_id "Transistor_BJT:PZTA42")

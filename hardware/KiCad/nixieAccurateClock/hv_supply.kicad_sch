@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Nixie Accurate Clock")
-		(date "2024-02-25")
+		(date "2024-03-07")
 		(rev "B")
 		(company "Paul Willis")
 	)
@@ -3114,7 +3114,7 @@
 		)
 		(uuid "f302475c-2c6d-47f7-8203-1825aa3810be")
 	)
-	(global_label "GATE_{HV}"
+	(hierarchical_label "GATE_{HV}"
 		(shape input)
 		(at 107.95 128.27 180)
 		(fields_autoplaced yes)
@@ -3124,85 +3124,9 @@
 			)
 			(justify right)
 		)
-		(uuid "21392de5-1116-4f4d-80af-a694bfb61ca1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.5035 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "8cfc0b7f-0acd-4af6-98f3-9eb9d9c49398")
 	)
-	(global_label "MEASURE_{HV}"
-		(shape output)
-		(at 233.68 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a1049d9-306d-4578-b690-11b966e6ca63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.2993 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GATE_{HV}"
-		(shape input)
-		(at 210.82 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a1c5712-8f14-405b-a869-bfc5a66abbda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.3735 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GATE_{HV}"
-		(shape input)
-		(at 142.24 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7fd2f08-08a3-4011-a5de-2deeb6c8d474")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.7935 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GATE_{HV}"
+	(hierarchical_label "GATE_{HV}"
 		(shape input)
 		(at 176.53 128.27 180)
 		(fields_autoplaced yes)
@@ -3212,19 +3136,21 @@
 			)
 			(justify right)
 		)
-		(uuid "bdd8a0a0-0b7d-4b33-b213-7f381abe7cb3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.0835 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "9076dfdb-fbef-41d5-b641-e6e610bda350")
 	)
-	(global_label "HV_{SENSE}"
+	(hierarchical_label "MEASURE_{HV}"
+		(shape output)
+		(at 233.68 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5d250fb-f02d-4c2c-80a8-730c5ee74333")
+	)
+	(hierarchical_label "HV_{SENSE}"
 		(shape output)
 		(at 180.34 50.8 0)
 		(fields_autoplaced yes)
@@ -3234,17 +3160,31 @@
 			)
 			(justify left)
 		)
-		(uuid "ec0c7564-3f4c-48c8-af85-c1342417a143")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.6331 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "e3099393-b6ed-47ea-82b4-74a3e0420cd1")
+	)
+	(hierarchical_label "GATE_{HV}"
+		(shape input)
+		(at 210.82 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "f49b972d-bda3-4e8e-9fb4-31f6603d9dfc")
+	)
+	(hierarchical_label "GATE_{HV}"
+		(shape input)
+		(at 142.24 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fff9f5f7-cbe4-4e38-8eb3-13625905d702")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Nixie Accurate Clock")
-		(date "2024-02-25")
+		(date "2024-03-07")
 		(rev "B")
 		(company "Paul Willis")
 	)
@@ -4666,161 +4666,7 @@
 		)
 		(uuid "daa29554-a7b8-4882-b0cf-496efa3df20a")
 	)
-	(global_label "SENSE_{PRECISE}"
-		(shape output)
-		(at 57.15 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d6fc902-20b1-47c3-b915-c17f934a7c55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.5713 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLOCK_{PRECISE}"
-		(shape input)
-		(at 36.83 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e303ccc-669d-43aa-91ec-8a5feaa2c971")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.2876 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLOCK_{HV}"
-		(shape input)
-		(at 57.15 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "11f0623d-4949-49fe-b0c1-2ca943c09750")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.2899 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLOCK_{HV}"
-		(shape input)
-		(at 31.75 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "31488104-01b4-48fc-b809-36f75e996436")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.6101 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSD_{SHUNT}"
-		(shape output)
-		(at 199.39 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "351d602e-d07f-4e0a-b28d-f3fdfc234b0a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 210.8685 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PPS_{TRIMMED}"
-		(shape input)
-		(at 31.75 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39936f27-6def-4f4f-b7bf-23a348d39708")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.4332 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DATA_{HV}"
-		(shape input)
-		(at 31.75 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f826e30-b616-4452-9760-409135559284")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.3639 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PPS_{TRIMMED}"
+	(hierarchical_label "PPS_{TRIMMED}"
 		(shape input)
 		(at 161.29 69.85 180)
 		(fields_autoplaced yes)
@@ -4830,85 +4676,9 @@
 			)
 			(justify right)
 		)
-		(uuid "4f4a53c2-218d-4078-9e29-5adfc901e072")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9732 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "31119e5b-f445-46e7-9279-2746b4f4cd55")
 	)
-	(global_label "CLOCK_{HV}"
-		(shape input)
-		(at 161.29 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "632726a8-d8c3-43a1-a804-85f58e968d04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.1501 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PPS_{TRIMMED}"
-		(shape input)
-		(at 96.52 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "76cae022-1f25-4cf7-aa32-14c9c559c3d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.2032 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PPS_{TRIMMED}"
-		(shape input)
-		(at 161.29 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a342a5e-a154-4a43-89e2-b0a2d1df8f2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.9732 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DATA_{PRECISE}"
+	(hierarchical_label "DATA_{PRECISE}"
 		(shape input)
 		(at 36.83 130.81 180)
 		(fields_autoplaced yes)
@@ -4918,151 +4688,21 @@
 			)
 			(justify right)
 		)
-		(uuid "8339ad1b-2ad6-4184-89cd-edc75b027b67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.0414 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "3dfc405e-7994-4c1b-b126-08aff1d07c85")
 	)
-	(global_label "PPS_{TRIMMED}"
-		(shape input)
-		(at 36.83 133.35 180)
+	(hierarchical_label "SENSE_{PRECISE}"
+		(shape output)
+		(at 57.15 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "84145a30-9a08-4064-8239-6cd652e54f48")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.5132 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "475743e2-0a73-4245-9bbb-e785d5910991")
 	)
-	(global_label "CLOCK_{HV}"
-		(shape input)
-		(at 161.29 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba54e578-d25f-4961-86b1-9a380b93fa92")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.1501 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLOCK_{HV}"
-		(shape input)
-		(at 96.52 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bcafafa8-78cf-4e18-8fba-f5942e49f102")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.3801 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PPS_{TRIMMED}"
-		(shape input)
-		(at 96.52 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd9442f0-1ddb-44cd-b104-192b0159aeaf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.2032 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PPS_{TRIMMED}"
-		(shape input)
-		(at 31.75 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d35b9071-9fe0-45b9-92bf-9b294f791874")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.4332 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLOCK_{HV}"
-		(shape input)
-		(at 96.52 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d3b10f73-ad85-4379-aa83-bae4b075dee5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.3801 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLOCK_{HV}"
+	(hierarchical_label "CLOCK_{HV}"
 		(shape input)
 		(at 31.75 101.6 180)
 		(fields_autoplaced yes)
@@ -5072,17 +4712,187 @@
 			)
 			(justify right)
 		)
-		(uuid "eeaec2a7-0701-47b2-b5e5-1bbefc5efbeb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.6101 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "6b52b4f9-b4dc-4f4c-af06-99aa63238452")
+	)
+	(hierarchical_label "PPS_{TRIMMED}"
+		(shape input)
+		(at 96.52 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "760ddd42-e33e-4482-a04c-87ad56595300")
+	)
+	(hierarchical_label "CLOCK_{HV}"
+		(shape input)
+		(at 161.29 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e906cf6-b21e-419b-9fee-374c203c2851")
+	)
+	(hierarchical_label "CLOCK_{HV}"
+		(shape input)
+		(at 31.75 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f3c2357-2202-44b9-bd77-eab122121b40")
+	)
+	(hierarchical_label "PPS_{TRIMMED}"
+		(shape input)
+		(at 31.75 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9146a046-7ca8-41d9-90f1-4c2b0d9ce1b9")
+	)
+	(hierarchical_label "LSD_{SHUNT}"
+		(shape output)
+		(at 199.39 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "931cb16d-71da-4e52-b676-6fba5ae7e1dd")
+	)
+	(hierarchical_label "CLOCK_{HV}"
+		(shape input)
+		(at 96.52 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97c11e0e-ca93-4a68-9664-b4bee51e6998")
+	)
+	(hierarchical_label "CLOCK_{HV}"
+		(shape input)
+		(at 57.15 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cf5372f-591d-426b-8a2e-4cc19270f617")
+	)
+	(hierarchical_label "PPS_{TRIMMED}"
+		(shape input)
+		(at 161.29 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a933e251-bf62-4aff-9532-e60b1491ee4f")
+	)
+	(hierarchical_label "PPS_{TRIMMED}"
+		(shape input)
+		(at 31.75 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf631c6a-5b4d-412d-a0bd-ebe193e8a2b2")
+	)
+	(hierarchical_label "CLOCK_{HV}"
+		(shape input)
+		(at 161.29 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1242b2a-8048-49b1-8c15-a01e6b8799aa")
+	)
+	(hierarchical_label "DATA_{HV}"
+		(shape input)
+		(at 31.75 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c127ca2f-6067-41f0-aa94-f80c476f41a8")
+	)
+	(hierarchical_label "PPS_{TRIMMED}"
+		(shape input)
+		(at 96.52 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2ec508e-fde3-4229-b7c3-9b3c57037123")
+	)
+	(hierarchical_label "CLOCK_{PRECISE}"
+		(shape input)
+		(at 36.83 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4714c49-51bd-4a74-ac2c-a43281326630")
+	)
+	(hierarchical_label "PPS_{TRIMMED}"
+		(shape input)
+		(at 36.83 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efd6bec3-f979-47e8-9bd3-b7b17d47b111")
+	)
+	(hierarchical_label "CLOCK_{HV}"
+		(shape input)
+		(at 96.52 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f95db6c1-69c4-4a19-82a8-d655c48b9bc8")
 	)
 	(symbol
 		(lib_id "power:GND")

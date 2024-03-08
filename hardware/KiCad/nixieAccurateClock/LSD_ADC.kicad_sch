@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Nixie Accurate Clock")
-		(date "2024-02-25")
+		(date "2024-03-07")
 		(rev "B")
 		(company "Paul Willis")
 	)
@@ -2715,6 +2715,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 104.14) (xy 34.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157e0801-fa9b-4c59-b5ef-acf2f73b5671")
+	)
+	(wire
+		(pts
 			(xy 254 101.6) (xy 254 105.41)
 		)
 		(stroke
@@ -4250,73 +4260,7 @@
 		)
 		(uuid "f6d8a290-2059-4bb5-87b8-6d51d1d75f04")
 	)
-	(global_label "MEASURE_{HV}"
-		(shape input)
-		(at 67.31 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0086a94a-704c-47e0-8aac-f2ad03eb4b45")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.6907 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSD_{ADC_D2}"
-		(shape output)
-		(at 184.15 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13903855-89eb-4a00-a904-61300fab9bd7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.3542 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSD_{ADC_D0}"
-		(shape output)
-		(at 184.15 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17b9e608-913d-457b-9a5e-55f85e15f490")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.3542 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSD_{ADC_~{OFL}}"
+	(hierarchical_label "LSD_{ADC_~{OFL}}"
 		(shape output)
 		(at 184.15 113.03 0)
 		(fields_autoplaced yes)
@@ -4326,65 +4270,11 @@
 			)
 			(justify left)
 		)
-		(uuid "24b704d6-8192-4b73-81f8-c77a3f1a7c23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.1284 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "04137d3f-141b-408d-a377-b601ebb7cacf")
 	)
-	(global_label "LSD_{ADC_D5}"
-		(shape output)
-		(at 246.38 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "305dcb33-df0b-491b-8fd7-d785658105a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.5842 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSD_{ADC_D1}"
-		(shape output)
-		(at 184.15 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3399711a-5404-4ce7-a4f6-0e992bc97558")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.3542 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSD_{ADC_~{RD}}"
+	(hierarchical_label "MEASURE_{HV}"
 		(shape input)
-		(at 219.71 113.03 180)
+		(at 67.31 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4392,63 +4282,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6e47c09a-79b8-472b-ab47-fba94c9b4b3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.4574 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "238e5652-f08a-4df0-8963-c75df0f739a0")
 	)
-	(global_label "LSD_{ADC_D3}"
-		(shape output)
-		(at 184.15 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99484cb3-4a51-417d-922c-03e61d1a778f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.3542 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSD_{ADC_~{INT}}"
-		(shape output)
-		(at 184.15 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c6eb9dd7-e2e9-4f4c-ad9e-8837edda8708")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.6929 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSD_{ADC_D6}"
+	(hierarchical_label "LSD_{ADC_D6}"
 		(shape output)
 		(at 246.38 52.07 0)
 		(fields_autoplaced yes)
@@ -4458,41 +4294,9 @@
 			)
 			(justify left)
 		)
-		(uuid "cb2d1c1c-19c1-41f6-8828-4ddea9fd501a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.5842 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "27c0f159-c6fc-4b43-bed1-26bc03d7a472")
 	)
-	(global_label "LSD_{ADC_D4}"
-		(shape output)
-		(at 246.38 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d3824cc9-a873-40da-b7f6-ad0475e52174")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.5842 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSD_{ADC_~{CS}}"
+	(hierarchical_label "LSD_{ADC_~{CS}}"
 		(shape input)
 		(at 219.71 115.57 180)
 		(fields_autoplaced yes)
@@ -4502,21 +4306,11 @@
 			)
 			(justify right)
 		)
-		(uuid "d3c6ed53-b738-492e-bff9-52749101f46c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.5058 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "66b401a1-a187-41b6-b55d-72dc5295f02a")
 	)
-	(global_label "LSD_{ADC_D7}"
+	(hierarchical_label "LSD_{ADC_D1}"
 		(shape output)
-		(at 246.38 49.53 0)
+		(at 184.15 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4524,19 +4318,45 @@
 			)
 			(justify left)
 		)
-		(uuid "d4fbae3d-94c5-4144-8d72-a3fcb5e07885")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.5842 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "7307c1da-543d-4963-9e1e-aa8c43b18f3b")
 	)
-	(global_label "LSD_{ADC_~{WR}{slash}RDY}"
+	(hierarchical_label "LSD_{ADC_~{RD}}"
+		(shape input)
+		(at 219.71 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7993630e-0a47-4ce5-b721-c05cd44cbd98")
+	)
+	(hierarchical_label "LSD_{ADC_D2}"
+		(shape output)
+		(at 184.15 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82e49767-8d6b-4e1d-a84c-3bf8ec071e4d")
+	)
+	(hierarchical_label "LSD_{ADC_D5}"
+		(shape output)
+		(at 246.38 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f130027-3d08-4f48-808b-bc24db5907ad")
+	)
+	(hierarchical_label "LSD_{ADC_~{WR}{slash}RDY}"
 		(shape input)
 		(at 219.71 107.95 180)
 		(fields_autoplaced yes)
@@ -4546,19 +4366,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e3e32c36-4dcf-477e-af90-2f7f634dac71")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.345 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "a0b533bb-8fed-419c-9c5e-27c2cdd0f054")
 	)
-	(global_label "LSD_{ADC_MODE}"
+	(hierarchical_label "LSD_{ADC_MODE}"
 		(shape input)
 		(at 219.71 110.49 180)
 		(fields_autoplaced yes)
@@ -4568,21 +4378,23 @@
 			)
 			(justify right)
 		)
-		(uuid "e59503b8-6cf1-4d91-bbef-ef8edf6c4f2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.3287 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "b8724857-affc-4480-a3ae-bbda6563a74a")
 	)
-	(global_label "LSD_{SHUNT}"
+	(hierarchical_label "LSD_{SHUNT}"
 		(shape input)
-		(at 34.29 104.14 90)
+		(at 30.48 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d35c2a7e-10fb-4d34-8a82-6196b5baea6b")
+	)
+	(hierarchical_label "LSD_{ADC_D7}"
+		(shape output)
+		(at 246.38 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4590,17 +4402,55 @@
 			)
 			(justify left)
 		)
-		(uuid "f915137a-0663-4ebd-9d58-d19e5c838b05")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 92.6615 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
+		(uuid "d8e5a4cb-d13e-43e0-ad20-a607d8e910e4")
+	)
+	(hierarchical_label "LSD_{ADC_D4}"
+		(shape output)
+		(at 246.38 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "e90ecf27-8d83-43ef-aec2-4849b85649be")
+	)
+	(hierarchical_label "LSD_{ADC_D3}"
+		(shape output)
+		(at 184.15 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e947e7c7-4264-4195-a29d-57718167abc5")
+	)
+	(hierarchical_label "LSD_{ADC_~{INT}}"
+		(shape output)
+		(at 184.15 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fdfde550-6fe8-44df-9ed6-f503c7e5be41")
+	)
+	(hierarchical_label "LSD_{ADC_D0}"
+		(shape output)
+		(at 184.15 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fedbacfa-4990-40b5-b7da-56120684b8c8")
 	)
 	(symbol
 		(lib_name "C_Small_5")
