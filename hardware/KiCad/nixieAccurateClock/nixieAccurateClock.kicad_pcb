@@ -50949,7 +50949,7 @@
 		(layer "F.Cu")
 		(uuid "10a9b456-94eb-4bfe-a613-ba74fdd3867d")
 		(hatch edge 0.5)
-		(priority 6)
+		(priority 11)
 		(connect_pads
 			(clearance 0.5)
 		)
@@ -51110,7 +51110,7 @@
 		)
 		(polygon
 			(pts
-				(xy 83.25 87.75) (xy 83.25 103.75) (xy 79 103.75) (xy 79 87.75)
+				(xy 83.75 87.75) (xy 83.75 103) (xy 77.5 103) (xy 77.5 87.75)
 			)
 		)
 	)
