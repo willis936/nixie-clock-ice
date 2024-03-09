@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Nixie Accurate Clock")
-		(date "2024-03-07")
+		(date "2024-03-08")
 		(rev "B")
 		(company "Paul Willis")
 	)
@@ -26607,6 +26607,399 @@
 			)
 		)
 	)
+	(footprint "00_lib:TestPoint_Keystone_5019_Minature"
+		(layer "F.Cu")
+		(uuid "7e05d6f1-96e1-42e8-9ac9-74020259e5c8")
+		(at 24.765 97.155)
+		(descr "SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
+		(tags "Test Point")
+		(property "Reference" "TP1"
+			(at 0 -2.25 0)
+			(layer "F.SilkS")
+			(uuid "e36feef8-3eba-427c-8e8d-7972c33ebad5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.25 0)
+			(layer "F.Fab")
+			(uuid "584644c8-9fbc-421d-ad84-e859b818aa6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "00_lib:TestPoint_Keystone_5019_Minature"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f1836d7-c67d-4633-b999-d6b2bb9cdc7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/019-743690.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "925269f8-5951-475a-813d-29164d898af4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63db8a8d-a4ed-4344-be8a-682f5098d184")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Model" "5019"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5d0b056-750c-4f75-92f6-c8b52d004408")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.33"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1df6b9d3-52a0-47ae-a628-d155329628d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c808b57b-8157-4448-9dd3-1d8dfcac8b1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser link" "https://www.mouser.com/ProductDetail/Keystone-Electronics/5019?qs=wOxb8XianXjjCAsb90Ilzw%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07d657b1-c90a-457f-846d-82e8a75316eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/f2852417-d6c8-4bbe-bd15-a29bc4083bd0/9fef759e-22e6-4d31-ab31-26565eeb6ef2")
+		(sheetname "High voltage supply")
+		(sheetfile "hv_supply.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.1 -1.2)
+			(end 2.1 -1.2)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "291f979e-853d-46cd-b3ce-f1901dd10f49")
+		)
+		(fp_line
+			(start -2.1 1.2)
+			(end -2.1 -1.2)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9efc9f7a-2566-4c6a-888b-ea722fb54a75")
+		)
+		(fp_line
+			(start 2.1 -1.2)
+			(end 2.1 1.2)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50a847a4-50e3-4949-9d49-2dd7adfe7cca")
+		)
+		(fp_line
+			(start 2.1 1.2)
+			(end -2.1 1.2)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e8177b8f-ccc9-4257-aeb6-dcf64901774a")
+		)
+		(fp_line
+			(start -2.35 -1.45)
+			(end 2.35 -1.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2b2f84c4-add0-402c-ae9c-7696d2de0b30")
+		)
+		(fp_line
+			(start -2.35 1.45)
+			(end -2.35 -1.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "33416471-9087-423e-8f94-537851f50314")
+		)
+		(fp_line
+			(start 2.35 -1.45)
+			(end 2.35 1.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "065774cf-e43f-4d01-97a8-ee574c56e9eb")
+		)
+		(fp_line
+			(start 2.35 1.45)
+			(end -2.35 1.45)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ddb13ede-4920-49e8-9996-886746ff7c73")
+		)
+		(fp_line
+			(start -1.9 -0.5)
+			(end -1.9 0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fb51e9fe-c58c-46cd-96a8-dd07cc9efc14")
+		)
+		(fp_line
+			(start -1.9 -0.5)
+			(end 1.9 -0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "95bb69ca-9875-4c83-a1da-539482c194f4")
+		)
+		(fp_line
+			(start -1.75 0.5)
+			(end -1.25 0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "068aa69d-6383-421c-99e4-ade2a7766dbe")
+		)
+		(fp_line
+			(start -1.25 -1)
+			(end -1.25 -0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c49b7544-1e3a-486f-8eb2-95917272099c")
+		)
+		(fp_line
+			(start -1.25 -0.5)
+			(end -1.75 -0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3fe3dc92-5685-4949-8784-7a31cc39ea62")
+		)
+		(fp_line
+			(start -1.25 0.5)
+			(end -1.25 1)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5518e86a-c6e0-4799-a501-2cde1c49d22d")
+		)
+		(fp_line
+			(start -1.25 1)
+			(end 1.25 1)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cf1b4931-5be6-4f68-a2ba-218f5e4a1c05")
+		)
+		(fp_line
+			(start 0 -1)
+			(end 0 -0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0c5a1309-eb30-493c-a9e1-8ab96e3fa4fb")
+		)
+		(fp_line
+			(start 0 0.5)
+			(end 0 1)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8d6c8d56-9ff4-4372-b523-5ef02fd741a8")
+		)
+		(fp_line
+			(start 1.25 -1)
+			(end -1.25 -1)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e0d0d79c-04b0-45fe-9f6a-f3aa479efb34")
+		)
+		(fp_line
+			(start 1.25 -0.5)
+			(end 1.25 -1)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3cc6fc16-f107-4d9d-8ef2-0692ea3e4add")
+		)
+		(fp_line
+			(start 1.25 0.5)
+			(end 1.75 0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8ea66833-e8ff-4aa5-9e83-f0417cc93328")
+		)
+		(fp_line
+			(start 1.25 1)
+			(end 1.25 0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9e49fe0a-e097-49ae-93fb-a66c805b793e")
+		)
+		(fp_line
+			(start 1.75 -0.5)
+			(end 1.25 -0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c6db6efb-fac8-4bdb-9e79-1d4d8544e50e")
+		)
+		(fp_line
+			(start 1.9 0.5)
+			(end -1.9 0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "50af3efb-5792-4151-8269-8b7beec821c8")
+		)
+		(fp_line
+			(start 1.9 0.5)
+			(end 1.9 -0.5)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "25572e7e-365b-499c-b886-a8bf0707af19")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0a5d6358-c22c-420a-9571-6228b4a4dfb3")
+			(effects
+				(font
+					(size 0.9 0.9)
+					(thickness 0.135)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 3.8 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 146 "/High voltage supply/HV_{HALF-BOOST}")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "f21c0a62-48c7-45e4-8d54-662da40fff82")
+		)
+		(model "${KIPRJMOD}/lib.pretty/5019.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via"
 		(locked yes)
 		(layer "F.Cu")
@@ -37090,396 +37483,6 @@
 			)
 			(rotate
 				(xyz -90 -90 -90)
-			)
-		)
-	)
-	(footprint "00_lib:TestPoint_Keystone_5019_Minature"
-		(layer "F.Cu")
-		(uuid "e836ee39-b4a1-4ab6-95a9-167f5c3b762b")
-		(at 24.765 97.155)
-		(descr "SMT Test Point- Micro Miniature 5019, http://www.keyelco.com/product-pdf.cfm?p=1357")
-		(tags "Test Point")
-		(property "Reference" "TP1"
-			(at 0 -2.25 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1df2215b-ef10-4974-804d-f50cba4f190c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 0 2.25 0)
-			(layer "F.Fab")
-			(uuid "ad72517c-17f6-4586-9fd6-5a2f2ec17ffc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "00_lib:TestPoint_Keystone_5019_Minature"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a6cf9d69-0b91-40e8-91fb-4e967821f34b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/019-743690.pdf"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c1a4f1b6-d688-46dd-9ef7-dcff03f649ee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0680463-b566-4569-95e5-a876cdb94e09")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2dbefe0-2ba6-47e8-8bba-5e9bd888ed99")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Model" "5019"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f34eb47f-8bb1-460c-b0ca-d84f0bddb966")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/Keystone-Electronics/5019?qs=wOxb8XianXjjCAsb90Ilzw%3D%3D"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da52c6eb-e293-4060-85c8-a4856bfada38")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" "0.33"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9bc80f9c-b4e1-410b-bf47-e2a0dfa7f17e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/f2852417-d6c8-4bbe-bd15-a29bc4083bd0/9fef759e-22e6-4d31-ab31-26565eeb6ef2")
-		(sheetname "High voltage supply")
-		(sheetfile "hv_supply.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -2.1 -1.2)
-			(end 2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b0060283-b82c-46e4-ad42-e68ca8f87c5b")
-		)
-		(fp_line
-			(start -2.1 1.2)
-			(end -2.1 -1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7e64c96b-2f51-47ef-acff-a48cb1ded25e")
-		)
-		(fp_line
-			(start 2.1 -1.2)
-			(end 2.1 1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b235d583-81da-4424-9c62-1af121128b9c")
-		)
-		(fp_line
-			(start 2.1 1.2)
-			(end -2.1 1.2)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5a4dffec-8c9e-4ba7-8b6a-65db53fed574")
-		)
-		(fp_line
-			(start -2.35 -1.45)
-			(end 2.35 -1.45)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ff021f79-e788-4f56-b5cd-6eb6b9de1827")
-		)
-		(fp_line
-			(start -2.35 1.45)
-			(end -2.35 -1.45)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8d3f6c98-8c16-4885-b59f-ca9777958b91")
-		)
-		(fp_line
-			(start 2.35 -1.45)
-			(end 2.35 1.45)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "280994f2-835f-4003-969a-7e65b916833e")
-		)
-		(fp_line
-			(start 2.35 1.45)
-			(end -2.35 1.45)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "de239f65-496e-4462-9e82-f3bcd2e49ec8")
-		)
-		(fp_line
-			(start -1.9 -0.5)
-			(end -1.9 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b0407d3d-b7e1-48d5-ae72-3e14cfe9c2e6")
-		)
-		(fp_line
-			(start -1.9 -0.5)
-			(end 1.9 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "fd426e69-0445-40e4-94da-ee1714292dbe")
-		)
-		(fp_line
-			(start -1.75 0.5)
-			(end -1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "04f513f4-04ee-4e8e-97a1-6c73d8cf7550")
-		)
-		(fp_line
-			(start -1.25 -1)
-			(end -1.25 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8ebb1b33-b7de-467c-afda-e19cedf076b4")
-		)
-		(fp_line
-			(start -1.25 -0.5)
-			(end -1.75 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e293ca36-8427-44bc-b128-9530619259a8")
-		)
-		(fp_line
-			(start -1.25 0.5)
-			(end -1.25 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e61456bc-78cf-401b-b046-fd39e7c1f49e")
-		)
-		(fp_line
-			(start -1.25 1)
-			(end 1.25 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0b581349-c24e-4fdb-ae90-1c406a501ad2")
-		)
-		(fp_line
-			(start 0 -1)
-			(end 0 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "67ac59e0-dbd2-492f-afb0-92297c8595d7")
-		)
-		(fp_line
-			(start 0 0.5)
-			(end 0 1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "05ac7d32-4f08-43ec-9638-cdbf7efb4542")
-		)
-		(fp_line
-			(start 1.25 -1)
-			(end -1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d410338b-a26c-4316-bf8f-abff3e10e4e2")
-		)
-		(fp_line
-			(start 1.25 -0.5)
-			(end 1.25 -1)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "dfb8d550-e7dc-452b-86f2-e3a9862c26d5")
-		)
-		(fp_line
-			(start 1.25 0.5)
-			(end 1.75 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "34cfe8fe-c512-480e-a283-b9624b99d20f")
-		)
-		(fp_line
-			(start 1.25 1)
-			(end 1.25 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d68995e1-ff8c-4d84-9199-85dfcf6637e6")
-		)
-		(fp_line
-			(start 1.75 -0.5)
-			(end 1.25 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8e7ba88a-4d33-4698-8e24-b0bc25aeb8dd")
-		)
-		(fp_line
-			(start 1.9 0.5)
-			(end -1.9 0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "97651497-3d2e-403b-bbfa-d68bad408eec")
-		)
-		(fp_line
-			(start 1.9 0.5)
-			(end 1.9 -0.5)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4327e6b0-a4ff-41bc-914c-9977a02ecebb")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "26f67abd-a989-4f0f-af7a-0cb4ef2abd36")
-			(effects
-				(font
-					(size 0.9 0.9)
-					(thickness 0.135)
-				)
-			)
-		)
-		(pad "1" smd rect
-			(at 0 0)
-			(size 3.8 2)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 146 "/High voltage supply/HV_{HALF-BOOST}")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9ce374df-3adf-4645-94ea-c02fcb686530")
-		)
-		(model "${KIPRJMOD}/lib.pretty/5019.stp"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -50688,12 +50691,12 @@
 		(uuid "6f98813c-bc12-4e2a-a5c5-81b7b5ada93f")
 	)
 	(segment
-		(start 24.765 95.25)
-		(end 30.965 89.05)
+		(start 24.765 94.485)
+		(end 30.2 89.05)
 		(width 1)
 		(layer "F.Cu")
 		(net 146)
-		(uuid "74a95202-b172-48c7-8185-475ce59e0e7c")
+		(uuid "89ed632e-9ccd-4fc5-83df-3af475a7a496")
 	)
 	(segment
 		(start 70.7086 97.16)
@@ -50710,14 +50713,6 @@
 		(layer "F.Cu")
 		(net 146)
 		(uuid "918c7dae-47fb-4f09-9865-d3032b8eb196")
-	)
-	(segment
-		(start 24.765 97.155)
-		(end 24.765 95.25)
-		(width 1)
-		(layer "F.Cu")
-		(net 146)
-		(uuid "9b0538a0-2987-4107-a23e-871858491ccc")
 	)
 	(segment
 		(start 29.87 97.155)
@@ -50744,20 +50739,28 @@
 		(uuid "bd2172e0-129c-4267-bcad-6543bd0f75b3")
 	)
 	(segment
-		(start 30.965 89.05)
-		(end 43.815 89.05)
-		(width 1)
-		(layer "F.Cu")
-		(net 146)
-		(uuid "beefe957-22f5-404d-8d9a-3bd837d3eaa5")
-	)
-	(segment
 		(start 36.17 97.155)
 		(end 29.87 97.155)
 		(width 1)
 		(layer "F.Cu")
 		(net 146)
 		(uuid "c5ba6836-300f-4577-87db-47e55094b2d2")
+	)
+	(segment
+		(start 24.765 97.155)
+		(end 24.765 94.485)
+		(width 1)
+		(layer "F.Cu")
+		(net 146)
+		(uuid "c5c5bd9b-ae1d-4880-9be3-c46f90a14b3a")
+	)
+	(segment
+		(start 30.2 89.05)
+		(end 43.815 89.05)
+		(width 1)
+		(layer "F.Cu")
+		(net 146)
+		(uuid "cef2658b-960e-4fba-88c1-6dbca74341a7")
 	)
 	(segment
 		(start 60.095 97.16)

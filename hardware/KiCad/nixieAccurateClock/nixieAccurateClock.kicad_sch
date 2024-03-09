@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Nixie Accurate Clock")
-		(date "2024-03-07")
+		(date "2024-03-08")
 		(rev "B")
 		(company "Paul Willis")
 	)
@@ -1969,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 62.23) (xy 139.7 62.23)
+			(xy 184.15 67.31) (xy 139.7 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2309,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 99.06) (xy 182.88 99.06)
+			(xy 139.7 99.06) (xy 184.15 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2439,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 99.06) (xy 182.88 62.23)
+			(xy 184.15 99.06) (xy 184.15 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5447,7 +5447,7 @@
 			(uuid "778f60f9-2b0d-41bd-bbc2-118531e4f7ce")
 		)
 		(pin "LSD_{SHUNT}" input
-			(at 139.7 62.23 0)
+			(at 139.7 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
