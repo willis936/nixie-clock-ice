@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Nixie Accurate Clock")
-		(date "2024-03-08")
+		(date "2024-03-23")
 		(rev "B")
 		(company "Paul Willis")
 	)
