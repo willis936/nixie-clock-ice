@@ -734,7 +734,7 @@
 	)
 	(model "${KIPRJMOD}/lib.pretty/IN-14-daughter.wrl"
 		(offset
-			(xyz 12.1 0 11.825)
+			(xyz 12.1 0 11.425)
 		)
 		(scale
 			(xyz 1 1 1)
