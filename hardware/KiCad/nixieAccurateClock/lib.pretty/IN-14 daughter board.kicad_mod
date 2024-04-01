@@ -787,4 +787,16 @@
 			(xyz 0 180 0)
 		)
 	)
+	(model "${KIPRJMOD}/lib.pretty/IN-14-daughter.step"
+		(hide yes)
+		(offset
+			(xyz 46.25 41.25 10.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
 )

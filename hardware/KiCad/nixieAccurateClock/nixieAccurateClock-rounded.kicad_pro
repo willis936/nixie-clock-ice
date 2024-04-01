@@ -155,11 +155,6 @@
         }
       ],
       "drc_exclusions": [
-        "copper_edge_clearance|126191000|117415000|4e188a07-2c7e-4a78-8c4e-c51b238b8b77|075f529c-3f32-4e96-a767-df1c58c05709",
-        "copper_edge_clearance|126191000|117415000|4e188a07-2c7e-4a78-8c4e-c51b238b8b77|d83ff40b-a0d4-4978-8b20-2235d014967d",
-        "copper_edge_clearance|130441000|117415000|4e188a07-2c7e-4a78-8c4e-c51b238b8b77|886ffcd8-dc13-4f8c-b69f-94e42ff750c0",
-        "copper_edge_clearance|134691000|117415000|4e188a07-2c7e-4a78-8c4e-c51b238b8b77|019a3787-2600-492b-bbed-fceff61dac7e",
-        "copper_edge_clearance|134691000|117415000|4e188a07-2c7e-4a78-8c4e-c51b238b8b77|7dd3cc68-fa57-4fec-aca4-81f9dc7cff02",
         "courtyards_overlap|109422236|110542465|3c9f4558-9066-43ec-b739-c695d4f6670f|fb1cd446-574f-44c0-b30f-feee449a47db",
         "courtyards_overlap|111897863|59635001|3c9f4558-9066-43ec-b739-c695d4f6670f|7b931c4e-e119-4c96-b392-7e1b7034ac25",
         "courtyards_overlap|91642236|110542465|2bff9142-146f-4359-8163-af330a080e3a|3fd8bc1d-e091-4d82-b670-44ce7af1673d",
@@ -642,9 +637,9 @@
       "plot": "out/gerbers",
       "pos_files": "out/placement",
       "specctra_dsn": "",
-      "step": "",
+      "step": "nixieAccurateClock-rounded.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "nixieAccurateClock-rounded.wrl"
     },
     "page_layout_descr_file": ""
   },

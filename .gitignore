@@ -66,3 +66,6 @@ hardware/renders
 
 # MCU
 /software/build
+
+# FreeCAD
+*.FCBak
