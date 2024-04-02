@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# use zippey for large FreeCAD zip file diff
+*.FCStd filter=zippey
+*.FCStd diff=zip

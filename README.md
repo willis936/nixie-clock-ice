@@ -88,6 +88,15 @@ sudo git clone https://github.com/tinyvision-ai-inc/uf2-utils.git
 cd uf2-utils && sudo make install
 ```
 
+# Enclosure development
+
+If you want to modify the FreeCAD FCStd files you should configure zippey (located in `software/lib`) with these commands from git bash (Windows) or shell (linux) with the repo as pwd:
+
+```
+git config filter.zippey.smudge "$PWD/software/lib/zippey.py d"
+git config filter.zippey.clean "$PWD/software/lib/zippey.py e"
+```
+
 # Requirements
 
 1. Display the time with 1 microsecond accuracy.
