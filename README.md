@@ -97,6 +97,8 @@ git config filter.zippey.smudge "$PWD/software/lib/zippey.py d"
 git config filter.zippey.clean "$PWD/software/lib/zippey.py e"
 ```
 
+Note that you need python 3 installed and added to path as `python` for the .FCStd files to properly compress on clone.
+
 # Requirements
 
 1. Display the time with 1 microsecond accuracy.

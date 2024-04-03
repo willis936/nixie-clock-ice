@@ -1,0 +1,2 @@
+Push VCC 4342 clear snap-in lens into the 0.357" hole on the front of the enclosure.
+https://www.digikey.com/en/products/detail/visual-communications-company-vcc/4342/60417

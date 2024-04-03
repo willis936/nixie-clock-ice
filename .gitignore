@@ -69,3 +69,4 @@ hardware/renders
 
 # FreeCAD
 *.FCBak
+/software/lib/tmp
