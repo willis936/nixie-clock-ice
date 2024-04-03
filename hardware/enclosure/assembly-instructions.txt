@@ -1,2 +1,10 @@
+
 Push VCC 4342 clear snap-in lens into the 0.357" hole on the front of the enclosure.
 https://www.digikey.com/en/products/detail/visual-communications-company-vcc/4342/60417
+
+
+With the top cover hanging off of a table, lay daughter boards into top cover holes.
+
+Slide main board SMA receptacle into the back cover hole.
+
+Insert daughter boards into main board one at a time.
