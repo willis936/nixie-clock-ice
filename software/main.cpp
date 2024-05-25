@@ -39,7 +39,7 @@ uint8_t bitstream[] = {
 #define RESET_IO_EXPAND_PIN 22
 
 int main(void) {
-	// Enable USB-CDC #0 (serial console)
+    // Enable USB-CDC #0 (serial console)
     stdio_init_all();
 
     // configure pins
@@ -92,10 +92,44 @@ int main(void) {
 
     // keep track of loop iterations
     uint32_t iLoopCounter = 0;
+    // ADC temporary input
+    uint16_t ADC_val;
+    // ADC inputs
+    uint16_t HV_ADC_counts;
+    float HV_measure;
+    uint16_t brightness_ADC_counts;
+    float brightness_control;
+    
+    // 12-bit conversion, assume max value == ADC_VREF == 3.3 V
+    const float ADC_Vref = 3.3f;
+    const float ADC_conversion_factor = ADC_Vref / ((1 << 12) - 1);
+    // 1/101 voltage divider
+    const float HV_conversion_factor = 101;
+    // 0 - 100 %
+    const float brightness_conversion_factor = 1 / ADC_Vref;
+    
     while (true) {
         tud_task();
-        printf("Loop Count: %d\r\n", iLoopCounter);
+        
+        // Select ADC input 2, HV_MEASURE
+        adc_select_input(2);
+        HV_ADC_counts = adc_read();
+        HV_measure = HV_ADC_counts * ADC_conversion_factor * HV_conversion_factor;
+        
+        // Select ADC input 3, brightness_control
+        adc_select_input(3);
+        brightness_ADC_counts = adc_read();
+        brightness_control = brightness_ADC_counts * ADC_conversion_factor * brightness_conversion_factor;
+        
+        printf("Loop Count:     %d\r\n", iLoopCounter);
+        printf("HV raw:         0x%03x\r\n", HV_ADC_counts);
+        printf("HV:             %f V\r\n", HV_measure);
+        printf("brightness raw: 0x%03x\r\n", brightness_ADC_counts);
+        printf("brightness:     %f %%\r\n", brightness_control * 100);
+        
         iLoopCounter++;
+        
+        sleep_ms(100);
     }
     return 0;
 }
