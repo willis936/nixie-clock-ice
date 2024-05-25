@@ -2,6 +2,7 @@
 // pico-sdk
 #include "pico/stdlib.h"
 #include "pico/stdio.h"
+#include "pico/multicore.h"
 #include "boards/pico_ice.h"
 #include "hardware/irq.h"
 #include "hardware/gpio.h"
@@ -38,7 +39,7 @@ uint8_t bitstream[] = {
 #define RESET_IO_EXPAND_PIN 22
 
 int main(void) {
-    // Enable USB-CDC #0 (serial console)
+	// Enable USB-CDC #0 (serial console)
     stdio_init_all();
 
     // configure pins
@@ -89,9 +90,12 @@ int main(void) {
     // Configure USB as defined in tusb_config.h
     ice_usb_init();
 
-
+    // keep track of loop iterations
+    uint32_t iLoopCounter = 0;
     while (true) {
-        
+        tud_task();
+        printf("Loop Count: %d\r\n", iLoopCounter);
+        iLoopCounter++;
     }
     return 0;
 }
