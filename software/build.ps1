@@ -4,15 +4,15 @@
 $WSLdir  = '~/nixieIce/software/build'
 
 # clean FPGA build directory
-Remove-Item -Path UP5K\*.dblite
-Remove-Item -Path UP5K\*.asc
-Remove-Item -Path UP5K\*.bin
-Remove-Item -Path UP5K\*.uf2
-Remove-Item -Path UP5K\*.json
-Remove-Item -Path bitstream.h
+#Remove-Item -Path UP5K\*.dblite
+#Remove-Item -Path UP5K\*.asc
+#Remove-Item -Path UP5K\*.bin
+#Remove-Item -Path UP5K\*.uf2
+#Remove-Item -Path UP5K\*.json
+#Remove-Item -Path bitstream.h
 
 # clean MCU build directory
-Remove-Item -Recurse -Path build\*
+#Remove-Item -Recurse -Path build\*
 
 # build MCU image
 wsl -e bash -lic "mkdir $WSLdir; cd $WSLdir && cmake .. && make"
