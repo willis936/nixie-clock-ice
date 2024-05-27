@@ -34,7 +34,9 @@ fp-info-cache
 *.drl
 *.pdf
 *.rpt
+*.3mf
 hardware/renders
+hardware/quotes
 
 
 # LTSpice
