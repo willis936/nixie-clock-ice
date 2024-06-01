@@ -23,6 +23,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
     pico_stdio_usb
     hardware_i2c
     hardware_adc
+    hardware_pwm
     )
 target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC
     ${CMAKE_CURRENT_LIST_DIR}

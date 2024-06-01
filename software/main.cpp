@@ -9,6 +9,7 @@
 #include "hardware/uart.h"
 #include "hardware/i2c.h"
 #include "hardware/adc.h"
+#include "hardware/pwm.h"
 #include "hardware/pll.h"
 #include "hardware/clocks.h"
 #include "hardware/structs/pll.h"
@@ -65,6 +66,8 @@ float brightness_control;
 // HV control values
 float HV_target;
 float HV_error;
+float HV_PWM_set;
+float HV_PWM_high_cycles;
 
 // 12-bit conversion, assume max value == ADC_VREF == 3.3 V
 const float ADC_Vref = 3.3f;
@@ -74,6 +77,11 @@ const float HV_conversion_factor = 101.0f;
 // 0 - 100 %
 const float brightness_conversion_factor = 1.0f / ADC_Vref;
 
+// Find out which PWM slice is connected to GPIO 17
+const uint32_t HV_drive_slice_num = pwm_gpio_to_slice_num(HV_CONTROL_PIN);
+// PWM parameters
+const float HV_PWM_freq = 100000.0f;
+const uint32_t HV_PWM_cycles = (float)clock_get_hz(clk_sys) / HV_PWM_freq;
 
 
 bool hv_timer_callback(struct repeating_timer *t) {
@@ -94,6 +102,17 @@ bool hv_timer_callback(struct repeating_timer *t) {
     HV_target = HV_MIN + ((HV_MAX - HV_MIN) * brightness_control);
     HV_error = HV_measure - HV_target;
     
+    if (HV_measure > 50.0f) {
+        // Set duty cycle to 0% when above the cutoff voltage
+        HV_PWM_set = 0.0f;
+    } else {
+        // otherwise run control loop
+        HV_PWM_set = 0.0f / 100.0f;
+    }
+    // update PWM duty cycle
+    HV_PWM_high_cycles = HV_PWM_set * (float)HV_PWM_cycles;
+    pwm_set_chan_level(HV_drive_slice_num, PWM_CHAN_B, HV_PWM_high_cycles);
+    
     // let watchdog know we're still okay
     watchdog_update();
     
@@ -111,6 +130,16 @@ void core1_entry() {
     } else {
         printf("Its all gone well on core 1!");
     }
+    
+    // set up PWM output
+    HV_PWM_set = 0.0f;
+    // Set period in sys_clk cycles (0 to N-1 inclusive)
+    pwm_set_wrap(HV_drive_slice_num, HV_PWM_cycles - 1);
+    // Set channel B duty cycle
+    HV_PWM_high_cycles = HV_PWM_set * (float)HV_PWM_cycles;
+    pwm_set_chan_level(HV_drive_slice_num, PWM_CHAN_B, HV_PWM_high_cycles);
+    // Set the PWM running
+    pwm_set_enabled(HV_drive_slice_num, true);
     
     // repeating 1 kHz timer for HV control
     struct repeating_timer hv_timer;
@@ -136,6 +165,7 @@ bool print_timer_callback(struct repeating_timer *t) {
     printf("HV:             %f V\r\n", HV_measure);
     printf("HV target:      %f V\r\n", HV_target);
     printf("HV error:       %f V\r\n", HV_error);
+    printf("HV DC:          %f %%\r\n", HV_PWM_set * 100.0f);
     printf("brightness:     %f %%\r\n", brightness_control * 100.0f);
     printf("\r\n");
     
