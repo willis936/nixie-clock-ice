@@ -13,6 +13,7 @@
 #include "hardware/clocks.h"
 #include "hardware/structs/pll.h"
 #include "hardware/structs/clocks.h"
+#include "hardware/watchdog.h"
 
 // pico-ice-sdk
 #include "ice_usb.h"
@@ -93,6 +94,9 @@ bool hv_timer_callback(struct repeating_timer *t) {
     HV_target = HV_MIN + ((HV_MAX - HV_MIN) * brightness_control);
     HV_error = HV_measure - HV_target;
     
+    // let watchdog know we're still okay
+    watchdog_update();
+    
     return true;
 }
 
@@ -111,6 +115,10 @@ void core1_entry() {
     // repeating 1 kHz timer for HV control
     struct repeating_timer hv_timer;
     add_repeating_timer_us(1000, hv_timer_callback, NULL, &hv_timer);
+    
+    // Enable the watchdog, requiring the watchdog to be updated every 10 ms or the chip will reboot
+    // second arg is pause on debug which means the watchdog will pause when stepping through code
+    watchdog_enable(10, 1);
     
     while (true) {
         sleep_ms(100);
@@ -189,6 +197,12 @@ int main(void) {
 
     // Configure USB as defined in tusb_config.h
     ice_usb_init();
+    
+    if (watchdog_caused_reboot()) {
+        printf("Rebooted by Watchdog!\n");
+    } else {
+        printf("Clean boot\n");
+    }
     
     // repeating 1 Hz timer for serial printout
     struct repeating_timer print_timer;
