@@ -15,8 +15,8 @@ https://github.com/azonenberg/pcb-checklist
 [D] SW: get USB UF2 loading working (not possible for RP2040 firmware)
 [D] SW: switch from C to C++
 [D] SW: print to USB-serial
-[ ] SW: 1 kHz timed loop
-[ ] SW: dedicated thread for HV control
+[D] SW: 1 kHz timed loop
+[D] SW: dedicated thread for HV control
 [D] SW: read in ADC value to trim PWM
 [ ] SW: PWM drive for HV
 [ ] SW: read in DIP switches
