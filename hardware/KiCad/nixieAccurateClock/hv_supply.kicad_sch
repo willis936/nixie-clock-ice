@@ -4654,7 +4654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10M"
+		(property "Value" "1M"
 			(at 233.68 60.96 0)
 			(effects
 				(font
@@ -4690,7 +4690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "RMCF0603FT10M0"
+		(property "Model" "RMCF0603FT1M00"
 			(at 231.14 59.69 0)
 			(effects
 				(font
@@ -4708,7 +4708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT10M0/1761206"
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT1M00/1761036"
 			(at 231.14 59.69 0)
 			(effects
 				(font
@@ -4717,7 +4717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/SEI-Stackpole/RMCF0603FT10M0?qs=FESYatJ8odIf0bWpBT4vKw%3D%3D"
+		(property "Mouser link" "https://www.mouser.com/ProductDetail/SEI-Stackpole/RMCF0603FT1M00?qs=FESYatJ8odJNClY0wUC1cg%3D%3D"
 			(at 231.14 59.69 0)
 			(effects
 				(font
@@ -6015,7 +6015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 233.68 73.66 0)
 			(effects
 				(font
@@ -6051,7 +6051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "RC0603JR-07100KL"
+		(property "Model" "RC0603FR-0710KL"
 			(at 231.14 72.39 0)
 			(effects
 				(font
@@ -6069,7 +6069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-07100KL/726698"
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
 			(at 231.14 72.39 0)
 			(effects
 				(font
@@ -6078,7 +6078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/YAGEO/RC0603JR-07100KL?qs=2cAdsCoAWRG9Rhqklpdeqg%3D%3D"
+		(property "Mouser link" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
 			(at 231.14 72.39 0)
 			(effects
 				(font

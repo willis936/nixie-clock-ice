@@ -25429,7 +25429,7 @@
 				)
 			)
 		)
-		(property "Value" "10M"
+		(property "Value" "1M"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "c114ea2b-07df-4a0e-b1a4-a0f11cdb2269")
@@ -25476,7 +25476,7 @@
 				)
 			)
 		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT10M0/1761206"
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0603FT1M00/1761036"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25488,7 +25488,7 @@
 				)
 			)
 		)
-		(property "Model" "RMCF0603FT10M0"
+		(property "Model" "RMCF0603FT1M00"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25500,7 +25500,7 @@
 				)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/SEI-Stackpole/RMCF0603FT10M0?qs=FESYatJ8odIf0bWpBT4vKw%3D%3D"
+		(property "Mouser link" "https://www.mouser.com/ProductDetail/SEI-Stackpole/RMCF0603FT1M00?qs=FESYatJ8odJNClY0wUC1cg%3D%3D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34995,7 +34995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Symbol:Symbol_HighVoltage_Type2_CopperTop_VerySmall"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35384,7 +35384,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "b53b0459-7271-45f0-bcdd-bc20bc9f69b0")
@@ -35431,7 +35431,7 @@
 				)
 			)
 		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-07100KL/726698"
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35443,7 +35443,7 @@
 				)
 			)
 		)
-		(property "Model" "RC0603JR-07100KL"
+		(property "Model" "RC0603FR-0710KL"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35455,7 +35455,7 @@
 				)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/YAGEO/RC0603JR-07100KL?qs=2cAdsCoAWRG9Rhqklpdeqg%3D%3D"
+		(property "Mouser link" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44639,9 +44639,9 @@
 			(justify left top)
 		)
 	)
-	(gr_text_box "Fabrication notes:\n1. Use ENIG coating.\n2. Use black solder mask.\n3. All vias are tented.\n4. All vias are 0.4 mm.\n5. 1.6 mm thick board.\n6. Use FR4 core.\n7. Use 1 oz copper on outer layers.\n8. Use 1 oz copper on inner layers.\n9. Use 0.2 mm thick prepreg.\n\nAssembly notes:\n1. Single side assembly (top).\n2. Use lead free solder.\n3. Do not procure or install pico ICE in J4/J5.\n   Install only 2x 2x20 0.1{dblquote} pin sockets.\n4. Do not procure or install nixie daughter boards in J11-J17.\n   Install only 6x 2x5 0.1{dblquote} pin sockets.\n5. No special component handling."
+	(gr_text_box "Fabrication notes:\n 1. Fabricate in accordance with IPC-4012 Class 2.\n 2. Inspect PCB in accordance with IPC-A-600 Class 2.\n 3. Test Requirements: 100% netlist electrical verification using supplied IPC-356 netlist for opens and shorts.\n 4. Flame class to be UL94 HB or greater.\n 5. 1.6 mm nominal board thickness.\n 6. Use FR4 core.\n 7. Use 1 oz copper on outer layers.\n 8. Use 1 oz copper on inner layers.\n 9. Use 0.2 mm thick prepreg.\n10. Use ENIG coating per IPC-4552.\n11. Use black solder mask.\n12. All vias are tented.\n13. All vias are 0.4 mm.\n\nAssembly notes:\n 1. Assemble in accordance with IPC-J-STD-001 Class 2.\n 2. Inspect PCBA in accordance with IPC-A-610 Class 2.\n 3. Clean flux residue after soldering per IPC-J-STD-001 Section 8, Cleaning Designator C-22.\n 4. Single side assembly (top).\n 5. Use lead-free solder.\n 6. Do not procure or install pico ICE in J4/J5.\n    Install only 2x 2x20 0.1{dblquote} pin sockets.\n 7. Do not procure or install nixie daughter boards in J11-J17.\n    Install only 6x 2x5 0.1{dblquote} pin sockets.\n 8. No special component handling."
 		(start 175.26 55.375)
-		(end 279.76 103.125)
+		(end 279.76 125.35)
 		(layer "Cmts.User")
 		(uuid "8e981569-3de8-4f47-b10b-b8bb858e40d7")
 		(effects

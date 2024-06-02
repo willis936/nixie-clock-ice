@@ -6,7 +6,7 @@
 		(thickness 1.652)
 		(legacy_teardrops no)
 	)
-	(paper "A5" portrait)
+	(paper "A4" portrait)
 	(title_block
 		(title "IN-14 daughter board")
 		(date "2024-03-24")
@@ -431,7 +431,7 @@
 			)
 		)
 		(property "Value" "Symbol_Highvoltage_Type1_CopperTop_Small"
-			(at 16.5 -4.4715 0)
+			(at 24.469 -0.5915 0)
 			(layer "F.Fab")
 			(uuid "bb3a44d6-9887-4836-9a76-d39878c42962")
 			(effects
@@ -441,7 +441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Symbol:Symbol_Highvoltage_Type1_CopperTop_Small"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1413,7 +1413,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 0 1.885 0)
+			(at 0 2.135 0)
 			(layer "B.Fab")
 			(uuid "69dcde73-59db-41ce-8f97-76cc5d11aa98")
 			(effects
@@ -2172,7 +2172,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05_Odd_Even"
-			(at -2.525 14.42 0)
+			(at 0.205 18.31 0)
 			(layer "B.Fab")
 			(uuid "57145bc7-7398-4439-939e-127e88dfc94d")
 			(effects
@@ -5800,9 +5800,9 @@
 			(justify left top)
 		)
 	)
-	(gr_text_box "Fabrication notes:\n1. Use ENIG coating.\n2. Use black solder mask.\n3. All vias are tented.\n4. All vias are 0.3 mm.\n5. 1.6 mm thick board.\n6. Use FR4 core and prepreg.\n7. Use 1 oz copper on outer layers.\n8. Use 1 oz copper on inner layers.\n9. Use 0.2 mm thick prepreg.\n\nAssembly notes:\n1. Single side assembly (bottom).\n2. Use lead free solder.\n3. Do not procure or install N1 (IN-14).\n4. No special component handling."
-		(start 81.5 13.375)
-		(end 135 53.375)
+	(gr_text_box "Fabrication notes:\n 1. Fabricate in accordance with IPC-4012 Class 2.\n 2. Inspect PCB in accordance with IPC-A-600 Class 2.\n 3. Test Requirements: 100% netlist electrical verification using supplied IPC-356 netlist for opens and shorts.\n 4. Flame class to be UL94 HB or greater.\n 5. 1.6 mm nominal board thickness.\n 6. Use FR4 core.\n 7. Use 1 oz copper on outer layers.\n 8. Use 1 oz copper on inner layers.\n 9. Use 0.2 mm thick prepreg.\n10. Use ENIG coating per IPC-4552.\n11. Use black solder mask.\n12. All vias are tented.\n13. All vias are 0.3 mm.\n\nAssembly notes:\n 1. Assemble in accordance with IPC-J-STD-001 Class 2.\n 2. Inspect PCBA in accordance with IPC-A-610 Class 2.\n 3. Clean flux residue after soldering per IPC-J-STD-001 Section 8, Cleaning Designator C-22.\n 4. Single side assembly (top).\n 5. Use lead-free solder.\n 6. Do not procure or install N1 (IN-14).\n 7. No special component handling."
+		(start 12.9375 147.955)
+		(end 145.8125 205.1)
 		(layer "Cmts.User")
 		(uuid "a56619ce-4ce4-483a-a40b-685d6f1ddd39")
 		(effects
