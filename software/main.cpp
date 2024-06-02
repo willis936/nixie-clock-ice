@@ -67,21 +67,23 @@ float brightness_control;
 float HV_target;
 float HV_error;
 float HV_PWM_set;
-float HV_PWM_high_cycles;
+uint16_t HV_PWM_high_cycles;
 
 // 12-bit conversion, assume max value == ADC_VREF == 3.3 V
 const float ADC_Vref = 3.3f;
 const float ADC_conversion_factor = ADC_Vref / (float)((1 << 12) - 1);
 // 1/101 voltage divider
-const float HV_conversion_factor = 101.0f;
+const float HV_measure_Rtop = 10000000.0f;
+const float HV_measure_Rbot = 100000.0f;
+const float HV_conversion_factor = (HV_measure_Rtop + HV_measure_Rbot) / HV_measure_Rbot;
 // 0 - 100 %
 const float brightness_conversion_factor = 1.0f / ADC_Vref;
 
 // Find out which PWM slice is connected to GPIO 17
-const uint32_t HV_drive_slice_num = pwm_gpio_to_slice_num(HV_CONTROL_PIN);
+const uint8_t HV_drive_slice_num = pwm_gpio_to_slice_num(HV_CONTROL_PIN);
 // PWM parameters
 const float HV_PWM_freq = 100000.0f;
-const uint32_t HV_PWM_cycles = (float)clock_get_hz(clk_sys) / HV_PWM_freq;
+const uint16_t HV_PWM_cycles = (float)clock_get_hz(clk_sys) / HV_PWM_freq;
 
 
 bool hv_timer_callback(struct repeating_timer *t) {
@@ -143,7 +145,8 @@ void core1_entry() {
     
     // repeating 1 kHz timer for HV control
     struct repeating_timer hv_timer;
-    add_repeating_timer_us(1000, hv_timer_callback, NULL, &hv_timer);
+    // 984 us is tuned to hit a 1.000 kHz loop
+    add_repeating_timer_us(984, hv_timer_callback, NULL, &hv_timer);
     
     // Enable the watchdog, requiring the watchdog to be updated every 10 ms or the chip will reboot
     // second arg is pause on debug which means the watchdog will pause when stepping through code
@@ -160,12 +163,17 @@ bool print_timer_callback(struct repeating_timer *t) {
     
     tNow = (float)time_us_64() / 1000000.0f;
     
+    // clear terminal contents
+    printf("\e[1;1H\e[2J");
+    // print updated values
     printf("Repeat at:      %f\r\n", tNow - tLast);
     printf("Loop Count:     %d\r\n", iLoopCounter - iLoopCounterLast);
     printf("HV:             %f V\r\n", HV_measure);
     printf("HV target:      %f V\r\n", HV_target);
     printf("HV error:       %f V\r\n", HV_error);
     printf("HV DC:          %f %%\r\n", HV_PWM_set * 100.0f);
+    printf("HV High:        %d cycles\r\n", HV_PWM_high_cycles);
+    printf("HV Total:       %d cycles\r\n", HV_PWM_cycles);
     printf("brightness:     %f %%\r\n", brightness_control * 100.0f);
     printf("\r\n");
     
@@ -236,7 +244,7 @@ int main(void) {
     
     // repeating 1 Hz timer for serial printout
     struct repeating_timer print_timer;
-    add_repeating_timer_ms(1000, print_timer_callback, NULL, &print_timer);
+    add_repeating_timer_ms(100, print_timer_callback, NULL, &print_timer);
     
     // launch HV control thread
     multicore_launch_core1(core1_entry);
