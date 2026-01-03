@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "55aab698-7558-4fe2-95ad-faa6da60ef89")
 	(paper "A4")
 	(title_block
@@ -13,9 +13,13 @@
 	(lib_symbols
 		(symbol "GND_10"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -106,12 +110,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_11"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -202,12 +211,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_12"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -298,12 +312,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_13"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -394,12 +413,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_14"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -490,12 +514,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_16"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -586,12 +615,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_19"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -682,12 +716,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_2"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -778,12 +817,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_20"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -874,12 +918,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_22"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -970,12 +1019,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_23"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1066,12 +1120,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_24"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1162,12 +1221,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1258,12 +1322,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_5"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1354,12 +1423,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_6"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1450,12 +1524,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_7"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1546,12 +1625,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_8"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1642,6 +1726,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
@@ -1721,11 +1806,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1823,12 +1913,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1919,6 +2014,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -5113,6 +5209,10 @@
 	(sheet
 		(at 114.3 96.52)
 		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5142,73 +5242,73 @@
 		)
 		(pin "PPS_{TRIMMED}" input
 			(at 114.3 99.06 180)
+			(uuid "f320895b-fe8a-4acb-9107-0de03f7c5a69")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f320895b-fe8a-4acb-9107-0de03f7c5a69")
 		)
 		(pin "CLOCK_{HV}" input
 			(at 114.3 101.6 180)
+			(uuid "20b6c501-03c1-4354-9e89-6d1c59d2296a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "20b6c501-03c1-4354-9e89-6d1c59d2296a")
 		)
 		(pin "SENSE_{PRECISE}" output
 			(at 114.3 107.95 180)
+			(uuid "6a5aea06-ea09-446c-be0d-b6f3819fa794")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6a5aea06-ea09-446c-be0d-b6f3819fa794")
 		)
 		(pin "DATA_{HV}" input
 			(at 114.3 104.14 180)
+			(uuid "495f129a-4a8e-4b77-9af2-a648048fc16b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "495f129a-4a8e-4b77-9af2-a648048fc16b")
 		)
 		(pin "LSD_{SHUNT}" output
 			(at 139.7 99.06 0)
+			(uuid "9925e819-8d8d-4ed1-8a8d-c8428c5c0338")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9925e819-8d8d-4ed1-8a8d-c8428c5c0338")
 		)
 		(pin "CLOCK_{PRECISE}" input
 			(at 114.3 110.49 180)
+			(uuid "37552bcf-7818-4c22-93af-4030b217b305")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "37552bcf-7818-4c22-93af-4030b217b305")
 		)
 		(pin "DATA_{PRECISE}" input
 			(at 114.3 113.03 180)
+			(uuid "6e99221e-6987-41d4-b83c-ad0f1a263bcf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6e99221e-6987-41d4-b83c-ad0f1a263bcf")
 		)
 		(instances
 			(project "nixieAccurateClock"
@@ -5221,6 +5321,10 @@
 	(sheet
 		(at 152.4 80.01)
 		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5250,13 +5354,13 @@
 		)
 		(pin "HV_{SENSE}" input
 			(at 152.4 81.28 180)
+			(uuid "5ea065e3-84f3-4fef-8a38-57a8ad3752d9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5ea065e3-84f3-4fef-8a38-57a8ad3752d9")
 		)
 		(instances
 			(project "nixieAccurateClock"
@@ -5269,6 +5373,10 @@
 	(sheet
 		(at 114.3 24.13)
 		(size 25.4 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5298,163 +5406,163 @@
 		)
 		(pin "LSD_{ADC_D4}" output
 			(at 114.3 36.83 180)
+			(uuid "5fab7881-1d8d-402d-add2-3f2dc6d04291")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5fab7881-1d8d-402d-add2-3f2dc6d04291")
 		)
 		(pin "LSD_{ADC_D5}" output
 			(at 114.3 39.37 180)
+			(uuid "b30b2468-76ea-4504-8552-945c52781683")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b30b2468-76ea-4504-8552-945c52781683")
 		)
 		(pin "LSD_{ADC_D6}" output
 			(at 114.3 41.91 180)
+			(uuid "c5cf11c9-b403-4157-87ab-d24f47ca5b2c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c5cf11c9-b403-4157-87ab-d24f47ca5b2c")
 		)
 		(pin "LSD_{ADC_D7}" output
 			(at 114.3 44.45 180)
+			(uuid "3251daf5-ffc8-424b-9bcd-c6a675ae3b7a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3251daf5-ffc8-424b-9bcd-c6a675ae3b7a")
 		)
 		(pin "MEASURE_{HV}" input
 			(at 114.3 67.31 180)
+			(uuid "58ad8a3c-8c09-4a71-ab78-f9b698e5b530")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "58ad8a3c-8c09-4a71-ab78-f9b698e5b530")
 		)
 		(pin "LSD_{ADC_D1}" output
 			(at 114.3 29.21 180)
+			(uuid "6e98224a-58ac-4c11-a300-bbf7d29e2d28")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6e98224a-58ac-4c11-a300-bbf7d29e2d28")
 		)
 		(pin "LSD_{ADC_D0}" output
 			(at 114.3 26.67 180)
+			(uuid "58c797b7-0fa4-4da6-9678-41f0736b7502")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "58c797b7-0fa4-4da6-9678-41f0736b7502")
 		)
 		(pin "LSD_{ADC_D2}" output
 			(at 114.3 31.75 180)
+			(uuid "727066c8-10ff-40d5-8a21-8468428d3938")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "727066c8-10ff-40d5-8a21-8468428d3938")
 		)
 		(pin "LSD_{ADC_D3}" output
 			(at 114.3 34.29 180)
+			(uuid "06f2fc55-d117-4abd-b256-90773269ca4a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "06f2fc55-d117-4abd-b256-90773269ca4a")
 		)
 		(pin "LSD_{ADC_~{INT}}" output
 			(at 114.3 59.69 180)
+			(uuid "a1d0418d-b5ed-46b1-a196-00f03a24442f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a1d0418d-b5ed-46b1-a196-00f03a24442f")
 		)
 		(pin "LSD_{ADC_~{OFL}}" output
 			(at 114.3 46.99 180)
+			(uuid "323a8bed-2337-409d-a760-dbafb51052b5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "323a8bed-2337-409d-a760-dbafb51052b5")
 		)
 		(pin "LSD_{ADC_~{RD}}" input
 			(at 114.3 57.15 180)
+			(uuid "de7eede8-4d55-498c-981c-feaa5a93d895")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "de7eede8-4d55-498c-981c-feaa5a93d895")
 		)
 		(pin "LSD_{ADC_~{CS}}" input
 			(at 114.3 62.23 180)
+			(uuid "33e802da-ad1b-4c89-9934-ba07967aca10")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "33e802da-ad1b-4c89-9934-ba07967aca10")
 		)
 		(pin "LSD_{ADC_~{WR}{slash}RDY}" input
 			(at 114.3 52.07 180)
+			(uuid "23bf6a7a-6d6c-4f5a-aef1-de9d12a70c70")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "23bf6a7a-6d6c-4f5a-aef1-de9d12a70c70")
 		)
 		(pin "LSD_{ADC_MODE}" input
 			(at 114.3 54.61 180)
+			(uuid "778f60f9-2b0d-41bd-bbc2-118531e4f7ce")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "778f60f9-2b0d-41bd-bbc2-118531e4f7ce")
 		)
 		(pin "LSD_{SHUNT}" input
 			(at 139.7 67.31 0)
+			(uuid "cb7db9ff-914b-43c7-a618-a2a4c3672763")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cb7db9ff-914b-43c7-a618-a2a4c3672763")
 		)
 		(instances
 			(project "nixieAccurateClock"
@@ -5467,6 +5575,10 @@
 	(sheet
 		(at 25.4 24.13)
 		(size 25.4 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5496,63 +5608,63 @@
 		)
 		(pin "GPS_{TXD}" output
 			(at 50.8 26.67 0)
+			(uuid "03b209c1-7071-4e59-9edf-b4457854fbcd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "03b209c1-7071-4e59-9edf-b4457854fbcd")
 		)
 		(pin "GPS_{RXD}" input
 			(at 50.8 29.21 0)
+			(uuid "3cd968bd-c40f-41ae-a2ec-9946054fabf7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3cd968bd-c40f-41ae-a2ec-9946054fabf7")
 		)
 		(pin "GPS_{RSTN}" input
 			(at 50.8 31.75 0)
+			(uuid "a6662eb9-eb5e-4354-ba11-e24899a8c532")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a6662eb9-eb5e-4354-ba11-e24899a8c532")
 		)
 		(pin "GPS_{BOOT_SEL}" input
 			(at 50.8 34.29 0)
+			(uuid "f342afcd-7a04-4bdd-bfea-1ccca5696ee3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f342afcd-7a04-4bdd-bfea-1ccca5696ee3")
 		)
 		(pin "GPS_{1PPS2}" output
 			(at 50.8 38.1 0)
+			(uuid "a5d940fa-7c8a-4ab1-9613-f9edb364029c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a5d940fa-7c8a-4ab1-9613-f9edb364029c")
 		)
 		(pin "GPS_{1PPS}" output
 			(at 50.8 40.64 0)
+			(uuid "fb75828e-ce7a-47da-90c7-eaf2cb2c46e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fb75828e-ce7a-47da-90c7-eaf2cb2c46e3")
 		)
 		(instances
 			(project "nixieAccurateClock"
@@ -5565,6 +5677,10 @@
 	(sheet
 		(at 25.4 53.34)
 		(size 25.4 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5594,53 +5710,53 @@
 		)
 		(pin "INT_{IO-expander}" output
 			(at 50.8 63.5 0)
+			(uuid "c664828d-6683-47e3-8f52-ef0b7e29debc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c664828d-6683-47e3-8f52-ef0b7e29debc")
 		)
 		(pin "I2C_{DATA}" bidirectional
 			(at 50.8 57.15 0)
+			(uuid "72f4747d-af46-4e4a-ba15-a6116a01d27b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "72f4747d-af46-4e4a-ba15-a6116a01d27b")
 		)
 		(pin "I2C_{CLOCK}" input
 			(at 50.8 54.61 0)
+			(uuid "47ebc74b-df63-472f-bce7-b5d0fa49915c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "47ebc74b-df63-472f-bce7-b5d0fa49915c")
 		)
 		(pin "~{RESET}_{IO-expander}" input
 			(at 50.8 60.96 0)
+			(uuid "b64fdfb0-30d2-4438-8df8-460f74cfd37e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b64fdfb0-30d2-4438-8df8-460f74cfd37e")
 		)
 		(pin "brightness_control" output
 			(at 50.8 67.31 0)
+			(uuid "68e50660-330a-4ebc-9cd0-8ef24a0ef7f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "68e50660-330a-4ebc-9cd0-8ef24a0ef7f6")
 		)
 		(instances
 			(project "nixieAccurateClock"
@@ -5653,6 +5769,10 @@
 	(sheet
 		(at 114.3 78.74)
 		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5682,33 +5802,33 @@
 		)
 		(pin "MEASURE_{HV}" output
 			(at 114.3 81.28 180)
+			(uuid "5e294f95-a6df-4868-98d3-f688cb0b2c03")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5e294f95-a6df-4868-98d3-f688cb0b2c03")
 		)
 		(pin "GATE_{HV}" input
 			(at 114.3 83.82 180)
+			(uuid "376a66d2-9c2a-469f-bae4-9c241a4624cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "376a66d2-9c2a-469f-bae4-9c241a4624cc")
 		)
 		(pin "HV_{SENSE}" output
 			(at 139.7 81.28 0)
+			(uuid "909395db-8f8b-46f3-ad24-e7404a4511a8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "909395db-8f8b-46f3-ad24-e7404a4511a8")
 		)
 		(instances
 			(project "nixieAccurateClock"
@@ -5721,6 +5841,10 @@
 	(sheet
 		(at 63.5 24.13)
 		(size 38.1 91.44)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5750,333 +5874,333 @@
 		)
 		(pin "LSD_{ADC_D3}" input
 			(at 101.6 34.29 0)
+			(uuid "411015c0-3173-4700-882b-0644cf1d3dad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "411015c0-3173-4700-882b-0644cf1d3dad")
 		)
 		(pin "CLOCK_{HV}" output
 			(at 101.6 101.6 0)
+			(uuid "6081f03d-7fa8-4d22-8045-e394c9dfe197")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6081f03d-7fa8-4d22-8045-e394c9dfe197")
 		)
 		(pin "SENSE_{PRECISE}" input
 			(at 101.6 107.95 0)
+			(uuid "acbb852e-546f-4c66-a78c-30d9129a31f4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "acbb852e-546f-4c66-a78c-30d9129a31f4")
 		)
 		(pin "DATA_{HV}" output
 			(at 101.6 104.14 0)
+			(uuid "7bbb4290-073b-4a0b-8f77-b5668bcc9ee5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7bbb4290-073b-4a0b-8f77-b5668bcc9ee5")
 		)
 		(pin "LSD_{ADC_~{INT}}" input
 			(at 101.6 59.69 0)
+			(uuid "d6c4b10b-4730-4362-b51a-f0135325a2f9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d6c4b10b-4730-4362-b51a-f0135325a2f9")
 		)
 		(pin "LSD_{ADC_~{OFL}}" input
 			(at 101.6 46.99 0)
+			(uuid "131db50d-1c14-45c7-888e-3d3dcfa84ff0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "131db50d-1c14-45c7-888e-3d3dcfa84ff0")
 		)
 		(pin "CLOCK_{PRECISE}" output
 			(at 101.6 110.49 0)
+			(uuid "c25fa2e3-ef79-49f5-b228-6e0aba33526d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c25fa2e3-ef79-49f5-b228-6e0aba33526d")
 		)
 		(pin "PPS_{TRIMMED}" output
 			(at 101.6 99.06 0)
+			(uuid "6c6c0776-9c18-4795-a007-4d415a471d1b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6c6c0776-9c18-4795-a007-4d415a471d1b")
 		)
 		(pin "DATA_{PRECISE}" output
 			(at 101.6 113.03 0)
+			(uuid "ac624c94-5071-4283-aebf-bc2fcf2ddef0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ac624c94-5071-4283-aebf-bc2fcf2ddef0")
 		)
 		(pin "MEASURE_{HV}" input
 			(at 101.6 81.28 0)
+			(uuid "8a7df9af-8335-4af5-b02a-2fb436175919")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8a7df9af-8335-4af5-b02a-2fb436175919")
 		)
 		(pin "I2C_{CLOCK}" bidirectional
 			(at 63.5 54.61 180)
+			(uuid "dacbc3bd-17a0-46fb-a3bd-7ba5808aeecc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dacbc3bd-17a0-46fb-a3bd-7ba5808aeecc")
 		)
 		(pin "I2C_{DATA}" bidirectional
 			(at 63.5 57.15 180)
+			(uuid "52abc076-09df-4f7d-8ce3-2abcab17b634")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "52abc076-09df-4f7d-8ce3-2abcab17b634")
 		)
 		(pin "GATE_{HV}" output
 			(at 101.6 83.82 0)
+			(uuid "b1476c57-9ca9-41d9-a620-944791c02bc9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b1476c57-9ca9-41d9-a620-944791c02bc9")
 		)
 		(pin "GPS_{RSTN}" output
 			(at 63.5 31.75 180)
+			(uuid "10629d79-99d1-4f86-9748-c2e2df296494")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "10629d79-99d1-4f86-9748-c2e2df296494")
 		)
 		(pin "GPS_{TXD}" input
 			(at 63.5 26.67 180)
+			(uuid "6af393ce-5244-4ea9-af56-51e7adfbe5bd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6af393ce-5244-4ea9-af56-51e7adfbe5bd")
 		)
 		(pin "GPS_{BOOT_SEL}" output
 			(at 63.5 34.29 180)
+			(uuid "c05ad09e-c6a0-41d7-b5f0-fe1857e0986d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c05ad09e-c6a0-41d7-b5f0-fe1857e0986d")
 		)
 		(pin "GPS_{RXD}" output
 			(at 63.5 29.21 180)
+			(uuid "08497790-1d82-4918-9399-d3506ca05224")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "08497790-1d82-4918-9399-d3506ca05224")
 		)
 		(pin "GPS_{1PPS}" input
 			(at 63.5 40.64 180)
+			(uuid "08a09396-cb4f-4a41-82ee-a1db58490e49")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "08a09396-cb4f-4a41-82ee-a1db58490e49")
 		)
 		(pin "LSD_{ADC_D0}" input
 			(at 101.6 26.67 0)
+			(uuid "e3845c21-49d1-4b73-a6b0-06cd7b6f231d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e3845c21-49d1-4b73-a6b0-06cd7b6f231d")
 		)
 		(pin "LSD_{ADC_D7}" input
 			(at 101.6 44.45 0)
+			(uuid "f9711c44-62cf-4df3-8cfe-02efb55186af")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f9711c44-62cf-4df3-8cfe-02efb55186af")
 		)
 		(pin "LSD_{ADC_D2}" input
 			(at 101.6 31.75 0)
+			(uuid "38eaed77-69ba-4358-b043-c65ab3e99100")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "38eaed77-69ba-4358-b043-c65ab3e99100")
 		)
 		(pin "LSD_{ADC_D1}" input
 			(at 101.6 29.21 0)
+			(uuid "fb28924c-d35d-4dea-aeab-f27f87e0261c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fb28924c-d35d-4dea-aeab-f27f87e0261c")
 		)
 		(pin "GPS_{1PPS2}" input
 			(at 63.5 38.1 180)
+			(uuid "08a630ea-f27b-430b-9b84-a55d248e2bd0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "08a630ea-f27b-430b-9b84-a55d248e2bd0")
 		)
 		(pin "LSD_{ADC_~{WR}{slash}RDY}" output
 			(at 101.6 52.07 0)
+			(uuid "0fac4e0e-c1dd-4436-8426-7ff44f4040ca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0fac4e0e-c1dd-4436-8426-7ff44f4040ca")
 		)
 		(pin "LSD_{ADC_D5}" input
 			(at 101.6 39.37 0)
+			(uuid "3ff388cd-2815-4062-9ad0-e7108c5a8db9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3ff388cd-2815-4062-9ad0-e7108c5a8db9")
 		)
 		(pin "LSD_{ADC_~{CS}}" output
 			(at 101.6 62.23 0)
+			(uuid "3e7ea1b4-444a-486a-a256-da4df7234eee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3e7ea1b4-444a-486a-a256-da4df7234eee")
 		)
 		(pin "LSD_{ADC_D4}" input
 			(at 101.6 36.83 0)
+			(uuid "1ca2a956-836b-423c-9942-f5e8f4e96990")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1ca2a956-836b-423c-9942-f5e8f4e96990")
 		)
 		(pin "LSD_{ADC_D6}" input
 			(at 101.6 41.91 0)
+			(uuid "3af8f55b-c29a-409e-ab3f-6879c100d272")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3af8f55b-c29a-409e-ab3f-6879c100d272")
 		)
 		(pin "LSD_{ADC_~{RD}}" output
 			(at 101.6 57.15 0)
+			(uuid "d0835c5b-24f1-42d0-8587-5743dc195b36")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d0835c5b-24f1-42d0-8587-5743dc195b36")
 		)
 		(pin "LSD_{ADC_MODE}" output
 			(at 101.6 54.61 0)
+			(uuid "815424bf-23cd-41b4-99b8-461a3506e5bf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "815424bf-23cd-41b4-99b8-461a3506e5bf")
 		)
 		(pin "INT_{IO-expander}" input
 			(at 63.5 63.5 180)
+			(uuid "e7e97174-378c-4116-bce5-2612356a6222")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e7e97174-378c-4116-bce5-2612356a6222")
 		)
 		(pin "~{RESET}_{IO-expander}" output
 			(at 63.5 60.96 180)
+			(uuid "bc4af6b3-4ed2-4d0f-b0ce-21e7ee0d3719")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bc4af6b3-4ed2-4d0f-b0ce-21e7ee0d3719")
 		)
 		(pin "brightness_control" input
 			(at 63.5 67.31 180)
+			(uuid "c80bd531-5ed2-46ba-8822-b92bc06fc361")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c80bd531-5ed2-46ba-8822-b92bc06fc361")
 		)
 		(instances
 			(project "nixieAccurateClock"
@@ -6091,4 +6215,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

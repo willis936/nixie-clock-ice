@@ -109,7 +109,7 @@ bool hv_timer_callback(struct repeating_timer *t) {
         HV_PWM_set = 0.0f;
     } else {
         // otherwise run control loop
-        HV_PWM_set = 0.0f / 100.0f;
+        HV_PWM_set = 5.0f / 100.0f;
     }
     // update PWM duty cycle
     HV_PWM_high_cycles = HV_PWM_set * (float)HV_PWM_cycles;
@@ -166,15 +166,15 @@ bool print_timer_callback(struct repeating_timer *t) {
     // clear terminal contents
     printf("\e[1;1H\e[2J");
     // print updated values
-    printf("Repeat at:      %f\r\n", tNow - tLast);
-    printf("Loop Count:     %d\r\n", iLoopCounter - iLoopCounterLast);
-    printf("HV:             %f V\r\n", HV_measure);
-    printf("HV target:      %f V\r\n", HV_target);
-    printf("HV error:       %f V\r\n", HV_error);
-    printf("HV DC:          %f %%\r\n", HV_PWM_set * 100.0f);
-    printf("HV High:        %d cycles\r\n", HV_PWM_high_cycles);
-    printf("HV Total:       %d cycles\r\n", HV_PWM_cycles);
-    printf("brightness:     %f %%\r\n", brightness_control * 100.0f);
+    printf("Repeat at:  %8f\r\n", tNow - tLast);
+    printf("Loop Count: %d\r\n", iLoopCounter - iLoopCounterLast);
+    printf("HV:         %8.3f V\r\n", HV_measure);
+    printf("HV target:  %8.3f V\r\n", HV_target);
+    printf("HV error:   %+7.3f V\r\n", HV_error);
+    printf("HV DC:      %8.3f %%\r\n", HV_PWM_set * 100.0f);
+    printf("HV High:    %5d cycles\r\n", HV_PWM_high_cycles);
+    printf("HV Total:   %5d cycles\r\n", HV_PWM_cycles);
+    printf("brightness: %9.3f %%\r\n", brightness_control * 100.0f);
     printf("\r\n");
     
     tLast = tNow;

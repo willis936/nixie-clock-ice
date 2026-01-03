@@ -1,0 +1,12 @@
+.model EGL41G D
++ IS=1e-9    ; Saturation current (estimate)
++ RS=0.1     ; Series resistance (calculated from Vf)
++ N=1.0      ; Emission coefficient (default)
++ TT=50e-9   ; Transit time = reverse recovery time
++ CJO=14e-12 ; Junction capacitance
++ VJ=0.6     ; Junction potential (typical for Si)
++ M=0.5      ; Grading coefficient (typical value)
++ BV=400     ; Reverse breakdown voltage
++ IBV=5e-6   ; Reverse breakdown current (5µA)
++ EG=1.11    ; Energy gap for silicon
++ XTI=3.0    ; Temperature coefficient

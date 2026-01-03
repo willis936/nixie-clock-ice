@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a42623f6-93da-4365-9bbe-b82893c458b2")
 	(paper "A4")
 	(title_block
@@ -12,7 +12,9 @@
 	)
 	(lib_symbols
 		(symbol "C_Polarized_1"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -204,10 +206,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Conn_01x02_Pin_1"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -319,16 +324,26 @@
 				)
 			)
 			(symbol "Conn_01x02_Pin_1_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -343,26 +358,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin power_in line
@@ -402,11 +407,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -504,9 +514,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -662,11 +675,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D_Zener"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -734,10 +752,10 @@
 			(symbol "D_Zener_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -746,10 +764,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -807,11 +825,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -878,32 +901,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -915,8 +914,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -964,9 +987,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Polyfuse"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1036,6 +1062,18 @@
 				)
 			)
 			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -0.762 2.54)
 					(end 0.762 -2.54)
@@ -1050,18 +1088,6 @@
 				(polyline
 					(pts
 						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1110,9 +1136,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1231,10 +1260,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:SM4004"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1332,10 +1366,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1344,10 +1378,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1393,12 +1427,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_4"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1489,10 +1528,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:PZTA42"
+		(symbol "Transistor_FET:BSP89"
 			(pin_names
-				(offset 0) hide)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1505,7 +1546,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PZTA42"
+			(property "Value" "BSP89"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1525,8 +1566,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSP89-DS-v02_02-en.pdf?fileId=db3a30433b47825b013b4b8a07f90d55"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1535,7 +1576,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-223"
+			(property "Description" "0.35A Id, 240V Vds, N-Channel Enhancement Mode MOSFET, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1544,7 +1585,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN High Voltage Transistor SMD"
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1562,10 +1603,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "PZTA42_0_1"
+			(symbol "BSP89_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 0)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -1577,7 +1630,43 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 0.635 -0.635)
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1589,43 +1678,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 0.635 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -2.286) (xy 1.778 -1.778) (xy 1.778 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -1.905) (xy 1.905 -1.397) (xy 2.413 -2.413) (xy 1.397 -1.905) (xy 1.397 -1.905)
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -1636,8 +1689,8 @@
 					)
 				)
 				(circle
-					(center 1.27 0)
-					(radius 2.8194)
+					(center 1.651 0)
+					(radius 2.794)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1646,12 +1699,82 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "PZTA42_1_1"
+			(symbol "BSP89_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.08)
-					(name "B"
+					(length 2.54)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1669,7 +1792,7 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "C"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1687,7 +1810,7 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "E"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1703,12 +1826,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1780,7 +1908,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1792,7 +1920,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1823,12 +1951,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1919,12 +2052,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VPP"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1996,7 +2134,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2008,7 +2146,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2039,13 +2177,128 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 186.69 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "099102a1-11ea-471f-9235-bf9df399f177")
+	(text_box "Polyfuse input with 2A hold current and 3.5A trip current.\n\n12 Nixie tubes @ 2.8 mA each would be 33.6 mA worst case load.\n\n1.68 A (200 V, 33.6 mA, 80% efficiency)\n\nThe goal is to allow max load driving while tripping on faults.\nThis is limits the energy delivered to humans / environment during shocks to be ~60 J / 14.5 cal (1.5 s trip time * 200 V^{2} / 1 kOhm)."
+		(exclude_from_sim no)
+		(at 19.05 17.78 0)
+		(size 78.74 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "09b04cc0-25ff-4d2d-b500-d5862a897469")
+	)
+	(text_box "100:1 divider to bring (0-333.3 V) down to (0-3.3V) for feedback ADC"
+		(exclude_from_sim no)
+		(at 247.65 62.23 0)
+		(size 29.21 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "285c4539-d2cb-42aa-b399-2fbc9ea02bbd")
+	)
+	(text_box "Inductor sizing captured in boost-convertor-calcs.xlsx."
+		(exclude_from_sim no)
+		(at 29.21 110.49 0)
+		(size 60.96 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4bfca6d0-1106-47f5-ad46-5fe4f06d6857")
+	)
+	(text_box "200 V Zener to protect from over-voltage."
+		(exclude_from_sim no)
+		(at 176.53 62.23 0)
+		(size 29.21 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c2c96615-ea47-48fb-bc32-087801b08fb4")
+	)
+	(text_box "See ../../LTSpice/HV_supply_quadrupler.asc for simulation."
+		(exclude_from_sim no)
+		(at 29.21 119.38 0)
+		(size 60.96 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ee18d4c7-f4b3-403e-8db7-8f5d3a0d625c")
+	)
+	(text_box "Some nixie power supplies online are based on single stage flyback with 1:10 transformers.  Transformers are expensive and not well stocked compared to inductors.  This boost convertor with voltage quadrupler resembles LT AN47 Appendix D with a voltage quadrupler (Art of Electronics 3E 1.6.5 Regulators, Figure 1.67).\n\nOpt to just use the RP2040 PIO PWM and ADC rather than a discrete SMPS IC.\n\nAn exotic MOSFET or parallel boost convertor stages could be used.  Instead I am using a cheap, robust BJT in parallel with biasing resistors to current share for worst case loads (AoE 3E 2.4.4 Current sharing in paralleled BJTs)."
+		(exclude_from_sim no)
+		(at 29.21 128.27 0)
+		(size 60.96 33.02)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fb148614-14e3-4c9f-a96c-4dffbe7476e5")
 	)
 	(junction
 		(at 124.46 63.5)
@@ -2054,16 +2307,22 @@
 		(uuid "20f3552d-71c4-47bc-81d2-3fdfb9ff300d")
 	)
 	(junction
+		(at 121.92 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c7c6df0-cd1b-4c42-b245-1b5ada975e7c")
+	)
+	(junction
 		(at 231.14 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44e987d2-26e8-4a73-a884-29483eee96a1")
 	)
 	(junction
-		(at 118.11 134.62)
+		(at 93.98 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ba4cc26-80d1-4e23-942f-d8be5e1404d7")
+		(uuid "4d27fbea-af8e-486c-b22b-b4e5f90b45c6")
 	)
 	(junction
 		(at 153.67 46.99)
@@ -2084,12 +2343,6 @@
 		(uuid "7b50aa3c-3770-4881-8adc-e024634e9846")
 	)
 	(junction
-		(at 124.46 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94bb293c-006b-40f2-81df-98397c9fe541")
-	)
-	(junction
 		(at 231.14 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2102,16 +2355,22 @@
 		(uuid "b372fc3e-5115-460e-9e9d-4378d6a54701")
 	)
 	(junction
-		(at 96.52 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9e9664b-e683-464b-9324-d3ca73f20916")
-	)
-	(junction
 		(at 177.8 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2eead81-ed0a-431d-9a14-21ac2beebdd6")
+	)
+	(junction
+		(at 93.98 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c31e3a75-ad78-4cd7-8774-47fcaa1fa06f")
+	)
+	(junction
+		(at 91.44 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4c36288-4d36-4d96-8e6f-853f0bdaa868")
 	)
 	(junction
 		(at 96.52 63.5)
@@ -2126,20 +2385,20 @@
 		(uuid "d766e75e-c9a6-4016-a540-a74b4e9599a4")
 	)
 	(junction
-		(at 220.98 134.62)
+		(at 121.92 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "deb06e68-4cf0-4e03-b402-94a52633e7f6")
+		(uuid "dd7b9e97-c170-4bf8-b059-51dd14abcf55")
 	)
 	(junction
-		(at 152.4 134.62)
+		(at 121.92 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ded16b2e-75dc-468f-87ad-0a99d2fecbff")
+		(uuid "f1ac1c23-dd81-4926-a6f5-92125aa35526")
 	)
 	(wire
 		(pts
-			(xy 220.98 143.51) (xy 220.98 146.05)
+			(xy 220.98 133.35) (xy 220.98 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2159,17 +2418,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 133.35) (xy 186.69 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08ff16cb-6214-49f3-a2bc-47517a291261")
-	)
-	(wire
-		(pts
-			(xy 96.52 45.72) (xy 96.52 46.99)
+			(xy 91.44 45.72) (xy 91.44 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2179,7 +2428,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 124.46 63.5)
+			(xy 114.3 63.5) (xy 121.92 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2199,7 +2448,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 45.72) (xy 124.46 46.99)
+			(xy 121.92 45.72) (xy 121.92 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2458,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 46.99) (xy 124.46 46.99)
+			(xy 121.92 63.5) (xy 124.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23429e08-85ba-4156-ab51-eed7869efbf6")
+	)
+	(wire
+		(pts
+			(xy 114.3 46.99) (xy 121.92 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2219,17 +2478,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 134.62) (xy 220.98 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25eb2013-16e3-43e8-96a0-263ede527738")
-	)
-	(wire
-		(pts
-			(xy 96.52 52.07) (xy 96.52 46.99)
+			(xy 93.98 52.07) (xy 93.98 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2249,13 +2498,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 134.62) (xy 118.11 135.89)
+			(xy 186.69 133.35) (xy 186.69 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "289150ab-e212-4b9d-a36b-9ca9abccd34f")
+		(uuid "2cdba1dd-cea1-4cc2-ae12-a6165f3d765a")
 	)
 	(wire
 		(pts
@@ -2296,6 +2545,16 @@
 			(type default)
 		)
 		(uuid "3cfd55cc-7bdf-4375-b73f-99cfefdc2d2d")
+	)
+	(wire
+		(pts
+			(xy 121.92 77.47) (xy 153.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1e6b0e-0726-475e-ad47-d5041697fcd3")
 	)
 	(wire
 		(pts
@@ -2359,16 +2618,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 77.47) (xy 124.46 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f121602-4ac3-4a96-89af-aac304b4c765")
-	)
-	(wire
-		(pts
 			(xy 35.56 46.99) (xy 53.34 46.99)
 		)
 		(stroke
@@ -2396,6 +2645,16 @@
 			(type default)
 		)
 		(uuid "5369f7eb-483b-46ef-82cb-8650445c84f0")
+	)
+	(wire
+		(pts
+			(xy 124.46 46.99) (xy 121.92 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f4a775-2da5-4b0c-a253-275b31c49a50")
 	)
 	(wire
 		(pts
@@ -2429,13 +2688,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 143.51) (xy 152.4 146.05)
+			(xy 152.4 133.35) (xy 152.4 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "688a7cd5-d4cd-4c5d-8092-a438b84294ef")
+	)
+	(wire
+		(pts
+			(xy 93.98 63.5) (xy 96.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0cddc7-8fb2-401e-9a31-64a598d5681d")
 	)
 	(wire
 		(pts
@@ -2469,13 +2738,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 134.62) (xy 152.4 135.89)
+			(xy 118.11 133.35) (xy 118.11 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7df5a5e7-2038-4199-a334-697bb34d15b0")
+		(uuid "7dcd5ad2-f5ec-4e75-90b1-6ee35426cb53")
 	)
 	(wire
 		(pts
@@ -2509,7 +2778,27 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 63.5) (xy 124.46 67.31)
+			(xy 121.92 77.47) (xy 96.52 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987a817a-6221-41ec-b2f5-c4e4615bf497")
+	)
+	(wire
+		(pts
+			(xy 93.98 46.99) (xy 106.68 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a218cda-b90d-411c-95ac-3ba3ec567d02")
+	)
+	(wire
+		(pts
+			(xy 121.92 63.5) (xy 121.92 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2529,17 +2818,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 143.51) (xy 118.11 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9df1115c-5d0b-43ac-970d-11146acb4e9f")
-	)
-	(wire
-		(pts
-			(xy 78.74 60.96) (xy 78.74 63.5)
+			(xy 76.2 60.96) (xy 76.2 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2559,16 +2838,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 134.62) (xy 120.65 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a97ea8f9-fb8c-485a-8d15-e39a849d4613")
-	)
-	(wire
-		(pts
 			(xy 124.46 63.5) (xy 139.7 63.5)
 		)
 		(stroke
@@ -2576,16 +2845,6 @@
 			(type default)
 		)
 		(uuid "aa743b46-62bd-444e-a0ca-e5cf2bd8a150")
-	)
-	(wire
-		(pts
-			(xy 118.11 133.35) (xy 118.11 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac9656f3-acd0-471b-9218-af4aede24853")
 	)
 	(wire
 		(pts
@@ -2599,16 +2858,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 133.35) (xy 152.4 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aefaa034-e5b0-4bff-82c7-717aaad446d9")
-	)
-	(wire
-		(pts
 			(xy 246.38 49.53) (xy 246.38 46.99)
 		)
 		(stroke
@@ -2619,17 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 133.35) (xy 220.98 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b45e3934-3d28-46bc-b096-b9ad113c67ac")
-	)
-	(wire
-		(pts
-			(xy 96.52 59.69) (xy 96.52 63.5)
+			(xy 93.98 59.69) (xy 93.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2669,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 63.5) (xy 96.52 63.5)
+			(xy 76.2 63.5) (xy 93.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2679,23 +2918,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 46.99) (xy 96.52 46.99)
+			(xy 60.96 46.99) (xy 91.44 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ba970621-912c-4d0e-9a38-2e95237ec28e")
-	)
-	(wire
-		(pts
-			(xy 124.46 77.47) (xy 96.52 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf99c1e6-44c7-4845-9aac-6d67a4296d7a")
 	)
 	(wire
 		(pts
@@ -2729,13 +2958,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 134.62) (xy 154.94 134.62)
+			(xy 91.44 46.99) (xy 93.98 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6e98067-bd5a-47af-beba-8699e4756bab")
+		(uuid "d8dbf27e-e837-4e50-9ca0-3d6bc5aa18f1")
 	)
 	(wire
 		(pts
@@ -2746,16 +2975,6 @@
 			(type default)
 		)
 		(uuid "d94941ba-ffda-4259-9c4f-b2058e25bfc4")
-	)
-	(wire
-		(pts
-			(xy 220.98 134.62) (xy 223.52 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de56095d-6f82-49b7-8ac4-e68d16d45a94")
 	)
 	(wire
 		(pts
@@ -2799,16 +3018,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 143.51) (xy 186.69 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecff40f0-1bb5-441e-9e8f-7d1fe8115bf8")
-	)
-	(wire
-		(pts
 			(xy 231.14 66.04) (xy 231.14 68.58)
 		)
 		(stroke
@@ -2819,17 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 134.62) (xy 186.69 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc82fb3d-fef5-45d8-b571-3dc8bcbd6dba")
-	)
-	(wire
-		(pts
-			(xy 124.46 74.93) (xy 124.46 77.47)
+			(xy 121.92 74.93) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2837,143 +3036,8 @@
 		)
 		(uuid "fd2a0f84-cd43-4bc2-9217-c9f9f94e0065")
 	)
-	(wire
-		(pts
-			(xy 186.69 134.62) (xy 189.23 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff03aae6-eec9-45c0-abde-e17f7de9275f")
-	)
-	(wire
-		(pts
-			(xy 96.52 46.99) (xy 106.68 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff5ef5cc-e194-495d-9cf6-46de3867dc6b")
-	)
-	(text_box "Polyfuse input with 1A hold current and 1.8A trip current.\n\nSimulation shows this will hold up to 110 mA load and trip on 170 mA load.\n\n12 Nixie tubes @ 2.8 mA each would be 33.6 mA worst case load.\n\nThe goal is to allow max load driving while tripping on faults.\nThis is limits the energy delivered to humans / environment during shocks to be ~12 J / 2.9 cal (300 ms trip time * 200 V^2 / 1 kOhm)."
-		(exclude_from_sim no)
-		(at 19.05 17.78 0)
-		(size 78.74 20.32)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "09b04cc0-25ff-4d2d-b500-d5862a897469")
-	)
-	(text_box "100:1 divider to bring (0-333.3 V) down to (0-3.3V) for feedback ADC"
-		(exclude_from_sim no)
-		(at 247.65 62.23 0)
-		(size 29.21 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "285c4539-d2cb-42aa-b399-2fbc9ea02bbd")
-	)
-	(text_box "Inductor sizing captured in boost-convertor-calcs.xlsx."
-		(exclude_from_sim no)
-		(at 29.21 110.49 0)
-		(size 60.96 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "4bfca6d0-1106-47f5-ad46-5fe4f06d6857")
-	)
-	(text_box "200 V Zener to protect from over-voltage."
-		(exclude_from_sim no)
-		(at 176.53 62.23 0)
-		(size 29.21 7.62)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c2c96615-ea47-48fb-bc32-087801b08fb4")
-	)
-	(text_box "See ../../LTSpice/HV_supply_quadrupler.asc for simulation."
-		(exclude_from_sim no)
-		(at 29.21 119.38 0)
-		(size 60.96 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "ee18d4c7-f4b3-403e-8db7-8f5d3a0d625c")
-	)
-	(text_box "Some nixie power supplies online are based on single stage flyback with 1:10 transformers.  Transformers are expensive and not well stocked compared to inductors.  This boost convertor with voltage quadrupler resembles LT AN47 Appendix D with a voltage quadrupler (Art of Electronics 3E 1.6.5 Regulators, Figure 1.67).\n\nOpt to just use the RP2040 PIO PWM and ADC rather than a discrete SMPS IC.\n\nAn exotic MOSFET or parallel boost convertor stages could be used.  Instead I am using a cheap, robust BJT in parallel with biasing resistors to current share for worst case loads (AoE 3E 2.4.4 Current sharing in paralleled BJTs)."
-		(exclude_from_sim no)
-		(at 29.21 128.27 0)
-		(size 60.96 33.02)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "fb148614-14e3-4c9f-a96c-4dffbe7476e5")
-	)
 	(label "HV_{HALF-BOOST}"
 		(at 186.69 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2984,7 +3048,6 @@
 	)
 	(label "HV_{HALF-BOOST}"
 		(at 152.4 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2995,7 +3058,6 @@
 	)
 	(label "HV_{HALF-BOOST}"
 		(at 220.98 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3006,7 +3068,6 @@
 	)
 	(label "5V_{BOOST-FUSE}"
 		(at 36.83 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3016,8 +3077,7 @@
 		(uuid "471ff1b6-1a4e-4477-9956-e93d53325d84")
 	)
 	(label "HV_{QUARTER-BOOST}"
-		(at 95.25 63.5 180)
-		(fields_autoplaced yes)
+		(at 92.71 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3028,7 +3088,6 @@
 	)
 	(label "HV_{HALF-SUPPLY}"
 		(at 125.73 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3037,20 +3096,8 @@
 		)
 		(uuid "9079cb60-2114-4652-ae02-6ebf473cc893")
 	)
-	(label "RE_{HV-4}"
-		(at 223.52 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93171bb7-3103-4d3d-a069-237c969d9451")
-	)
 	(label "HV_{FULL-BOOST}"
-		(at 124.46 46.99 0)
-		(fields_autoplaced yes)
+		(at 125.73 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3061,7 +3108,6 @@
 	)
 	(label "HV_{HALF-BOOST}"
 		(at 118.11 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3070,20 +3116,8 @@
 		)
 		(uuid "a02a9054-907b-4e68-a8cd-05e0192e869c")
 	)
-	(label "RE_{HV-1}"
-		(at 120.65 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8891233-8fda-4bd3-a404-68490446a41c")
-	)
 	(label "HV_{HALF-BOOST}"
 		(at 67.31 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3092,32 +3126,9 @@
 		)
 		(uuid "c5688b75-de12-4b38-9985-cecc0b6e9339")
 	)
-	(label "RE_{HV-2}"
-		(at 154.94 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de4c3437-d4ee-4e32-8553-864ab417e6cd")
-	)
-	(label "RE_{HV-3}"
-		(at 189.23 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f302475c-2c6d-47f7-8203-1825aa3810be")
-	)
 	(hierarchical_label "GATE_{HV}"
 		(shape input)
 		(at 107.95 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3129,7 +3140,6 @@
 	(hierarchical_label "GATE_{HV}"
 		(shape input)
 		(at 176.53 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3141,7 +3151,6 @@
 	(hierarchical_label "MEASURE_{HV}"
 		(shape output)
 		(at 233.68 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3153,7 +3162,6 @@
 	(hierarchical_label "HV_{SENSE}"
 		(shape output)
 		(at 180.34 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3165,7 +3173,6 @@
 	(hierarchical_label "GATE_{HV}"
 		(shape input)
 		(at 210.82 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3177,7 +3184,6 @@
 	(hierarchical_label "GATE_{HV}"
 		(shape input)
 		(at 142.24 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3358,17 +3364,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 152.4 139.7 0)
+		(lib_id "Diode:SM4004")
+		(at 124.46 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17756f2b-7a7d-4611-9182-cf15fa8751e6")
-		(property "Reference" "R6"
-			(at 154.94 138.43 0)
+		(uuid "10d978fa-a2b2-4edb-9fc8-19151c28b704")
+		(property "Reference" "D2"
+			(at 127 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,8 +3382,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.5"
-			(at 154.94 140.97 0)
+		(property "Value" "EGL41G"
+			(at 127 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,8 +3391,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 150.622 139.7 90)
+		(property "Footprint" "Diode_SMD:D_MELF"
+			(at 120.015 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,8 +3400,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-csr_csrn.pdf"
-			(at 152.4 139.7 0)
+		(property "Datasheet" "https://www.vishay.com/docs/88581/egl41.pdf"
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,8 +3409,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 152.4 139.7 0)
+		(property "Description" "Diode 400 V 1A Surface Mount DO-213AB"
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,8 +3418,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.42"
-			(at 152.4 139.7 0)
+		(property "Model" "EGL41G"
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,8 +3427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSRN2010FKR500/1742702"
-			(at 152.4 139.7 0)
+		(property "Price" "0.47"
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3430,8 +3436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/SEI-Stackpole/CSRN2010FKR500?qs=FESYatJ8odLqZqv0DvLABQ%3D%3D"
-			(at 152.4 139.7 0)
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/EGL41G-E3-96/2149823"
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,8 +3445,26 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "CSRN2010FKR500"
-			(at 152.4 139.7 0)
+		(property "Mouser link" "https://www.mouser.com/ProductDetail/Vishay-General-Semiconductor/EGL41G-E3-96?qs=rfh7uIuiIO1DHL%252Blpi3d4w%3D%3D"
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,15 +3473,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b3dd83c-82cd-4adb-95b2-cfa4b34d10c1")
+			(uuid "40af56f8-342d-46cb-b351-ad2e8226b6c9")
 		)
 		(pin "2"
-			(uuid "182acd8d-2592-4886-bf0d-6c33400cea34")
+			(uuid "0b1976d6-ac32-4244-9ee5-d3731429da48")
 		)
 		(instances
 			(project "nixieAccurateClock"
 				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-					(reference "R6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3530,110 +3554,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:PZTA42")
-		(at 184.15 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4552a4f7-9171-4c16-a216-1f53c1fc237c")
-		(property "Reference" "Q3"
-			(at 189.23 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PZTA42"
-			(at 189.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 189.23 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF"
-			(at 184.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-223"
-			(at 184.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/micro-commercial-co/PZTA42-TP/10054674"
-			(at 184.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/PZTA42?qs=OlC7AqGiEDlNqlN7791aVQ%3D%3D"
-			(at 184.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.41"
-			(at 184.15 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "7fd87c1b-3e22-4f96-b3e9-fa94dae8580e")
-		)
-		(pin "2"
-			(uuid "301610d3-e9a3-48a8-a0f7-475039df98d7")
-		)
-		(pin "1"
-			(uuid "4f0e7145-f858-4d24-9223-fe0e8c3ad017")
-		)
-		(instances
-			(project "nixieAccurateClock"
-				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:PZTA42")
+		(lib_id "Transistor_FET:BSP89")
 		(at 115.57 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3641,9 +3562,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "47352b2a-8d41-4d81-b788-3f72dada62ef")
+		(uuid "3a538c3a-41b3-472a-a9eb-d68ef5eb1871")
 		(property "Reference" "Q1"
-			(at 120.65 127 0)
+			(at 121.92 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,8 +3572,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PZTA42"
-			(at 120.65 129.54 0)
+		(property "Value" "BSP296N"
+			(at 121.92 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,8 +3592,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF"
-			(at 115.57 128.27 0)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp296n-ds-en.pdf"
+			(at 120.65 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +3602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-223"
+		(property "Description" "N-Channel 100 V 1.2A (Ta) 1.8W (Ta) Surface Mount PG-SOT223-4"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -3690,7 +3611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/micro-commercial-co/PZTA42-TP/10054674"
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/infineon-technologies/BSP296NH6433XTMA1/4842136"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -3699,7 +3620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/PZTA42?qs=OlC7AqGiEDlNqlN7791aVQ%3D%3D"
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Infineon-Technologies/BSP296N-H6327?qs=y2kkmE52mdN3ImWwPLExdA%3D%3D"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -3708,7 +3629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.41"
+		(property "Price" "1.01"
 			(at 115.57 128.27 0)
 			(effects
 				(font
@@ -3718,18 +3639,121 @@
 			)
 		)
 		(pin "3"
-			(uuid "68a20375-136e-4048-b139-5457116d3532")
+			(uuid "34320083-bcef-43aa-84b9-e59213096cce")
 		)
 		(pin "2"
-			(uuid "2d675197-c869-47f5-8fd6-d341af9cd34b")
+			(uuid "2ddea813-0f02-47d5-973a-1ad184f057c4")
 		)
 		(pin "1"
-			(uuid "9d0d486c-f5d7-40e8-be0f-80c4ec60f4b0")
+			(uuid "23aa825d-f0c4-4421-a681-5c097730fc39")
+		)
+		(instances
+			(project ""
+				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSP89")
+		(at 218.44 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b95b8cc-dcd5-4840-828c-83a240ccdf01")
+		(property "Reference" "Q4"
+			(at 224.79 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSP296N"
+			(at 224.79 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 223.52 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp296n-ds-en.pdf"
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 100 V 1.2A (Ta) 1.8W (Ta) Surface Mount PG-SOT223-4"
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/infineon-technologies/BSP296NH6433XTMA1/4842136"
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Infineon-Technologies/BSP296N-H6327?qs=y2kkmE52mdN3ImWwPLExdA%3D%3D"
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.01"
+			(at 218.44 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bb71bc9c-9d35-4d8b-8863-f5410da25eb5")
+		)
+		(pin "2"
+			(uuid "eacb87fb-9b3b-4937-ad82-3b0c7cd01f25")
+		)
+		(pin "1"
+			(uuid "02995d6a-b775-46f2-bb3d-4eceee4e119f")
 		)
 		(instances
 			(project "nixieAccurateClock"
 				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-					(reference "Q1")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -3753,7 +3777,7 @@
 				)
 			)
 		)
-		(property "Value" "SM4004"
+		(property "Value" "EGL41G"
 			(at 142.24 43.18 0)
 			(effects
 				(font
@@ -3770,7 +3794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/88581/egl41.pdf"
 			(at 142.24 46.99 0)
 			(effects
 				(font
@@ -3779,7 +3803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, MELF"
+		(property "Description" "Diode 400 V 1A Surface Mount DO-213AB"
 			(at 142.24 46.99 0)
 			(effects
 				(font
@@ -3788,7 +3812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "SM4004"
+		(property "Model" "EGL41G"
 			(at 142.24 46.99 0)
 			(effects
 				(font
@@ -3797,7 +3821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.27"
+		(property "Price" "0.47"
 			(at 142.24 46.99 0)
 			(effects
 				(font
@@ -3806,7 +3830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/diotec-semiconductor/SM4004/13155357"
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/EGL41G-E3-96/2149823"
 			(at 142.24 46.99 0)
 			(effects
 				(font
@@ -3815,7 +3839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/SM4004?qs=OlC7AqGiEDkXkiBPoivHAA%3D%3D"
+		(property "Mouser link" "https://www.mouser.com/ProductDetail/Vishay-General-Semiconductor/EGL41G-E3-96?qs=rfh7uIuiIO1DHL%252Blpi3d4w%3D%3D"
 			(at 142.24 46.99 0)
 			(effects
 				(font
@@ -3858,111 +3882,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:PZTA42")
-		(at 218.44 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "584120cb-0a0e-4e59-8cbe-5ffbf05aa5f4")
-		(property "Reference" "Q4"
-			(at 223.52 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PZTA42"
-			(at 223.52 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 223.52 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF"
-			(at 218.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-223"
-			(at 218.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/micro-commercial-co/PZTA42-TP/10054674"
-			(at 218.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/PZTA42?qs=OlC7AqGiEDlNqlN7791aVQ%3D%3D"
-			(at 218.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.41"
-			(at 218.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "21cf002b-82b1-4024-8b27-8ca1dd69f144")
-		)
-		(pin "2"
-			(uuid "adac9975-2515-4396-a2c6-8e37975c4669")
-		)
-		(pin "1"
-			(uuid "54054a1f-82bb-40c8-982c-41244a24ad7d")
-		)
-		(instances
-			(project "nixieAccurateClock"
-				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 124.46 71.12 0)
+		(at 121.92 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3971,7 +3892,7 @@
 		(fields_autoplaced yes)
 		(uuid "59ba95bb-2776-4548-a334-bbd33e4c6acc")
 		(property "Reference" "C7"
-			(at 128.27 68.961 0)
+			(at 125.73 68.961 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +3901,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 128.27 71.501 0)
+			(at 125.73 71.501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +3910,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
-			(at 125.4252 74.93 0)
+			(at 122.8852 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +3919,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uux.pdf"
-			(at 124.46 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +3928,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 124.46 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +3937,7 @@
 			)
 		)
 		(property "Model" "UUX2G010MNL1GS"
-			(at 124.46 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +3946,7 @@
 			)
 		)
 		(property "Price" "0.69"
-			(at 124.46 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4034,7 +3955,7 @@
 			)
 		)
 		(property "Digikey link" "https://www.digikey.com/en/products/detail/nichicon/UUX2G010MNL1GS/3973996"
-			(at 124.46 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +3964,7 @@
 			)
 		)
 		(property "Mouser link" "https://www.mouser.com/ProductDetail/Nichicon/UUX2G010MNL1GS?qs=aoAypCcaRa%2FXm3BGeiMtMQ%3D%3D"
-			(at 124.46 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4067,130 +3988,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SM4004")
-		(at 110.49 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ca353f6-7403-4e82-9e36-c1d747e15422")
-		(property "Reference" "D3"
-			(at 110.49 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SM4004"
-			(at 110.49 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MELF"
-			(at 110.49 59.055 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
-			(at 110.49 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, MELF"
-			(at 110.49 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "SM4004"
-			(at 110.49 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.27"
-			(at 110.49 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/diotec-semiconductor/SM4004/13155357"
-			(at 110.49 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/SM4004?qs=OlC7AqGiEDkXkiBPoivHAA%3D%3D"
-			(at 110.49 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 110.49 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 110.49 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "082310b8-0c2d-4b41-b747-7c386352d175")
-		)
-		(pin "2"
-			(uuid "01b3c9f5-738d-43a2-b5e8-ab5953d97af2")
-		)
-		(instances
-			(project "nixieAccurateClock"
-				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 220.98 146.05 0)
+		(at 220.98 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4199,7 +3998,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e672226-9b61-43be-b253-0e5ef049f09e")
 		(property "Reference" "#PWR049"
-			(at 220.98 152.4 0)
+			(at 220.98 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4007,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 151.13 0)
+			(at 220.98 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,7 +4015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 146.05 0)
+			(at 220.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 146.05 0)
+			(at 220.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4033,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 146.05 0)
+			(at 220.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4161,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 124.46 45.72 0)
+		(at 121.92 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4371,7 +4170,7 @@
 		(fields_autoplaced yes)
 		(uuid "6aeff006-270e-437a-9053-e4a40a1b21f6")
 		(property "Reference" "TP2"
-			(at 127 41.148 0)
+			(at 124.46 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4179,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 127 43.688 0)
+			(at 124.46 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4188,7 @@
 			)
 		)
 		(property "Footprint" "00_lib:TestPoint_Keystone_5019_Minature"
-			(at 129.54 45.72 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4197,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/019-743690.pdf"
-			(at 129.54 45.72 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4206,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 45.72 0)
+			(at 121.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4215,7 @@
 			)
 		)
 		(property "Model" "5019"
-			(at 124.46 45.72 0)
+			(at 121.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4224,7 @@
 			)
 		)
 		(property "Price" "0.33"
-			(at 124.46 45.72 0)
+			(at 121.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4233,7 @@
 			)
 		)
 		(property "Digikey link" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 124.46 45.72 0)
+			(at 121.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4242,7 @@
 			)
 		)
 		(property "Mouser link" "https://www.mouser.com/ProductDetail/Keystone-Electronics/5019?qs=wOxb8XianXjjCAsb90Ilzw%3D%3D"
-			(at 124.46 45.72 0)
+			(at 121.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,6 +4257,109 @@
 			(project "nixieAccurateClock"
 				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSP89")
+		(at 184.15 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e3ac007-11a1-490e-87ad-ffb0d440e8c7")
+		(property "Reference" "Q3"
+			(at 190.5 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSP296N"
+			(at 190.5 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 189.23 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp296n-ds-en.pdf"
+			(at 189.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 100 V 1.2A (Ta) 1.8W (Ta) Surface Mount PG-SOT223-4"
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/infineon-technologies/BSP296NH6433XTMA1/4842136"
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Infineon-Technologies/BSP296N-H6327?qs=y2kkmE52mdN3ImWwPLExdA%3D%3D"
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.01"
+			(at 184.15 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e9bba37f-b7d1-4ab4-b5de-d79ef938c92b")
+		)
+		(pin "2"
+			(uuid "f1e4f24b-c0c2-48aa-b3c5-b1f56438b4bd")
+		)
+		(pin "1"
+			(uuid "1d91bd8a-1a19-4c31-a590-8a66c1da97f3")
+		)
+		(instances
+			(project "nixieAccurateClock"
+				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -4548,7 +4450,7 @@
 				)
 			)
 		)
-		(property "Value" "1A"
+		(property "Value" "2A"
 			(at 31.75 43.18 90)
 			(effects
 				(font
@@ -4584,7 +4486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Model" "0ZCJ0100FF2E"
+		(property "Model" "0ZCJ0200FF2C"
 			(at 31.75 46.99 90)
 			(effects
 				(font
@@ -4593,7 +4495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/bel-fuse-inc/0ZCJ0100FF2E/4156136"
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/bel-fuse-inc/0ZCJ0200FF2C/4156138"
 			(at 31.75 46.99 90)
 			(effects
 				(font
@@ -4602,7 +4504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/Bel-Fuse/0ZCJ0100FF2E?qs=SRYZG9HaIQ16trCtSE8WyA%3D%3D"
+		(property "Mouser link" "https://www.mouser.com/ProductDetail/Bel-Fuse/0ZCJ0200FF2C?qs=SRYZG9HaIQ2c%2F4nW1aZeIg%3D%3D"
 			(at 31.75 46.99 90)
 			(effects
 				(font
@@ -4611,7 +4513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.23"
+		(property "Price" "0.46"
 			(at 31.75 46.99 90)
 			(effects
 				(font
@@ -4839,7 +4741,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 118.11 146.05 0)
+		(at 118.11 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4848,7 +4750,7 @@
 		(fields_autoplaced yes)
 		(uuid "93f08835-0ebb-4f57-8795-287ddfb834f7")
 		(property "Reference" "#PWR046"
-			(at 118.11 152.4 0)
+			(at 118.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +4759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 118.11 151.13 0)
+			(at 118.11 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +4767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 146.05 0)
+			(at 118.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +4776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 146.05 0)
+			(at 118.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +4785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 146.05 0)
+			(at 118.11 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,236 +4800,6 @@
 			(project "nixieAccurateClock"
 				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SM4004")
-		(at 124.46 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9433aa6e-067c-4a66-b5f5-c0927b49bd8b")
-		(property "Reference" "D2"
-			(at 127 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM4004"
-			(at 127 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MELF"
-			(at 120.015 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, MELF"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "SM4004"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.27"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/diotec-semiconductor/SM4004/13155357"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/SM4004?qs=OlC7AqGiEDkXkiBPoivHAA%3D%3D"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 124.46 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98780bc3-70ce-404d-993f-c644b9346742")
-		)
-		(pin "2"
-			(uuid "18a2338b-48b0-4937-8706-766fa9bb6e80")
-		)
-		(instances
-			(project "nixieAccurateClock"
-				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 220.98 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94b6dec2-ae8b-4dff-922f-6de2dedae261")
-		(property "Reference" "R8"
-			(at 223.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.5"
-			(at 223.52 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 219.202 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-csr_csrn.pdf"
-			(at 220.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 220.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.42"
-			(at 220.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSRN2010FKR500/1742702"
-			(at 220.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/SEI-Stackpole/CSRN2010FKR500?qs=FESYatJ8odLqZqv0DvLABQ%3D%3D"
-			(at 220.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "CSRN2010FKR500"
-			(at 220.98 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8aa81ef0-cc22-4d57-8545-95fec5dc049d")
-		)
-		(pin "2"
-			(uuid "46dd76d1-a5bb-4e31-af31-224ae39cc743")
-		)
-		(instances
-			(project "nixieAccurateClock"
-				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5242,7 +4914,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 96.52 45.72 0)
+		(at 91.44 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5251,7 +4923,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fef759e-22e6-4d31-ab31-26565eeb6ef2")
 		(property "Reference" "TP1"
-			(at 99.06 41.148 0)
+			(at 93.98 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +4932,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 99.06 43.688 0)
+			(at 93.98 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +4941,7 @@
 			)
 		)
 		(property "Footprint" "00_lib:TestPoint_Keystone_5019_Minature"
-			(at 101.6 45.72 0)
+			(at 96.52 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,7 +4950,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/019-743690.pdf"
-			(at 101.6 45.72 0)
+			(at 96.52 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +4959,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 96.52 45.72 0)
+			(at 91.44 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +4968,7 @@
 			)
 		)
 		(property "Model" "5019"
-			(at 96.52 45.72 0)
+			(at 91.44 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +4977,7 @@
 			)
 		)
 		(property "Price" "0.33"
-			(at 96.52 45.72 0)
+			(at 91.44 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,7 +4986,7 @@
 			)
 		)
 		(property "Digikey link" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 96.52 45.72 0)
+			(at 91.44 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5323,7 +4995,7 @@
 			)
 		)
 		(property "Mouser link" "https://www.mouser.com/ProductDetail/Keystone-Electronics/5019?qs=wOxb8XianXjjCAsb90Ilzw%3D%3D"
-			(at 96.52 45.72 0)
+			(at 91.44 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,17 +5016,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:PZTA42")
-		(at 149.86 128.27 0)
+		(lib_id "Diode:SM4004")
+		(at 96.52 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a0a06efe-e3b2-4861-86c9-b6d5057758f7")
-		(property "Reference" "Q2"
-			(at 154.94 127 0)
+		(uuid "b2433408-518c-49f2-acb3-56bc01c13c38")
+		(property "Reference" "D5"
+			(at 99.06 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,8 +5034,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PZTA42"
-			(at 154.94 129.54 0)
+		(property "Value" "EGL41G"
+			(at 99.06 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,29 +5043,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 154.94 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PZTA42T1-D.PDF"
-			(at 149.86 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.5A Ic, 300V Vce, NPN High Voltage Transistor, SOT-223"
-			(at 149.86 128.27 0)
+		(property "Footprint" "Diode_SMD:D_MELF"
+			(at 92.075 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,8 +5052,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/micro-commercial-co/PZTA42-TP/10054674"
-			(at 149.86 128.27 0)
+		(property "Datasheet" "https://www.vishay.com/docs/88581/egl41.pdf"
+			(at 96.52 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,8 +5061,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/PZTA42?qs=OlC7AqGiEDlNqlN7791aVQ%3D%3D"
-			(at 149.86 128.27 0)
+		(property "Description" "Diode 400 V 1A Surface Mount DO-213AB"
+			(at 96.52 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,8 +5070,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.41"
-			(at 149.86 128.27 0)
+		(property "Model" "EGL41G"
+			(at 96.52 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,19 +5079,61 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "e6829461-0bf3-4652-99ed-6e2fb0c443f8")
+		(property "Price" "0.47"
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "0ad401d4-2ee7-43f0-a4b3-6b46d3f89968")
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/EGL41G-E3-96/2149823"
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser link" "https://www.mouser.com/ProductDetail/Vishay-General-Semiconductor/EGL41G-E3-96?qs=rfh7uIuiIO1DHL%252Blpi3d4w%3D%3D"
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "d89cca7a-2447-4089-bfed-d1577c821d7d")
+			(uuid "d76250dd-1636-4c91-87a0-4dfe783cbb99")
+		)
+		(pin "2"
+			(uuid "1af3d6af-8837-4c5f-8784-9bed0e4edfdb")
 		)
 		(instances
 			(project "nixieAccurateClock"
 				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-					(reference "Q2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5448,7 +5141,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 146.05 0)
+		(at 186.69 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5457,7 +5150,7 @@
 		(fields_autoplaced yes)
 		(uuid "b38259bf-4524-4ceb-abc9-6d7f4cdf4a3a")
 		(property "Reference" "#PWR048"
-			(at 186.69 152.4 0)
+			(at 186.69 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5159,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 151.13 0)
+			(at 186.69 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 146.05 0)
+			(at 186.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5483,7 +5176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 146.05 0)
+			(at 186.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5185,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 146.05 0)
+			(at 186.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5207,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 78.74 60.96 0)
+		(at 76.2 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5523,7 +5216,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9c81f5b-56dd-4031-9709-17817235f3fd")
 		(property "Reference" "TP3"
-			(at 81.28 56.388 0)
+			(at 78.74 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5225,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 81.28 58.928 0)
+			(at 78.74 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5234,7 @@
 			)
 		)
 		(property "Footprint" "00_lib:TestPoint_Keystone_5019_Minature"
-			(at 83.82 60.96 0)
+			(at 81.28 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5243,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/215/019-743690.pdf"
-			(at 83.82 60.96 0)
+			(at 81.28 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5252,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 78.74 60.96 0)
+			(at 76.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5261,7 @@
 			)
 		)
 		(property "Model" "5019"
-			(at 78.74 60.96 0)
+			(at 76.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5270,7 @@
 			)
 		)
 		(property "Price" "0.33"
-			(at 78.74 60.96 0)
+			(at 76.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,7 +5279,7 @@
 			)
 		)
 		(property "Digikey link" "https://www.digikey.com/en/products/detail/keystone-electronics/5019/3907343"
-			(at 78.74 60.96 0)
+			(at 76.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,7 +5288,7 @@
 			)
 		)
 		(property "Mouser link" "https://www.mouser.com/ProductDetail/Keystone-Electronics/5019?qs=wOxb8XianXjjCAsb90Ilzw%3D%3D"
-			(at 78.74 60.96 0)
+			(at 76.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5310,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 96.52 55.88 180)
+		(at 93.98 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5626,7 +5319,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6c996f4-d709-49ef-ab2c-d15bd5a73958")
 		(property "Reference" "C5"
-			(at 100.33 55.499 0)
+			(at 97.79 55.499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +5328,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 100.33 58.039 0)
+			(at 97.79 58.039 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,7 +5337,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
-			(at 95.5548 52.07 0)
+			(at 93.0148 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +5346,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uux.pdf"
-			(at 96.52 55.88 0)
+			(at 93.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +5355,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 96.52 55.88 0)
+			(at 93.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +5364,7 @@
 			)
 		)
 		(property "Model" "UUX2G010MNL1GS"
-			(at 96.52 55.88 0)
+			(at 93.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5373,7 @@
 			)
 		)
 		(property "Price" "0.69"
-			(at 96.52 55.88 0)
+			(at 93.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5689,7 +5382,7 @@
 			)
 		)
 		(property "Digikey link" "https://www.digikey.com/en/products/detail/nichicon/UUX2G010MNL1GS/3973996"
-			(at 96.52 55.88 0)
+			(at 93.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +5391,7 @@
 			)
 		)
 		(property "Mouser link" "https://www.mouser.com/ProductDetail/Nichicon/UUX2G010MNL1GS?qs=aoAypCcaRa%2FXm3BGeiMtMQ%3D%3D"
-			(at 96.52 55.88 0)
+			(at 93.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5416,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 146.05 0)
+		(at 152.4 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5732,7 +5425,7 @@
 		(fields_autoplaced yes)
 		(uuid "c80ff354-bee7-4fcd-9d7d-4ed786d9af7e")
 		(property "Reference" "#PWR047"
-			(at 152.4 152.4 0)
+			(at 152.4 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 151.13 0)
+			(at 152.4 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 146.05 0)
+			(at 152.4 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 146.05 0)
+			(at 152.4 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5767,7 +5460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 146.05 0)
+			(at 152.4 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,6 +5475,128 @@
 			(project "nixieAccurateClock"
 				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SM4004")
+		(at 110.49 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee8c446-113e-4e0b-af5e-d550b9175622")
+		(property "Reference" "D3"
+			(at 110.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EGL41G"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MELF"
+			(at 110.49 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88581/egl41.pdf"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode 400 V 1A Surface Mount DO-213AB"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Model" "EGL41G"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.47"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey link" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/EGL41G-E3-96/2149823"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser link" "https://www.mouser.com/ProductDetail/Vishay-General-Semiconductor/EGL41G-E3-96?qs=rfh7uIuiIO1DHL%252Blpi3d4w%3D%3D"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67e36ac4-6616-46f2-a787-20e082925bc7")
+		)
+		(pin "2"
+			(uuid "cd1cd860-ad26-4407-a08b-75c1465dde9d")
+		)
+		(instances
+			(project "nixieAccurateClock"
+				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5885,112 +5700,6 @@
 			(project "nixieAccurateClock"
 				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2b166be-ee58-4ace-a12d-f66f485d68f7")
-		(property "Reference" "R5"
-			(at 120.65 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.5"
-			(at 120.65 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 116.332 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-csr_csrn.pdf"
-			(at 118.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.42"
-			(at 118.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSRN2010FKR500/1742702"
-			(at 118.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/SEI-Stackpole/CSRN2010FKR500?qs=FESYatJ8odLqZqv0DvLABQ%3D%3D"
-			(at 118.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "CSRN2010FKR500"
-			(at 118.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d243f90-99e0-4b2d-b658-cab393d1900a")
-		)
-		(pin "2"
-			(uuid "afc8772a-7dbf-46f6-b5de-18ef27c7efe1")
-		)
-		(instances
-			(project "nixieAccurateClock"
-				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6207,236 +5916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SM4004")
-		(at 96.52 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e81269aa-4620-4371-82b7-474a439bf66a")
-		(property "Reference" "D5"
-			(at 99.06 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM4004"
-			(at 99.06 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MELF"
-			(at 92.075 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf"
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400V 1A General Purpose Rectifier Diode, MELF"
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "SM4004"
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.27"
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/diotec-semiconductor/SM4004/13155357"
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/Diotec-Semiconductor/SM4004?qs=OlC7AqGiEDkXkiBPoivHAA%3D%3D"
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fddb31d4-7c76-4ef2-865d-01e8208e9e8a")
-		)
-		(pin "2"
-			(uuid "3e8c8c70-bbcb-46f4-8ac9-79985a837a83")
-		)
-		(instances
-			(project "nixieAccurateClock"
-				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 186.69 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec8500e1-64b8-4d82-889f-b1f7ecc30169")
-		(property "Reference" "R7"
-			(at 189.23 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.5"
-			(at 189.23 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
-			(at 184.912 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/sei-csr_csrn.pdf"
-			(at 186.69 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 186.69 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.42"
-			(at 186.69 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSRN2010FKR500/1742702"
-			(at 186.69 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser link" "https://www.mouser.com/ProductDetail/SEI-Stackpole/CSRN2010FKR500?qs=FESYatJ8odLqZqv0DvLABQ%3D%3D"
-			(at 186.69 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Model" "CSRN2010FKR500"
-			(at 186.69 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6fb0d5d-bfb5-4bbf-9b8b-076d6d723a6c")
-		)
-		(pin "2"
-			(uuid "ad312333-6d4a-4bfb-b61d-0f01ff4cd738")
-		)
-		(instances
-			(project "nixieAccurateClock"
-				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VPP")
 		(at 269.24 44.45 0)
 		(unit 1)
@@ -6497,6 +5976,109 @@
 			(project "nixieAccurateClock"
 				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSP89")
+		(at 149.86 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe4cd029-bdff-4a8a-bf47-7a8129012a57")
+		(property "Reference" "Q2"
+			(at 156.21 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSP296N"
+			(at 156.21 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 154.94 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-bsp296n-ds-en.pdf"
+			(at 154.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel 100 V 1.2A (Ta) 1.8W (Ta) Surface Mount PG-SOT223-4"
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/infineon-technologies/BSP296NH6433XTMA1/4842136"
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" "https://www.mouser.com/ProductDetail/Infineon-Technologies/BSP296N-H6327?qs=y2kkmE52mdN3ImWwPLExdA%3D%3D"
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.01"
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c9372e06-ef31-400c-9371-95dc8b4e855c")
+		)
+		(pin "2"
+			(uuid "5da09ccd-4696-4d5a-8161-43a435633da5")
+		)
+		(pin "1"
+			(uuid "b1cb9d46-51d7-4e95-a0fa-50d1f5da53d2")
+		)
+		(instances
+			(project "nixieAccurateClock"
+				(path "/55aab698-7558-4fe2-95ad-faa6da60ef89/f2852417-d6c8-4bbe-bd15-a29bc4083bd0"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
