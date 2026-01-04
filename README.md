@@ -54,6 +54,11 @@ sudo make
 sudo make install
 ```
 
+For MacOS with homebrew installed:
+```
+brew install cmake gcc-arm-embedded zlib gdb make rsync zip
+```
+
 ## FPGA
 
 Make sure python 3.7+ is installed on WSL.
@@ -72,6 +77,12 @@ You may need to restart WSL in between the pip installation of the package and t
 sudo apt update && sudo apt install python3-pip yosys
 pip install -U apio
 apio install -a
+```
+
+For MacOS:
+```
+brew install yosys
+pip3 install -U apio
 ```
 
 Test project using the APIO guide here:
